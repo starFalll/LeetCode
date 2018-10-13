@@ -1,4 +1,3 @@
-|1|[Two
 # LeetCode
 LeetCode 题解
 
