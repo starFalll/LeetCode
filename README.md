@@ -1,5 +1,5 @@
 # LeetCode
-LeetCode 题解
+LeetCode Solution
 
 
 | #    | Title                                                                                                                                                           | Solution                                                                                                                                          |
