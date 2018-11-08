@@ -41,6 +41,7 @@ LeetCode Solution
 | 48   | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/48.Rotate%20Image.md) |
 | 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/49.Group%20Anagrams.md) |
 | 50   | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/50.Pow(x,%20n).md) |
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/53.Maximum%20Subarray.md)|
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/58.Length%20of%20Last%20Word.md) |
 | 60   | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/60.Permutation%20Sequence.md) |
 | 61   | [Rotate List](https://leetcode.com/problems/rotate-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/61.Rotate%20List.md) |
@@ -49,6 +50,7 @@ LeetCode Solution
 | 65   | [Valid Number](https://leetcode.com/problems/valid-number/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/65.Valid%20Number.md) |
 | 66   | [Plus One](https://leetcode.com/problems/plus-one/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/66.Plus%20One.md) |
 | 67   | [Add Binary](https://leetcode.com/problems/add-binary/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/67.Add%20Binary.md) |
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/69.Sqrt(x).md)|
 | 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/70.Climbing%20Stairs.md) |
 | 71   | [Simplify Path](https://leetcode.com/problems/simplify-path/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/71.Simplify%20Path.md) |
 | 73   | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/73.Set%20Matrix%20Zeroes.md) |
