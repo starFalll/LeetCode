@@ -11,7 +11,9 @@ LeetCode Solution
 | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/5.Longest%20Palindromic%20Substring.md) |
 | 7    | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/7.Letter%20Combinations%20of%20a%20Phone%20Number.md) |
 | 8    | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/8.String%20to%20Integer%20(atoi).md) |
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/9.Palindrome%20Number.md)|
 | 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/10.Regular%20Expression%20Matching.md) |
+|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/11.Container%20With%20Most%20Water.md)|
 | 12   | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/12.Integer%20to%20Roman.md) |
 | 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/13.Roman%20to%20Integer.md) |
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/14.Longest%20Common%20Prefix.md) |

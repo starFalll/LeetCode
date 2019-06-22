@@ -1,6 +1,6 @@
 #! /bin/bash
 #每次push之前先运行此脚本
-ls | grep '^[0-9]'|sort -n|while read line
+ls algorithms| grep '^[0-9]'|sort -n|while read line
 do
     title=`echo ${line}|cut -d . -f 2`
     declare -l url=${title}
