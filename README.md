@@ -9,6 +9,7 @@ LeetCode Solution
 | 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/3.Longest%20Substring%20Without%20Repeating%20Characters.md) |
 | 4    | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/4.Median%20of%20Two%20Sorted%20Arrays.md) |
 | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/5.Longest%20Palindromic%20Substring.md) |
+|6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/6.ZigZag%20Conversion.md)|
 | 7    | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/7.Letter%20Combinations%20of%20a%20Phone%20Number.md) |
 | 8    | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/8.String%20to%20Integer%20(atoi).md) |
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/9.Palindrome%20Number.md)|
