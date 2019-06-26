@@ -24,6 +24,7 @@ LeetCode Solution
 | 19   | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/19.Remove%20Nth%20Node%20From%20End%20of%20List.md) |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/20.Valid%20Parentheses.md) |
 | 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/21.Merge%20Two%20Sorted%20Lists.md) |
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/22.Generate%20Parentheses.md)|
 | 23   | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/23.Merge%20k%20Sorted%20Lists.md) |
 | 24   | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/24.Swap%20Nodes%20in%20Pairs.md) |
 | 25   | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/25.Reverse%20Nodes%20in%20k-Group.md) |
@@ -31,6 +32,7 @@ LeetCode Solution
 | 27   | [Remove Element](https://leetcode.com/problems/remove-element/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/27.Remove%20Element.md) |
 | 28   | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/28.Implement%20strStr().md) |
 | 28   | [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/28.Next%20Permutation.md) |
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/29.Divide%20Two%20Integers.md)|
 | 32   | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/32.Longest%20Valid%20Parentheses.md) |
 | 33   | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/33.Search%20in%20Rotated%20Sorted%20Array.md) |
 | 34   | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md) |
@@ -97,6 +99,7 @@ LeetCode Solution
 | 128  | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/128.Longest%20Consecutive%20Sequence.md) |
 | 124  | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/124.Binary%20Tree%20Maximum%20Path%20Sum.md) |
 | 134  | [Gas Station](https://leetcode.com/problems/gas-station/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/134.Gas%20Station.md) |
+|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/131.Palindrome%20Partitioning.md)|
 | 135  | [Candy](https://leetcode.com/problems/candy/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/135.Candy.md) |
 | 129  | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/129.Sum%20Root%20to%20Leaf%20Numbers.md) |
 | 136  | [Single Number](https://leetcode.com/problems/single-number/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/136.Single%20Number.md) |
