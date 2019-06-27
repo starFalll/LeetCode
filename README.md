@@ -39,6 +39,8 @@ LeetCode Solution
 | 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/35.Search%20Insert%20Position.md) |
 | 36   | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/36.Valid%20Sudoku.md) |
 | 38   | [Count and Say](https://leetcode.com/problems/count-and-say/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/38.Count%20and%20Say.md) |
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/39.Combination%20Sum.md)|
+|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/40.Combination%20Sum%20II.md)|
 | 41   | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/41.First%20Missing%20Positive.md) |
 | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/42.Trapping%20Rain%20Water.md) |
 | 44   | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/44.Wildcard%20Matching.md) |
