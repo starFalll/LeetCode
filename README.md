@@ -97,6 +97,9 @@ LeetCode Solution
 | 114  | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/114.Flatten%20Binary%20Tree%20to%20Linked%20List.md) |
 | 116  | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.md) |
 | 117  | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.md) |
+|120|[Triangle](https://leetcode.com/problems/triangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/120.Triangle.md)|
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.md)|
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md)|
 | 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/125.Valid%20Palindrome.md) |
 | 128  | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/128.Longest%20Consecutive%20Sequence.md) |
 | 124  | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/124.Binary%20Tree%20Maximum%20Path%20Sum.md) |
@@ -117,6 +120,7 @@ LeetCode Solution
 | 148  | [Sort List](https://leetcode.com/problems/sort-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/148.Sort%20List.md) |
 | 150  | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/150.Evaluate%20Reverse%20Polish%20Notation.md) |
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/206.Reverse%20Linked%20List.md) |
+|221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
 | 445  | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/445.Add%20Two%20Numbers%20II.md) |
 | 454  | [4Sum II](https://leetcode.com/problems/4sum-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/454.4Sum%20II.md) |
 | 460  | [LFU Cache](https://leetcode.com/problems/lfu-cache/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/460.LFU%20Cache.md) |
