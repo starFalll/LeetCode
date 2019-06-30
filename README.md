@@ -121,6 +121,7 @@ LeetCode Solution
 | 150  | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/150.Evaluate%20Reverse%20Polish%20Notation.md) |
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/206.Reverse%20Linked%20List.md) |
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
+|354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
 | 445  | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/445.Add%20Two%20Numbers%20II.md) |
 | 454  | [4Sum II](https://leetcode.com/problems/4sum-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/454.4Sum%20II.md) |
 | 460  | [LFU Cache](https://leetcode.com/problems/lfu-cache/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/460.LFU%20Cache.md) |
