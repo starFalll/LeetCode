@@ -119,6 +119,7 @@ LeetCode Solution
 | 147  | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/147.Insertion%20Sort%20List.md) |
 | 148  | [Sort List](https://leetcode.com/problems/sort-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/148.Sort%20List.md) |
 | 150  | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/150.Evaluate%20Reverse%20Polish%20Notation.md) |
+|155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/155.Min%20Stack.md)|
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/206.Reverse%20Linked%20List.md) |
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
