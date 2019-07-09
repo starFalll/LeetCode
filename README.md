@@ -48,6 +48,7 @@ LeetCode Solution
 | 48   | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/48.Rotate%20Image.md) |
 | 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/49.Group%20Anagrams.md) |
 | 50   | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/50.Pow(x,%20n).md) |
+|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/52.N-Queens%20II.md)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/53.Maximum%20Subarray.md)|
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/58.Length%20of%20Last%20Word.md) |
 | 60   | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/60.Permutation%20Sequence.md) |
@@ -75,6 +76,7 @@ LeetCode Solution
 | 89   | [Gray Code](https://leetcode.com/problems/gray-code/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/89.Gray%20Code.md) |
 | 90   | [Subsets II](https://leetcode.com/problems/subsets-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/90.Subsets%20II.md) |
 | 92   | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/92.Reverse%20Linked%20List%20II.md) |
+|93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/93.Restore%20IP%20Addresses.md)|
 | 94   | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/94.Binary%20Tree%20Inorder%20Traversal.md) |
 | 95   | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/95.Unique%20Binary%20Search%20Trees%20II.md) |
 | 96   | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/96.Unique%20Binary%20Search%20Trees.md) |
