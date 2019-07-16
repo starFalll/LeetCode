@@ -116,6 +116,7 @@ LeetCode Solution
 | 136  | [Single Number](https://leetcode.com/problems/single-number/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/136.Single%20Number.md) |
 | 137  | [Single Number II](https://leetcode.com/problems/single-number-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/137.Single%20Number%20II.md) |
 | 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/138.Copy%20List%20with%20Random%20Pointer.md) |
+|139|[Word Break](https://leetcode.com/problems/word-break/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/139.Word%20Break.md)|
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/141.Linked%20List%20Cycle.md) |
 | 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/142.Linked%20List%20Cycle%20II.md) |
 | 143  | [Reorder List](https://leetcode.com/problems/reorder-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/143.Reorder%20List.md) |
