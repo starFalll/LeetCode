@@ -43,6 +43,7 @@ LeetCode Solution
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/40.Combination%20Sum%20II.md)|
 | 41   | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/41.First%20Missing%20Positive.md) |
 | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/42.Trapping%20Rain%20Water.md) |
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/43.Multiply%20Strings.md)|
 | 44   | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/44.Wildcard%20Matching.md) |
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/45.Jump%20Game%20II.md)|
 | 46   | [Permutations](https://leetcode.com/problems/permutations/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/46.Permutations.md) |
@@ -52,6 +53,7 @@ LeetCode Solution
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/52.N-Queens%20II.md)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/53.Maximum%20Subarray.md)|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/55.Jump%20Game.md)|
+|57|[Insert Interval](https://leetcode.com/problems/insert-interval/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/57.Insert%20Interval.md)|
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/58.Length%20of%20Last%20Word.md) |
 | 60   | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/60.Permutation%20Sequence.md) |
 | 61   | [Rotate List](https://leetcode.com/problems/rotate-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/61.Rotate%20List.md) |
