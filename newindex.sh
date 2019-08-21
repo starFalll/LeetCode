@@ -1,5 +1,5 @@
 #! /bin/bash
-#针对之前从未整理过的文件进行整理，请根据自己的目录结构修改
+#每次push之前先运行此脚本
 for num in $*
 do
     all=$(ls algorithms|sort -n)

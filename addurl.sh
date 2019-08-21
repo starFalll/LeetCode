@@ -1,5 +1,5 @@
 #! /bin/bash
-#每次push之前先运行此脚本
+#针对之前从未整理过的文件进行整理，请根据自己的目录结构修改
 ls algorithms| grep '^[0-9]'|sort -n|while read line
 do
     title=`echo ${line}|cut -d . -f 2`
