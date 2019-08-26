@@ -41,6 +41,7 @@ LeetCode Solution
 | 38   | [Count and Say](https://leetcode.com/problems/count-and-say/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/38.Count%20and%20Say.md) |
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/39.Combination%20Sum.md)|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/40.Combination%20Sum%20II.md)|
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/41.First%20Missing%20Positive.md%2039)|
 | 41   | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/41.First%20Missing%20Positive.md) |
 | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/42.Trapping%20Rain%20Water.md) |
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/43.Multiply%20Strings.md)|
@@ -73,6 +74,7 @@ LeetCode Solution
 | 78   | [Subsets](https://leetcode.com/problems/subsets/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/78.Subsets.md) |
 | 80   | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/80.Remove%20Duplicates%20from%20Sorted%20Array%20II.md) |
 | 81   | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/81.Search%20in%20Rotated%20Sorted%20Array%20II.md) |
+|79|[Word Search](https://leetcode.com/problems/word-search/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/79.Word%20Search.md)|
 | 82   | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/82.Remove%20Duplicates%20from%20Sorted%20List%20II.md) |
 | 83   | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/83.Remove%20Duplicates%20from%20Sorted%20List.md) |
 | 84   | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/84.Largest%20Rectangle%20in%20Histogram.md) |
