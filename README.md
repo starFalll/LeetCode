@@ -109,6 +109,8 @@ LeetCode Solution
 | 117  | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.md) |
 |120|[Triangle](https://leetcode.com/problems/triangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/120.Triangle.md)|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.md)|
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascal's-triangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/118.Pascal's%20Triangle.md)|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascal's-triangle-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/119.Pascal's%20Triangle%20II.md)|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md)|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/123.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md)|
 | 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/125.Valid%20Palindrome.md) |
