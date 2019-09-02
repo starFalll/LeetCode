@@ -144,6 +144,8 @@ LeetCode Solution
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/206.Reverse%20Linked%20List.md) |
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/160.Intersection%20of%20Two%20Linked%20Lists.md)|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/162.Find%20Peak%20Element.md)|
+|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/167.Two%20Sum%20II%20-%20Input%20array%20is%20sorted.md)|
+|168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/168.Excel%20Sheet%20Column%20Title.md)|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/215.Kth%20Largest%20Element%20in%20an%20Array.md)|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
