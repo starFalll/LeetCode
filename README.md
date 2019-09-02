@@ -139,6 +139,8 @@ LeetCode Solution
 |155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/155.Min%20Stack.md)|
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/190.Reverse%20Bits.md)|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/152.Maximum%20Product%20Subarray.md)|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/154.Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.md)|
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/206.Reverse%20Linked%20List.md) |
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/215.Kth%20Largest%20Element%20in%20an%20Array.md)|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
