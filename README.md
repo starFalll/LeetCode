@@ -142,6 +142,8 @@ LeetCode Solution
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/154.Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.md)|
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/206.Reverse%20Linked%20List.md) |
+|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/160.Intersection%20of%20Two%20Linked%20Lists.md)|
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/162.Find%20Peak%20Element.md)|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/215.Kth%20Largest%20Element%20in%20an%20Array.md)|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
