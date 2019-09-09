@@ -154,7 +154,9 @@ LeetCode Solution
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/173.Binary%20Search%20Tree%20Iterator.md)|
 |179|[Largest Number](https://leetcode.com/problems/largest-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/179.Largest%20Number.md)|
 |187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/187.Repeated%20DNA%20Sequences.md)|
+|189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/189.Rotate%20Array.md)|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/215.Kth%20Largest%20Element%20in%20an%20Array.md)|
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/191.Number%20of%201%20Bits.md)|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
 | 445  | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/445.Add%20Two%20Numbers%20II.md) |
