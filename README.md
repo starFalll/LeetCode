@@ -153,6 +153,7 @@ LeetCode Solution
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/172.Factorial%20Trailing%20Zeroes.md)|
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/173.Binary%20Search%20Tree%20Iterator.md)|
 |179|[Largest Number](https://leetcode.com/problems/largest-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/179.Largest%20Number.md)|
+|187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/187.Repeated%20DNA%20Sequences.md)|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/215.Kth%20Largest%20Element%20in%20an%20Array.md)|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
