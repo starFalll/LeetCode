@@ -161,6 +161,9 @@ LeetCode Solution
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/199.Binary%20Tree%20Right%20Side%20View.md)|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/200.Number%20of%20Islands.md)|
 |201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/201.Bitwise%20AND%20of%20Numbers%20Range.md)|
+|202|[Happy Number](https://leetcode.com/problems/happy-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/202.Happy%20Number.md)|
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/203.Remove%20Linked%20List%20Elements.md)|
+|204|[Count Primes](https://leetcode.com/problems/count-primes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/204.Count%20Primes.md)|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
 | 445  | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/445.Add%20Two%20Numbers%20II.md) |
