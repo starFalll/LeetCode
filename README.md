@@ -167,6 +167,8 @@ LeetCode Solution
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/205.Isomorphic%20Strings.md)|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/207.Course%20Schedule.md)|
+|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-(prefix-tree)/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/208.Implement%20Trie%20(Prefix%20Tree).md)|
+|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/209.Minimum%20Size%20Subarray%20Sum.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
 | 445  | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/445.Add%20Two%20Numbers%20II.md) |
 | 454  | [4Sum II](https://leetcode.com/problems/4sum-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/454.4Sum%20II.md) |
