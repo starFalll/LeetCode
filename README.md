@@ -181,3 +181,4 @@ LeetCode Solution
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/567.Permutation%20in%20String.md)|
 |659|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/659.Max%20Area%20of%20Island.md)|
 | 680  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/680.Valid%20Palindrome%20II.md) |
+|1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1143.Longest%20Common%20Subsequence.md)|
