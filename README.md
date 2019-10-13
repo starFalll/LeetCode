@@ -175,6 +175,7 @@ LeetCode Solution
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/213.House%20Robber%20II.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
 | 445  | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/445.Add%20Two%20Numbers%20II.md) |
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/300.Longest%20Increasing%20Subsequence.md)|
 | 454  | [4Sum II](https://leetcode.com/problems/4sum-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/454.4Sum%20II.md) |
 | 460  | [LFU Cache](https://leetcode.com/problems/lfu-cache/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/460.LFU%20Cache.md) |
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/547.Friend%20Circles.md)|
