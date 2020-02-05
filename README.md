@@ -181,6 +181,7 @@ LeetCode Solution
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/238.Product%20of%20Array%20Except%20Self.md)|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/240.Search%20a%202D%20Matrix%20II.md)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/283.Move%20Zeroes.md)|
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/287.Find%20the%20Duplicate%20Number.md)|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/300.Longest%20Increasing%20Subsequence.md)|
 | 454  | [4Sum II](https://leetcode.com/problems/4sum-ii/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/454.4Sum%20II.md) |
 | 460  | [LFU Cache](https://leetcode.com/problems/lfu-cache/description/) | [C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/460.LFU%20Cache.md) |
