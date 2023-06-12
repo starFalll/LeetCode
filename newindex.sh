@@ -6,10 +6,11 @@ do
     line=$(echo "${all}"|grep -n "^${num}\..*")
     echo "${line}"
     title=`echo ${line}|cut -d . -f 2`
-    declare -l url=${title}
+    url=$(echo $title | awk '{print tolower($0)}')
     newline=$(echo ${line}| cut -d : -f 2)
     declare -i num=$(echo ${line}|cut -d : -f 1)
     res=$(echo "|${newline%%.*}|[$title](https://leetcode.com/problems/${url//' '/'-'}/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/${newline//' '/'%20'})|")
     num=num+6
-    sed -i ''${num}'i\'"${res}"'' README.md
+    sed -i "" "${num}i\\
+    ${res}" README.md
 done
