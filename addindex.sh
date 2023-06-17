@@ -1,5 +1,9 @@
 #! /bin/bash
-#每次push之前先运行此脚本
+# 每次push之前先运行此脚本
+# Run this script before each push
+# usage: ./addindex.sh num1 num2
+# eg: ./addindex.sh 123 45
+
 for num in $*
 do
     all=$(ls algorithms|sort -n)
