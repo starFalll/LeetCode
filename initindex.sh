@@ -1,7 +1,7 @@
 #! /bin/bash
 # 针对之前从未整理过的文件进行整理，请根据自己的目录结构修改
 # Organize the previously unsorted files and modify according to your own directory structure.
-# usage: ./addurl.sh
+# usage: ./initindex.sh
 
 echo "# LeetCode
 

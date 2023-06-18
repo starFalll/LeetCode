@@ -20,6 +20,7 @@ LeetCode Solution
 |14|[Longest Common Prefix](https://leetcode.com/problems/algorithms/longest'-'common'-'prefix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/14.Longest'%20'Common'%20'Prefix.md)|
 |15|[3Sum](https://leetcode.com/problems/algorithms/3sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/15.3Sum.md)|
 |16|[3Sum Closest](https://leetcode.com/problems/algorithms/3sum'-'closest/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/16.3Sum'%20'Closest.md)|
+|17|[ Letter Combinations of a Phone Number](https://leetcode.com/problems/algorithms/ letter'-'combinations'-'of'-'a'-'phone'-'number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/17. Letter'%20'Combinations'%20'of'%20'a'%20'Phone'%20'Number.md)|
 |18|[4Sum*](https://leetcode.com/problems/algorithms/4sum*/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/18.4Sum*.md)|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/algorithms/remove'-'nth'-'node'-'from'-'end'-'of'-'list/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/19.Remove'%20'Nth'%20'Node'%20'From'%20'End'%20'of'%20'List.md)|
 |20|[Valid Parentheses](https://leetcode.com/problems/algorithms/valid'-'parentheses/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/20.Valid'%20'Parentheses.md)|
@@ -31,8 +32,8 @@ LeetCode Solution
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/algorithms/remove'-'duplicates'-'from'-'sorted'-'array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/26.Remove'%20'Duplicates'%20'from'%20'Sorted'%20'Array.md)|
 |27|[Remove Element](https://leetcode.com/problems/algorithms/remove'-'element/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/27.Remove'%20'Element.md)|
 |28|[Implement strStr()](https://leetcode.com/problems/algorithms/implement'-'strstr()/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/28.Implement'%20'strStr().md)|
-|28|[Next Permutation](https://leetcode.com/problems/algorithms/next'-'permutation/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/28.Next'%20'Permutation.md)|
 |29|[Divide Two Integers](https://leetcode.com/problems/algorithms/divide'-'two'-'integers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/29.Divide'%20'Two'%20'Integers.md)|
+|31|[Next Permutation](https://leetcode.com/problems/algorithms/next'-'permutation/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/31.Next'%20'Permutation.md)|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/algorithms/longest'-'valid'-'parentheses/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/32.Longest'%20'Valid'%20'Parentheses.md)|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/algorithms/search'-'in'-'rotated'-'sorted'-'array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/33.Search'%20'in'%20'Rotated'%20'Sorted'%20'Array.md)|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/algorithms/find'-'first'-'and'-'last'-'position'-'of'-'element'-'in'-'sorted'-'array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/34.Find'%20'First'%20'and'%20'Last'%20'Position'%20'of'%20'Element'%20'in'%20'Sorted'%20'Array.md)|
@@ -42,19 +43,21 @@ LeetCode Solution
 |39|[Combination Sum](https://leetcode.com/problems/algorithms/combination'-'sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/39.Combination'%20'Sum.md)|
 |40|[Combination Sum II](https://leetcode.com/problems/algorithms/combination'-'sum'-'ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/40.Combination'%20'Sum'%20'II.md)|
 |41|[First Missing Positive](https://leetcode.com/problems/algorithms/first'-'missing'-'positive/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/41.First'%20'Missing'%20'Positive.md)|
-|41|[Permutations II](https://leetcode.com/problems/algorithms/permutations'-'ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/41.Permutations'%20'II.md)|
 |42|[Trapping Rain Water](https://leetcode.com/problems/algorithms/trapping'-'rain'-'water/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/42.Trapping'%20'Rain'%20'Water.md)|
 |43|[Multiply Strings](https://leetcode.com/problems/algorithms/multiply'-'strings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/43.Multiply'%20'Strings.md)|
 |44|[Wildcard Matching](https://leetcode.com/problems/algorithms/wildcard'-'matching/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/44.Wildcard'%20'Matching.md)|
 |45|[Jump Game II](https://leetcode.com/problems/algorithms/jump'-'game'-'ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/45.Jump'%20'Game'%20'II.md)|
 |46|[Permutations](https://leetcode.com/problems/algorithms/permutations/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/46.Permutations.md)|
+|47|[Permutations II](https://leetcode.com/problems/algorithms/permutations'-'ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/47.Permutations'%20'II.md)|
 |48|[Rotate Image](https://leetcode.com/problems/algorithms/rotate'-'image/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/48.Rotate'%20'Image.md)|
 |49|[Group Anagrams](https://leetcode.com/problems/algorithms/group'-'anagrams/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/49.Group'%20'Anagrams.md)|
 |50|[Pow(x, n)](https://leetcode.com/problems/algorithms/pow(x,'-'n)/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/50.Pow(x,'%20'n).md)|
+|51|[N-Queens](https://leetcode.com/problems/algorithms/n-queens/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/51.N-Queens.md)|
 |52|[N-Queens II](https://leetcode.com/problems/algorithms/n-queens'-'ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/52.N-Queens'%20'II.md)|
 |53|[Maximum Subarray](https://leetcode.com/problems/algorithms/maximum'-'subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/53.Maximum'%20'Subarray.md)|
 |54|[Spiral Matrix](https://leetcode.com/problems/algorithms/spiral'-'matrix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/54.Spiral'%20'Matrix.md)|
 |55|[Jump Game](https://leetcode.com/problems/algorithms/jump'-'game/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/55.Jump'%20'Game.md)|
+|56|[ Merge Intervals](https://leetcode.com/problems/algorithms/ merge'-'intervals/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/56. Merge'%20'Intervals.md)|
 |57|[Insert Interval](https://leetcode.com/problems/algorithms/insert'-'interval/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/57.Insert'%20'Interval.md)|
 |58|[Length of Last Word](https://leetcode.com/problems/algorithms/length'-'of'-'last'-'word/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/58.Length'%20'of'%20'Last'%20'Word.md)|
 |59|[Spiral Matrix II](https://leetcode.com/problems/algorithms/spiral'-'matrix'-'ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/59.Spiral'%20'Matrix'%20'II.md)|
@@ -69,6 +72,7 @@ LeetCode Solution
 |69|[Sqrt(x)](https://leetcode.com/problems/algorithms/sqrt(x)/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/69.Sqrt(x).md)|
 |70|[Climbing Stairs](https://leetcode.com/problems/algorithms/climbing'-'stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/70.Climbing'%20'Stairs.md)|
 |71|[Simplify Path](https://leetcode.com/problems/algorithms/simplify'-'path/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/71.Simplify'%20'Path.md)|
+|72|[ Edit Distance](https://leetcode.com/problems/algorithms/ edit'-'distance/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/72. Edit'%20'Distance.md)|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/algorithms/set'-'matrix'-'zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/73.Set'%20'Matrix'%20'Zeroes.md)|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/algorithms/search'-'a'-'2d'-'matrix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/74.Search'%20'a'%20'2D'%20'Matrix.md)|
 |75|[Sort Colors](https://leetcode.com/problems/algorithms/sort'-'colors/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/75.Sort'%20'Colors.md)|
