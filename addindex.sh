@@ -11,6 +11,9 @@ do
     echo "${line}"
     title=`echo ${line}|cut -d . -f 2`
     url=$(echo $title | awk '{print tolower($0)}')
+    url=${url//'('/}
+    url=${url//')'/}
+    url=${url//','/}
     newline=$(echo ${line}| cut -d : -f 2)
     declare -i num=$(echo ${line}|cut -d : -f 1)
     res=$(echo "|${newline%%.*}|[$title](https://leetcode.com/problems/${url//' '/-}/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/${newline//' '/%20})|")

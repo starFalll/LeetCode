@@ -11,7 +11,7 @@ LeetCode Solution
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/5.Longest%20Palindromic%20Substring.md)|
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/6.ZigZag%20Conversion.md)|
 |7|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/7.Letter%20Combinations%20of%20a%20Phone%20Number.md)|
-|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-(atoi)/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/8.String%20to%20Integer%20(atoi).md)|
+|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/8.String%20to%20Integer%20(atoi).md)|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/9.Palindrome%20Number.md)|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/10.Regular%20Expression%20Matching.md)|
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/11.Container%20With%20Most%20Water.md)|
@@ -31,7 +31,7 @@ LeetCode Solution
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/25.Reverse%20Nodes%20in%20k-Group.md)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/26.Remove%20Duplicates%20from%20Sorted%20Array.md)|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/27.Remove%20Element.md)|
-|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr()/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/28.Implement%20strStr().md)|
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/28.Implement%20strStr().md)|
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/29.Divide%20Two%20Integers.md)|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/31.Next%20Permutation.md)|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/32.Longest%20Valid%20Parentheses.md)|
@@ -51,7 +51,7 @@ LeetCode Solution
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/47.Permutations%20II.md)|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/48.Rotate%20Image.md)|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/49.Group%20Anagrams.md)|
-|50|[Pow(x, n)](https://leetcode.com/problems/pow(x,-n)/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/50.Pow(x,%20n).md)|
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/50.Pow(x,%20n).md)|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/51.N-Queens.md)|
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/52.N-Queens%20II.md)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/53.Maximum%20Subarray.md)|
@@ -69,7 +69,7 @@ LeetCode Solution
 |65|[Valid Number](https://leetcode.com/problems/valid-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/65.Valid%20Number.md)|
 |66|[Plus One](https://leetcode.com/problems/plus-one/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/66.Plus%20One.md)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/67.Add%20Binary.md)|
-|69|[Sqrt(x)](https://leetcode.com/problems/sqrt(x)/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/69.Sqrt(x).md)|
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/69.Sqrt(x).md)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/70.Climbing%20Stairs.md)|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/71.Simplify%20Path.md)|
 |72|[ Edit Distance](https://leetcode.com/problems/ edit-distance/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/72. Edit%20Distance.md)|
@@ -174,7 +174,7 @@ LeetCode Solution
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/205.Isomorphic%20Strings.md)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/206.Reverse%20Linked%20List.md)|
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/207.Course%20Schedule.md)|
-|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-(prefix-tree)/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/208.Implement%20Trie%20(Prefix%20Tree).md)|
+|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/208.Implement%20Trie%20(Prefix%20Tree).md)|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/209.Minimum%20Size%20Subarray%20Sum.md)|
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/210.Course%20Schedule%20II.md)|
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word---data-structure-design/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/211.Add%20and%20Search%20Word%20-%20Data%20structure%20design.md)|
