@@ -13,5 +13,5 @@ ls algorithms| grep '^[0-9]'|sort -n|while read line
 do
     title=`echo ${line}|cut -d . -f 2`
     url=$(echo $title | awk '{print tolower($0)}')
-    echo "|${line%%.*}|[$title](https://leetcode.com/problems/algorithms/${url//' '/'-'}/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/${line//' '/%20})|" >>README.md 
+    echo "|${line%%.*}|[$title](https://leetcode.com/problems/${url//' '/-}/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/${line//' '/%20})|" >>README.md 
 done
