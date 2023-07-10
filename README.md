@@ -197,12 +197,16 @@ LeetCode Solution
 |343|[Integer Break](https://leetcode.com/problems/integer-break/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/343.Integer%20Break.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/376.Wiggle%20Subsequence.md)|
+|377|[ Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/377.%20Combination%20Sum%20IV.md)|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/399.Evaluate%20Division.md)|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/445.Add%20Two%20Numbers%20II.md)|
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/454.4Sum%20II.md)|
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/455.Assign%20Cookies.md)|
 |460|[LFU Cache](https://leetcode.com/problems/lfu-cache/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/460.LFU%20Cache.md)|
+|474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/474.Ones%20and%20Zeroes.md)|
+|494|[Target Sum](https://leetcode.com/problems/target-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/494.Target%20Sum.md)|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/509.Fibonacci%20Number.md)|
+|518|[Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/518.Coin%20Change%20II.md)|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/547.Friend%20Circles.md)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/567.Permutation%20in%20String.md)|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/617.Merge%20Two%20Binary%20Trees.md)|
