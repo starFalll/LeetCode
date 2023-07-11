@@ -54,3 +54,31 @@ void test_2_wei_bag_problem() {
     }
     cout << dp[bagWeight] << endl;
 }
+
+// multiple choice knapsack problem
+// 多重背包，为01背包的变种
+// There are N items and a backpack with capacity V. There are at most Mi items available for the i-th item, the space consumed by each item is Ci, and the value is Wi. Finding which items to put into the backpack can make the sum of the space consumed by these items not exceed the capacity of the backpack, and the sum of the values is the largest.
+// 有N种物品和一个容量为V 的背包。第i种物品最多有Mi件可用，每件耗费的空间是Ci ，价值是Wi 。求解将哪些物品装入背包可使这些物品的耗费的空间 总和不超过背包容量，且价值总和最大。
+// There are at most Mi items available for each item, and spreading the Mi items is actually a 01 knapsack problem.
+//每件物品最多有Mi件可用，把Mi件摊开，其实就是一个01背包问题了。
+void test_3_wei_bag_problem() {
+    vector<int> weight = {1, 3, 4};
+    vector<int> value = {15, 20, 30};
+    vector<int> nums = {2, 3, 2};
+    int bagWeight = 10;
+    vector<int> dp(bagWeight + 1, 0);
+
+
+    // Initial
+    vector<int> dp(bagWeight + 1, 0);
+    for(int i = 0; i < weight.size(); i++) { // Iterate over items
+        for(int j = bagWeight; j >= weight[i]; j--) { // Traverse backpack capacity
+            // 以上为01背包，然后加一个遍历个数
+            // The above is 01 backpack, and then add a traversal number
+            for (int k = 1; k <= nums[i] && (j - k * weight[i]) >= 0; k++) { // number of traversal
+                dp[j] = max(dp[j], dp[j - k * weight[i]] + k * value[i]);
+            }
+        }
+    }
+    cout << dp[bagWeight] << endl;
+}
