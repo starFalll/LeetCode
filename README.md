@@ -113,6 +113,7 @@ LeetCode Solution
 |112|[Path Sum](https://leetcode.com/problems/path-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/112.Path%20Sum.md)|
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/113.Path%20Sum%20II.md)|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/114.Flatten%20Binary%20Tree%20to%20Linked%20List.md)|
+|115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/115.Distinct%20Subsequences.md)|
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.md)|
 |117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.md)|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascal's-triangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/118.Pascal's%20Triangle.md)|
@@ -200,6 +201,7 @@ LeetCode Solution
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/376.Wiggle%20Subsequence.md)|
 |377|[ Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/377.%20Combination%20Sum%20IV.md)|
+|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/392.Is%20Subsequence.md)|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/399.Evaluate%20Division.md)|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/445.Add%20Two%20Numbers%20II.md)|
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/454.4Sum%20II.md)|
@@ -220,6 +222,7 @@ LeetCode Solution
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/714.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.md)|
 |718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/718.Maximum%20Length%20of%20Repeated%20Subarray.md)|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/746.Min%20Cost%20Climbing%20Stairs.md)|
+|1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1035.Uncrossed%20Lines.md)|
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1143.Longest%20Common%20Subsequence.md)|
 |2765|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2765.Longest%20Alternating%20Subarray.md)|
 |2766|[Relocate Marbles](https://leetcode.com/problems/relocate-marbles/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2766.Relocate%20Marbles.md)|
