@@ -210,10 +210,13 @@ LeetCode Solution
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/474.Ones%20and%20Zeroes.md)|
 |494|[Target Sum](https://leetcode.com/problems/target-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/494.Target%20Sum.md)|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/509.Fibonacci%20Number.md)|
+|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/516.Longest%20Palindromic%20Subsequence.md)|
 |518|[Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/518.Coin%20Change%20II.md)|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/547.Friend%20Circles.md)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/567.Permutation%20in%20String.md)|
+|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/583.Delete%20Operation%20for%20Two%20Strings.md)|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/617.Merge%20Two%20Binary%20Trees.md)|
+|647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/647.Palindromic%20Substrings.md)|
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/654.Maximum%20Binary%20Tree.md)|
 |659|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/659.Max%20Area%20of%20Island.md)|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/674.Longest%20Continuous%20Increasing%20Subsequence.md)|
