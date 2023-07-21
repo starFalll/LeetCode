@@ -33,12 +33,14 @@ LeetCode Solution
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/27.Remove%20Element.md)|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/28.Implement%20strStr().md)|
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/29.Divide%20Two%20Integers.md)|
+|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/30.Substring%20with%20Concatenation%20of%20All%20Words.md)|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/31.Next%20Permutation.md)|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/32.Longest%20Valid%20Parentheses.md)|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/33.Search%20in%20Rotated%20Sorted%20Array.md)|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/35.Search%20Insert%20Position.md)|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/36.Valid%20Sudoku.md)|
+|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/37.Sudoku%20Solver.md)|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/38.Count%20and%20Say.md)|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/39.Combination%20Sum.md)|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/40.Combination%20Sum%20II.md)|
@@ -209,6 +211,8 @@ LeetCode Solution
 |460|[LFU Cache](https://leetcode.com/problems/lfu-cache/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/460.LFU%20Cache.md)|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/474.Ones%20and%20Zeroes.md)|
 |494|[Target Sum](https://leetcode.com/problems/target-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/494.Target%20Sum.md)|
+|496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/496.Next%20Greater%20Element%20I.md)|
+|503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/503.Next%20Greater%20Element%20II.md)|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/509.Fibonacci%20Number.md)|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/516.Longest%20Palindromic%20Subsequence.md)|
 |518|[Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/518.Coin%20Change%20II.md)|
@@ -224,6 +228,7 @@ LeetCode Solution
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/700.Search%20in%20a%20Binary%20Search%20Tree.md)|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/714.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.md)|
 |718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/718.Maximum%20Length%20of%20Repeated%20Subarray.md)|
+|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/739.Daily%20Temperatures.md)|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/746.Min%20Cost%20Climbing%20Stairs.md)|
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1035.Uncrossed%20Lines.md)|
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1143.Longest%20Common%20Subsequence.md)|
