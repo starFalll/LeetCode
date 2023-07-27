@@ -201,6 +201,7 @@ LeetCode Solution
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/337.House%20Robber%20III.md)|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/343.Integer%20Break.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
+|365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/365.How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.md)|
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/376.Wiggle%20Subsequence.md)|
 |377|[ Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/377.%20Combination%20Sum%20IV.md)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/392.Is%20Subsequence.md)|
@@ -230,6 +231,8 @@ LeetCode Solution
 |718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/718.Maximum%20Length%20of%20Repeated%20Subarray.md)|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/739.Daily%20Temperatures.md)|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/746.Min%20Cost%20Climbing%20Stairs.md)|
+|764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/764.Largest%20Plus%20Sign.md)|
+|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/941.Valid%20Mountain%20Array.md)|
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1035.Uncrossed%20Lines.md)|
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1143.Longest%20Common%20Subsequence.md)|
 |2765|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2765.Longest%20Alternating%20Subarray.md)|
@@ -242,3 +245,6 @@ LeetCode Solution
 |2779|[Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2779.Maximum%20Beauty%20of%20an%20Array%20After%20Applying%20Operation.md)|
 |2780|[Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2780.Minimum%20Index%20of%20a%20Valid%20Split.md)|
 |2781|[Length of the Longest Valid Substring](https://leetcode.com/problems/length-of-the-longest-valid-substring/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2781.Length%20of%20the%20Longest%20Valid%20Substring.md)|
+|2788|[Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2788.Split%20Strings%20by%20Separator.md)|
+|2789|[Largest Element in an Array after Merge Operations](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2789.Largest%20Element%20in%20an%20Array%20after%20Merge%20Operations.md)|
+|2790|[Maximum Number of Groups With Increasing Length](https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2790.Maximum%20Number%20of%20Groups%20With%20Increasing%20Length.md)|
