@@ -198,6 +198,7 @@ LeetCode Solution
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/300.Longest%20Increasing%20Subsequence.md)|
 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/309.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.md)|
 |332|[Coin Change](https://leetcode.com/problems/coin-change/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/332.Coin%20Change.md)|
+|332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/332.Reconstruct%20Itinerary.md)|
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/337.House%20Robber%20III.md)|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/343.Integer%20Break.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
@@ -211,6 +212,7 @@ LeetCode Solution
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/455.Assign%20Cookies.md)|
 |460|[LFU Cache](https://leetcode.com/problems/lfu-cache/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/460.LFU%20Cache.md)|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/474.Ones%20and%20Zeroes.md)|
+|491|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/491.Non-decreasing%20Subsequences.md)|
 |494|[Target Sum](https://leetcode.com/problems/target-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/494.Target%20Sum.md)|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/496.Next%20Greater%20Element%20I.md)|
 |503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/503.Next%20Greater%20Element%20II.md)|
@@ -235,6 +237,7 @@ LeetCode Solution
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/941.Valid%20Mountain%20Array.md)|
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1035.Uncrossed%20Lines.md)|
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1143.Longest%20Common%20Subsequence.md)|
+|1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1207.Unique%20Number%20of%20Occurrences.md)|
 |2765|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2765.Longest%20Alternating%20Subarray.md)|
 |2766|[Relocate Marbles](https://leetcode.com/problems/relocate-marbles/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2766.Relocate%20Marbles.md)|
 |2767|[Partition String Into Minimum Beautiful Substrings](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2767.Partition%20String%20Into%20Minimum%20Beautiful%20Substrings.md)|
