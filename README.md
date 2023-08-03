@@ -207,6 +207,7 @@ LeetCode Solution
 |377|[ Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/377.%20Combination%20Sum%20IV.md)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/392.Is%20Subsequence.md)|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/399.Evaluate%20Division.md)|
+|406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/406.Queue%20Reconstruction%20by%20Height.md)|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/445.Add%20Two%20Numbers%20II.md)|
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/454.4Sum%20II.md)|
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/455.Assign%20Cookies.md)|
