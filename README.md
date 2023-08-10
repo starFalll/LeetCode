@@ -209,6 +209,7 @@ LeetCode Solution
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/399.Evaluate%20Division.md)|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/406.Queue%20Reconstruction%20by%20Height.md)|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/445.Add%20Two%20Numbers%20II.md)|
+|452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/452.Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.md)|
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/454.4Sum%20II.md)|
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/455.Assign%20Cookies.md)|
 |460|[LFU Cache](https://leetcode.com/problems/lfu-cache/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/460.LFU%20Cache.md)|
@@ -237,10 +238,12 @@ LeetCode Solution
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/764.Largest%20Plus%20Sign.md)|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/860.Lemonade%20Change.md)|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/941.Valid%20Mountain%20Array.md)|
+|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/973.K%20Closest%20Points%20to%20Origin.md)|
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1005.Maximize%20Sum%20Of%20Array%20After%20K%20Negations.md)|
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1035.Uncrossed%20Lines.md)|
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1143.Longest%20Common%20Subsequence.md)|
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1207.Unique%20Number%20of%20Occurrences.md)|
+|2104|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2104.Sum%20of%20Subarray%20Ranges.md)|
 |2765|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2765.Longest%20Alternating%20Subarray.md)|
 |2766|[Relocate Marbles](https://leetcode.com/problems/relocate-marbles/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2766.Relocate%20Marbles.md)|
 |2767|[Partition String Into Minimum Beautiful Substrings](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2767.Partition%20String%20Into%20Minimum%20Beautiful%20Substrings.md)|
