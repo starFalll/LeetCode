@@ -118,6 +118,7 @@ LeetCode Solution
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/115.Distinct%20Subsequences.md)|
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.md)|
 |117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.md)|
+|118|[Pascal's Triangle ](https://leetcode.com/problems/pascal's-triangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/118.Pascal's%20Triangle%20.md)|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascal's-triangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/118.Pascal's%20Triangle.md)|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascal's-triangle-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/119.Pascal's%20Triangle%20II.md)|
 |120|[Triangle](https://leetcode.com/problems/triangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/120.Triangle.md)|
