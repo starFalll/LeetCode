@@ -118,7 +118,6 @@ LeetCode Solution
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/115.Distinct%20Subsequences.md)|
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.md)|
 |117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.md)|
-|118|[Pascal's Triangle ](https://leetcode.com/problems/pascal's-triangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/118.Pascal's%20Triangle%20.md)|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascal's-triangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/118.Pascal's%20Triangle.md)|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascal's-triangle-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/119.Pascal's%20Triangle%20II.md)|
 |120|[Triangle](https://leetcode.com/problems/triangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/120.Triangle.md)|
@@ -249,6 +248,7 @@ LeetCode Solution
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1143.Longest%20Common%20Subsequence.md)|
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1207.Unique%20Number%20of%20Occurrences.md)|
 |1352|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1352.Product%20of%20the%20Last%20K%20Numbers.md)|
+|1359|[Count All Valid Pickup and Delivery Options ](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1359.Count%20All%20Valid%20Pickup%20and%20Delivery%20Options%20.md)|
 |1460|[Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1460.Make%20Two%20Arrays%20Equal%20by%20Reversing%20Subarrays.md)|
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1871.Jump%20Game%20VII.md)|
 |2104|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2104.Sum%20of%20Subarray%20Ranges.md)|
