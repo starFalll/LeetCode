@@ -29,3 +29,6 @@ public:
 };
 ```
 
+## BFS
+
+If a question is about how to find sortest path, we can always use BFS to solve this problem.
