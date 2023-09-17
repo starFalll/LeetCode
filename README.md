@@ -240,6 +240,7 @@ LeetCode Solution
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/739.Daily%20Temperatures.md)|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/746.Min%20Cost%20Climbing%20Stairs.md)|
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/764.Largest%20Plus%20Sign.md)|
+|847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/847.Shortest%20Path%20Visiting%20All%20Nodes.md)|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/860.Lemonade%20Change.md)|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/941.Valid%20Mountain%20Array.md)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/973.K%20Closest%20Points%20to%20Origin.md)|
