@@ -22,6 +22,10 @@ public:
             parent[i] = i;
         }
     }
+  	// Complete compression
+  	int find(int x) {
+        return x == parent[x] ? x : parent[x] = find(parent[x]);
+    }
     int find(int x) {
         while (x != parent[x]) {
             //Generational compression
