@@ -32,3 +32,6 @@ public:
 ## BFS
 
 If a question is about how to find sortest path, we can always use BFS to solve this problem.
+
+Note: Using BFS, we need record the shortest path among all the possible. But recording visited matrix of all the path is cost of space. One of the common way is just record the shortest path at the (row, col). For Example, [505. The Maze II](https://leetcode.com/problems/the-maze-ii/)
+
