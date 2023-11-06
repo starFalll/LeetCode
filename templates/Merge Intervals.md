@@ -38,3 +38,27 @@ public:
 };
 ```
 
+### DP
+
+Actually, interval merge problems don't need segment tree or map in Leetcode, it is so easy!
+
+[1024. Video Stitching](https://leetcode.com/problems/video-stitching/)
+
+```c++
+class Solution {
+public:
+    int videoStitching(vector<vector<int>>& clips, int time) {
+        sort(clips.begin(), clips.end());
+        int res = 0;
+        for (int i = 0, st = 0, end = 0; st < time; st = end, ++res) {
+            for (; i < clips.size() && clips[i][0] <= st; i++) {
+                end = max(end, clips[i][1]);
+            }
+            if (st == end) return -1;
+        }
+        return res;
+    }
+};
+```
+
+[1326. Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
