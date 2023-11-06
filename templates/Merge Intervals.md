@@ -38,7 +38,7 @@ public:
 };
 ```
 
-### DP
+### Greedy
 
 Actually, interval merge problems don't need segment tree or map in Leetcode, it is so easy!
 
