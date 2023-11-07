@@ -1,6 +1,131 @@
 # Graph Algorithm
 
-## Prime
+https://www.acwing.com/blog/content/27/
+
+1. **Dijkstra’s algorithm finds the shortest path, but Prim’s algorithm finds the MST(Minimum Spanning Tree)**.
+2. Dijkstra’s algorithm can work on both directed and undirected graphs, but Prim’s algorithm only works on undirected graphs
+3. Prim’s algorithm can handle negative edge weights, but Dijkstra’s algorithm may fail to accurately compute distances if at least one negative edge weight exists
+
+![dijkstra](https://www.baeldung.com/wp-content/uploads/sites/4/2020/01/dijkstra.jpg)
+
+
+
+![prim](https://www.baeldung.com/wp-content/uploads/sites/4/2020/01/prim.jpg)
+
+### Dijkstra
+
+Dijkstra’s algorithm may fail to accurately compute distances if at least one negative edge weight exists.
+
+Version 1: Get all shortest paths from start.
+
+```c++
+
+struct State {
+    // id of graph node
+    int id;
+    // The distance from the start node to the current node
+    int distFromStart;
+
+    State(int id, int distFromStart) {
+        this->id = id;
+        this->distFromStart = distFromStart;
+    }
+};
+
+// smallest element on top
+struct Comparator {
+  bool operator()(const State& a, const State& b) {
+    return a.distFromStart > b.distFromStart
+  }
+};
+
+// Returns the weight of the edge between node from and node to
+int weight(int from, int to);
+
+// Input node s returns the adjacent nodes of s
+vector<int> adj(int s);
+
+// Enter a picture and a starting point start, and calculate the shortest distances from start to other nodes.
+vector<int> dijkstra(int start, vector<int> graph[]) {
+    // The number of nodes in the graph
+    int V = graph.size();
+    // Record the weight of the shortest path, you can understand it as dp table
+    // Definition: The value of distTo[i] is the weight of the shortest path from node start to node i
+    int distTo[V];
+    // Find the minimum value, so dp table is initialized to positive infinity
+    memset(distTo, INT_MAX, sizeof(distTo));
+    // base case, the shortest distance from start to start is 0
+    distTo[start] = 0;
+
+    // Priority queue, the one with smaller distFromStart comes first
+    priority_queue<State, vector<State>, Comparator> pq();
+
+    // Start BFS from the starting point start
+    pq.push(State(start, 0));
+
+    while (!pq.empty()) {
+        State curState = pq.top();
+        pq.pop();
+        int curNodeID = curState.id;
+        int curDistFromStart = curState.distFromStart;
+
+        if (curDistFromStart > distTo[curNodeID]) {
+            // There is already a shorter path to the curNode node
+            continue;
+        }
+        // Enqueue adjacent nodes of curNode
+        for (int nextNodeID: adj(curNodeID)) {
+            //See if the distance from curNode to nextNode will be shorter
+            int distToNextNode = distTo[curNodeID] + weight(curNodeID, nextNodeID);
+            if (distTo[nextNodeID] > distToNextNode) {
+                // Update dp table
+                distTo[nextNodeID] = distToNextNode;
+                // Put this node and distance into the queue
+                pq.push(State(nextNodeID, distToNextNode));
+            }
+        }
+    }
+    vector<int> result;
+    for (int i = 0; i < V; i++) {
+        result.push_back(distTo[i]);
+    }
+    return result;
+}
+```
+
+Version 2: Get one shortest path from start to end.
+
+```c++
+// Enter the starting point start and end point end, and calculate the shortest distance from the starting point to the end point.
+int dijkstra(int start, int end, vector<int>* graph) {
+
+    // ...
+
+    while (!pq.empty()) {
+        State curState = pq.top();
+        pq.pop();
+        int curNodeID = curState.id;
+        int curDistFromStart = curState.distFromStart;
+
+        // Just add a judgment here, no need to change other codes.
+        if (curNodeID == end) {
+            return curDistFromStart;
+        }
+
+        if (curDistFromStart > distTo[curNodeID]) {
+            continue;
+        }
+
+        // ...
+    }
+
+    // If you run to this point, it means that you cannot go from start to end.
+    return INT_MAX;
+}
+
+```
+
+### Prime
 
 [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/):
 
@@ -28,6 +153,40 @@ public:
     }
 };
 ```
+
+### Bellman-Ford
+
+The Bellman-Ford algorithm is an algorithm for dealing with the shortest path problem of units with negative weight edges. Solve the problem of **negative weight edges** that cannot be found by Dijkstra.
+
+```c++
+int dist[N],backup[N];//dist距离，backup用来存上一次的结果。
+struct edge//用来存边
+{
+    int a;
+    int b;
+    int w;
+}Edge[M];
+int Bellman_Ford()
+{
+    memset(dist, 0x3f, sizeof dist);
+    dist[1] = 0;//初始化
+    for(int i = 0 ; i < k ; i++)//遍历k次
+    {
+        memcpy(backup,dist,sizeof dist);//存上一次答案。
+        for(int j = 0 ; j < m ; j++)
+        {
+            int a = Edge[j].a, b = Edge[j].b, w = Edge[j].w;
+            dist[b] = min(dist[b],backup[a] + w);
+        }//遍历所有边
+    }
+    if(dist[n] > 0x3f3f3f3f/2) return -1;
+    /*这里不像Dijkstra写等于正无穷是因为可能有负权边甚至是负环的存在，
+    使得“正无穷”在迭代过程中受到一点影响。*/
+    return dist[n];
+}
+```
+
+
 
 ## BFS
 
