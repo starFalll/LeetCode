@@ -156,7 +156,11 @@ public:
 
 ### Bellman-Ford
 
-The Bellman-Ford algorithm is an algorithm for dealing with the shortest path problem of units with negative weight edges. Solve the problem of **negative weight edges** that cannot be found by Dijkstra.
+The Bellman-Ford algorithm is an algorithm for dealing with the shortest path problem of units with negative weight edges. Solve the problem of **negative weight edges** that cannot be found by Dijkstra. 
+
+**When changing path to opposite number, it can be used to deal with longest path problem**
+
+[787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)	
 
 ```c++
 int dist[N],backup[N];//dist距离，backup用来存上一次的结果。
