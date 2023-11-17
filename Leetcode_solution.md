@@ -4,11 +4,11 @@
 
 ### 26.Remove Duplicates from Sorted Array
 
-Given a sorted array *nums*, remove the duplicates [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) such that each element appear only *once* and return the new length.
+Given a sorted array _nums_, remove the duplicates [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) such that each element appear only _once_ and return the new length.
 
 Do not allocate extra space for another array, you must do this by **modifying the input array in-place** with O(1) extra memory.
 
-#### 代码1
+#### 代码 1
 
 ```c++
 class Solution {
@@ -25,14 +25,14 @@ public:
                 it1=it2;
             }
         }
-        
+
         return nums.size();
-        
+
     }
 };
 ```
 
-#### 代码2
+#### 代码 2
 
 ```c++
 class Solution {
@@ -46,12 +46,12 @@ public:
                 nums[++index]=nums[i];
         }
         return index+1;
-        
+
     }
 };
 ```
 
-#### 代码3
+#### 代码 3
 
 ```c++
 class Solution {
@@ -64,11 +64,11 @@ public:
 
 ### 80.Remove Duplicates from Sorted Array II
 
-Given a sorted array *nums*, remove the duplicates [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) such that duplicates appeared at most *twice* and return the new length.
+Given a sorted array _nums_, remove the duplicates [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) such that duplicates appeared at most _twice_ and return the new length.
 
 Do not allocate extra space for another array, you must do this by **modifying the input array in-place** with O(1) extra memory.
 
-#### 代码1
+#### 代码 1
 
 ```c++
 class Solution {
@@ -88,16 +88,16 @@ public:
                 flag=false;
             }
         }
-        
+
         return index+1;
-        
+
     }
 };
 ```
 
-#### 代码2 
+#### 代码 2
 
-比上面的代码更简洁，并且拓展性更好，即将下面的2变为n，则可以重复n次
+比上面的代码更简洁，并且拓展性更好，即将下面的 2 变为 n，则可以重复 n 次
 
 ```c++
 class Solution {
@@ -116,8 +116,6 @@ public:
 };
 ```
 
-
-
 ### 33.Search in Rotated Sorted Array
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
@@ -128,9 +126,9 @@ You are given a target value to search. If found in the array return its index, 
 
 You may assume no duplicate exists in the array.
 
-Your algorithm's runtime complexity must be in the order of *O*(log *n*).
+Your algorithm's runtime complexity must be in the order of _O_(log _n_).
 
-#### 代码1
+#### 代码 1
 
 ```c++
 class Solution {
@@ -164,14 +162,12 @@ public:
                     high=mid-1;
                 }
             }
-            
+
         }
         return -1;
     }
 };
 ```
-
-
 
 ### 81.Search in Rotated Sorted Array II
 
@@ -233,27 +229,27 @@ Find the median of the two sorted arrays. The overall run time complexity should
 
 这是一道非常经典的题。这题更通用的形式是，给定两个已经排序好的数组，找到两者所有元素中第`k`大的元素。
 
-`O(m+n)`的解法比较直观，直接merge两个数组，然后求第`k`大的元素。
+`O(m+n)`的解法比较直观，直接 merge 两个数组，然后求第`k`大的元素。
 
-不过我们仅仅需要第`k`大的元素，是不需要“排序”这么昂贵的操作的。可以用一个计数器，记录当前已经找到第`m`大的元素了。同时我们使用两个指针`pA`和`pB`，分别指向A和B数组的第一个元素，使用类似于merge sort的原理，如果数组A当前元素小，那么`pA++`，同时`m++`；如果数组B当前元素小，那么`pB++`，同时`m++`。最终当`m`等于`k`的时候，就得到了我们的答案，`O(k)`时间，`O(1)`空间。但是，当`k`很接近`m+n`的时候，这个方法还是`O(m+n)`的。
+不过我们仅仅需要第`k`大的元素，是不需要“排序”这么昂贵的操作的。可以用一个计数器，记录当前已经找到第`m`大的元素了。同时我们使用两个指针`pA`和`pB`，分别指向 A 和 B 数组的第一个元素，使用类似于 merge sort 的原理，如果数组 A 当前元素小，那么`pA++`，同时`m++`；如果数组 B 当前元素小，那么`pB++`，同时`m++`。最终当`m`等于`k`的时候，就得到了我们的答案，`O(k)`时间，`O(1)`空间。但是，当`k`很接近`m+n`的时候，这个方法还是`O(m+n)`的。
 
-有没有更好的方案呢？我们可以考虑从`k`入手。如果我们每次都能够删除一个一定在第`k`大元素之前的元素，那么我们需要进行`k`次。但是如果每次我们都删除一半呢？由于A和B都是有序的，我们应该充分利用这里面的信息，类似于二分查找，也是充分利用了“有序”。
+有没有更好的方案呢？我们可以考虑从`k`入手。如果我们每次都能够删除一个一定在第`k`大元素之前的元素，那么我们需要进行`k`次。但是如果每次我们都删除一半呢？由于 A 和 B 都是有序的，我们应该充分利用这里面的信息，类似于二分查找，也是充分利用了“有序”。
 
-假设A和B的元素个数都大于`k/2`，我们将A的第`k/2`个元素（即`A[k/2-1]`）和B的第`k/2`个元素（即`B[k/2-1]`）进行比较，有以下三种情况（为了简化这里先假设`k`为偶数，所得到的结论对于`k`是奇数也是成立的）：
+假设 A 和 B 的元素个数都大于`k/2`，我们将 A 的第`k/2`个元素（即`A[k/2-1]`）和 B 的第`k/2`个元素（即`B[k/2-1]`）进行比较，有以下三种情况（为了简化这里先假设`k`为偶数，所得到的结论对于`k`是奇数也是成立的）：
 
 - `A[k/2-1] == B[k/2-1]`
 - `A[k/2-1] > B[k/2-1]`
 - `A[k/2-1] < B[k/2-1]`
 
-如果`A[k/2-1] < B[k/2-1]`，意味着`A[0]`到`A[k/2-1]`的肯定在A∪B的top k元素的范围内，换句话说，`A[k/2-1]`不可能大于A∪B的第`k`大元素。留给读者证明。
+如果`A[k/2-1] < B[k/2-1]`，意味着`A[0]`到`A[k/2-1]`的肯定在 A∪B 的 top k 元素的范围内，换句话说，`A[k/2-1]`不可能大于 A∪B 的第`k`大元素。留给读者证明。
 
-因此，我们可以放心的删除A数组的这`k/2`个元素。同理，当`A[k/2-1] > B[k/2-1]`时，可以删除B数组的`k/2`个元素。
+因此，我们可以放心的删除 A 数组的这`k/2`个元素。同理，当`A[k/2-1] > B[k/2-1]`时，可以删除 B 数组的`k/2`个元素。
 
 当`A[k/2-1] == B[k/2-1]`时，说明找到了第`k`大的元素，直接返回`A[k/2-1]`或`B[k/2-1]`即可。
 
 因此，我们可以写一个递归函数。那么函数什么时候应该终止呢？
 
-- 当A或B是空时，直接返回`B[k-1]`或`A[k-1]`；
+- 当 A 或 B 是空时，直接返回`B[k-1]`或`A[k-1]`；
 - 当`k=1`时，返回`min(A[0], B[0])`；
 - 当`A[k/2-1] == B[k/2-1]`时，返回`A[k/2-1]`或`B[k/2-1]`
 
@@ -271,7 +267,7 @@ public:
         else
             return (findMedian(nums1.begin(),m,nums2.begin(),n,total/2)+findMedian(nums1.begin(),m,nums2.begin(),n,total/2+1))/2.0;
     }
-    
+
     static int findMedian(vector<int>::const_iterator A,int m,vector<int>::const_iterator B,int n,int k)//k是长度，k-1是下标
     {
     	//保证m<=n，目的是第二个if
@@ -295,7 +291,7 @@ public:
 
 Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
 
-Your algorithm should run in O(*n*) complexity.
+Your algorithm should run in O(_n_) complexity.
 
 **Example:**
 
@@ -307,13 +303,13 @@ Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefor
 
 #### 解析
 
-如果允许O(nlogn)的复杂度，那么可以先排序，可是本题要求`O(n)`。
+如果允许 O(nlogn)的复杂度，那么可以先排序，可是本题要求`O(n)`。
 
 由于序列里的元素是无序的，又要求`O(n)`，首先要想到用哈希表。
 
 用一个哈希表存储所有出现过的元素，对每个元素，以该元素为中心，往左右扩张，直到不连续为止，记录下最长的长度。
 
-#### 代码1
+#### 代码 1
 
 ```c++
 //时间复杂度为O(n)
@@ -322,9 +318,9 @@ public:
     int longestConsecutive(vector<int>& nums) {
         unordered_map<int,bool> used;
         for(auto i:nums) used[i]=false;
-        
+
         int lengest=0;
-      
+
         for(auto i:nums){
             if(used[i]) continue;
             int length=1;
@@ -341,7 +337,7 @@ public:
             lengest=max(lengest,length);
         }
         return lengest;
-        
+
     }
 };
 ```
@@ -350,17 +346,17 @@ public:
 
 Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
 
-You may assume that each input would have **exactly** one solution, and you may not use the *same* element twice.
+You may assume that each input would have **exactly** one solution, and you may not use the _same_ element twice.
 
 #### 解析
 
-方法1：暴力，时间复杂度O(n^2)
+方法 1：暴力，时间复杂度 O(n^2)
 
-方法2：hash表存储每个数对应的下标，时间复杂度O(n)
+方法 2：hash 表存储每个数对应的下标，时间复杂度 O(n)
 
 #### 代码
 
-方法1：很早之前用python写的暴力方法，看看就好
+方法 1：很早之前用 python 写的暴力方法，看看就好
 
 ```python
 class Solution:
@@ -370,7 +366,7 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
-        
+
         lens = len(nums)
         i = 0
         a = 0
@@ -393,9 +389,7 @@ class Solution:
             i += 1
 ```
 
-
-
-方法2：hash
+方法 2：hash
 
 ```c++
 class Solution {
@@ -421,7 +415,7 @@ public:
 
 ### 15.3Sum
 
-Given an array `nums` of *n* integers, are there elements *a*, *b*, *c* in `nums` such that *a* + *b* + *c* = 0? Find all unique triplets in the array which gives the sum of zero.
+Given an array `nums` of _n_ integers, are there elements _a_, _b_, _c_ in `nums` such that _a_ + _b_ + _c_ = 0? Find all unique triplets in the array which gives the sum of zero.
 
 **Note:**
 
@@ -440,7 +434,7 @@ A solution set is:
 
 #### 解析
 
-先排序，然后a从0循环到n，对于每一次循环 b=a+1,c指向最后一个数，然后b和c不断逼近，即和小于目标值，则b++，和大于目标值，则c--，注意每次找到满足条件的值以后，要避免后面的重复值。
+先排序，然后 a 从 0 循环到 n，对于每一次循环 b=a+1,c 指向最后一个数，然后 b 和 c 不断逼近，即和小于目标值，则 b++，和大于目标值，则 c--，注意每次找到满足条件的值以后，要避免后面的重复值。
 
 #### 代码
 
@@ -462,22 +456,22 @@ public:
             while(j<k){
                 if(*i+*j+*k>target){
                     k--;
-                    
+
                 }
                 else if(*i+*j+*k<target){
                     j++;
-                    
+
                 }
                 else{
                     res.push_back({*i,*j,*k});
                     j++;
                     k--;
                     while(*j==*(j-1)&&*k==*(k+1)&&j<k)j++;/*避免后面的重复值，如不加这一句，会有重复值，例[-2,0,0,2,2]，不加这一句结果会是[[-2,0,2],[-2,0,2]]，重复了会报错*/
-                    
-                    
+
+
                 }
             }
-            
+
         }
         return res;
     }
@@ -486,7 +480,7 @@ public:
 
 ### 16.3Sum Closest
 
-Given an array `nums` of *n* integers and an integer `target`, find three integers in `nums` such that the sum is closest to `target`. Return the sum of the three integers. You may assume that each input would have exactly one solution.
+Given an array `nums` of _n_ integers and an integer `target`, find three integers in `nums` such that the sum is closest to `target`. Return the sum of the three integers. You may assume that each input would have exactly one solution.
 
 **Example:**
 
@@ -530,14 +524,14 @@ public:
                 }
             }
         }
-        return res; 
+        return res;
     }
 };
 ```
 
-### 18.4Sum*
+### 18.4Sum\*
 
-Given an array `nums` of *n* integers and an integer `target`, are there elements *a*, *b*, *c*, and *d* in `nums` such that *a* + *b* + *c* + *d* = `target`? Find all unique quadruplets in the array which gives the sum of `target`.
+Given an array `nums` of _n_ integers and an integer `target`, are there elements _a_, _b_, _c_, and _d_ in `nums` such that _a_ + _b_ + _c_ + _d_ = `target`? Find all unique quadruplets in the array which gives the sum of `target`.
 
 **Note:**
 
@@ -545,11 +539,11 @@ The solution set must not contain duplicate quadruplets.
 
 #### 分析
 
-如果采用上面几道题的方法时间复杂度为O(n^3)，换成先使用hash缓存任意两个值的和以及它们的下标，然后再找另外两个值，这样可以把时间复杂度降低到O(n^2)
+如果采用上面几道题的方法时间复杂度为 O(n^3)，换成先使用 hash 缓存任意两个值的和以及它们的下标，然后再找另外两个值，这样可以把时间复杂度降低到 O(n^2)
 
-#### 代码1
+#### 代码 1
 
-````c++
+```c++
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -563,7 +557,7 @@ public:
               //map的insert要求pair类型，make_pair自动判断内部数据类型，pair需要手动指定
                 cache.insert(make_pair(nums[i]+nums[j],make_pair(i,j)));
             }
-            
+
         }
         for(auto i=cache.begin();i!=cache.end();i++){
             int x= target-i->first;
@@ -583,14 +577,14 @@ public:
         sort(res.begin(),res.end());
         res.erase(unique(res.begin(),res.end()),res.end());/*去除重复的结果，erase+unique是常用方法*/
         return res;
-        
+
     }
 };
-````
+```
 
-#### 代码2
+#### 代码 2
 
-和前面几题使用左右靠近的方法差不多，看起来时间复杂度高，但是由于很多情况都是判断不满足就跳过，减少了循环时间，速度比上面的代码1要快很多。
+和前面几题使用左右靠近的方法差不多，看起来时间复杂度高，但是由于很多情况都是判断不满足就跳过，减少了循环时间，速度比上面的代码 1 要快很多。
 
 ```c++
 class Solution {
@@ -630,8 +624,6 @@ public:
 };
 ```
 
-
-
 ### 454.4Sum II
 
 Given four lists A, B, C, D of integer values, compute how many tuples `(i, j, k, l)` there are such that `A[i] + B[j] + C[k] + D[l]` is zero.
@@ -658,11 +650,11 @@ The two tuples are:
 
 #### 解析
 
-和4Sum中代码一的方法差不多，先用hash缓存A，B中任意两个数的和，但是因为本题只需要得出满足条件的个数而不需要输出具体的下标，所以比上一题的代码一要简洁很多。
+和 4Sum 中代码一的方法差不多，先用 hash 缓存 A，B 中任意两个数的和，但是因为本题只需要得出满足条件的个数而不需要输出具体的下标，所以比上一题的代码一要简洁很多。
 
-#### 代码1（C++）
+#### 代码 1（C++）
 
-````c++
+```c++
 class Solution {
 public:
     int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
@@ -688,9 +680,9 @@ public:
         return res;
     }
 };
-````
+```
 
-#### 代码2（Python）
+#### 代码 2（Python）
 
 ```python
 class Solution:
@@ -712,22 +704,20 @@ class Solution:
                     cache[a+b]=1
                 else:
                     cache[a+b]+=1
-        
-        
+
+
         for c in C:
             for d in D:
                 tmp=0-c-d
                 if tmp in cache:
                     res+=cache[tmp]
         return res
-            
+
 ```
-
-
 
 ### 27.Remove Element
 
-Given an array *nums* and a value *val*, remove all instances of that value [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) and return the new length.
+Given an array _nums_ and a value _val_, remove all instances of that value [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) and return the new length.
 
 Do not allocate extra space for another array, you must do this by **modifying the input array in-place** with O(1) extra memory.
 
@@ -757,7 +747,7 @@ It doesn't matter what values are set beyond the returned length.
 
 #### 代码
 
-````c++
+```c++
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -770,7 +760,7 @@ public:
         return index;
     }
 };
-````
+```
 
 ### 28.Next Permutation
 
@@ -800,11 +790,11 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 由此可知：
 
-**1. 从低位向高位（从右向左）找第一个递减的数：s[i]>s[i-1]。如果不存在，则表明该permutation已经最大，next permutation为当前序列的逆序。**
+**1. 从低位向高位（从右向左）找第一个递减的数：s[i]>s[i-1]。如果不存在，则表明该 permutation 已经最大，next permutation 为当前序列的逆序。**
 
-**2. 在s[i:n-1]中找一个j，使s[j]为大于s[i]的最大数，swap(s[i], s[j])**
+**2. 在 s[i:n-1]中找一个 j，使 s[j]为大于 s[i]的最大数，swap(s[i], s[j])**
 
-**3. 将s[i:n-1]反转。**
+**3. 将 s[i:n-1]反转。**
 
 #### 代码
 
@@ -825,7 +815,7 @@ public:
         reverse(nums.begin(),nums.end());
         return;
     }
-    
+
     void swap(int & a,int &b){
         int tmp=a;
         a=b;
@@ -836,9 +826,9 @@ public:
 
 ### 60.Permutation Sequence
 
-The set `[1,2,3,...,*n*]` contains a total of *n*! unique permutations.
+The set `[1,2,3,...,*n*]` contains a total of _n_! unique permutations.
 
-By listing and labeling all of the permutations in order, we get the following sequence for *n* = 3:
+By listing and labeling all of the permutations in order, we get the following sequence for _n_ = 3:
 
 1. `"123"`
 2. `"132"`
@@ -847,12 +837,12 @@ By listing and labeling all of the permutations in order, we get the following s
 5. `"312"`
 6. `"321"`
 
-Given *n* and *k*, return the *k*th permutation sequence.
+Given _n_ and _k_, return the *k*th permutation sequence.
 
 **Note:**
 
-- Given *n* will be between 1 and 9 inclusive.
-- Given *k* will be between 1 and *n*! inclusive.
+- Given _n_ will be between 1 and 9 inclusive.
+- Given _k_ will be between 1 and _n_! inclusive.
 
 **Example 1:**
 
@@ -870,7 +860,7 @@ Output: "2314"
 
 #### 解析
 
-同样先通过举例来获得更好的理解。以n = 4，k = 9为例：
+同样先通过举例来获得更好的理解。以 n = 4，k = 9 为例：
 
 1234
 
@@ -888,7 +878,7 @@ Output: "2314"
 
 2143
 
-2314  <= k = 9
+2314 <= k = 9
 
 2341
 
@@ -920,17 +910,15 @@ Output: "2314"
 
 4321
 
-最高位可以取{1, 2, 3, 4}，而每个数重复3! = 6次。所以第k=9个permutation的s[0]为{1, 2, 3, 4}中的第9/6+1 = 2个数字s[0] = 2。
+最高位可以取{1, 2, 3, 4}，而每个数重复 3! = 6 次。所以第 k=9 个 permutation 的 s[0]为{1, 2, 3, 4}中的第 9/6+1 = 2 个数字 s[0] = 2。
 
-而对于以2开头的6个数字而言，k = 9是其中的第k' = 9%(3!) = 3个。而剩下的数字{1, 3, 4}的重复周期为2! = 2次。所以s[1]为{1, 3, 4}中的第k'/(2!)+1 = 2个，即s[1] = 3。
+而对于以 2 开头的 6 个数字而言，k = 9 是其中的第 k' = 9%(3!) = 3 个。而剩下的数字{1, 3, 4}的重复周期为 2! = 2 次。所以 s[1]为{1, 3, 4}中的第 k'/(2!)+1 = 2 个，即 s[1] = 3。
 
-对于以23开头的2个数字而言，k = 9是其中的第k'' = k'%(2!) = 1个。剩下的数字{1, 4}的重复周期为1! = 1次。所以s[2] = 1.
+对于以 23 开头的 2 个数字而言，k = 9 是其中的第 k'' = k'%(2!) = 1 个。剩下的数字{1, 4}的重复周期为 1! = 1 次。所以 s[2] = 1.
 
-对于以231开头的一个数字而言，k = 9是其中的第k''' = k''/(1!)+1 = 1个。s[3] = 4
+对于以 231 开头的一个数字而言，k = 9 是其中的第 k''' = k''/(1!)+1 = 1 个。s[3] = 4
 
-
-
-这里有另外一种余数为0的情况：n=3，k=4
+这里有另外一种余数为 0 的情况：n=3，k=4
 
 123
 
@@ -944,17 +932,17 @@ Output: "2314"
 
 321
 
-k= 4/2! 才行，而不是取余数，因为这个时候4%2==0，余数为0
+k= 4/2! 才行，而不是取余数，因为这个时候 4%2==0，余数为 0
 
 #### 代码
 
-````cpp
+```cpp
 class Solution {
 public:
     string getPermutation(int n, int k) {
         string res;
         vector<int> minusn(n,1);
-        vector<char> ch(n,'0'); 
+        vector<char> ch(n,'0');
         for(int i=1;i<n;i++){
             minusn[i]*=minusn[i-1]*i;
         }
@@ -967,19 +955,19 @@ public:
                 index=k/minusn[n-i-1];
                 k/=index;
             }
-                
+
             else{
                 index=k/minusn[n-i-1]+1;
                 k%=minusn[n-i-1];
-            }       
+            }
             res.push_back(ch[(index-1)]);
             ch.erase(ch.begin()+index-1);
-            
+
         }
         return res;
     }
 };
-````
+```
 
 ###36.Valid Sudoku
 
@@ -1029,7 +1017,7 @@ Input:
   [".",".",".",".","8",".",".","7","9"]
 ]
 Output: false
-Explanation: Same as Example 1, except with the 5 in the top left corner being 
+Explanation: Same as Example 1, except with the 5 in the top left corner being
     modified to 8. Since there are two 8's in the top left 3x3 sub-box, it is invalid.
 
 ```
@@ -1068,7 +1056,7 @@ public:
             }
             returnzero(uniq);
         }
-        
+
         for(int m=0;m<9;m+=3){//check 3*3 box
             for(int k=0;k<9;k+=3){
                 for(int i=m;i<m+3;i++){
@@ -1079,13 +1067,13 @@ public:
                                 return false;
                         }
                     }
-                    
+
                 }
                 returnzero(uniq);
             }
         }
         return true;
-        
+
     }
     void returnzero(vector<int>& a)
     {
@@ -1097,7 +1085,7 @@ public:
 
 ### 48.Rotate Image
 
-You are given an *n* x *n* 2D matrix representing an image.
+You are given an _n_ x _n_ 2D matrix representing an image.
 
 Rotate the image by 90 degrees (clockwise).
 
@@ -1108,7 +1096,7 @@ You have to rotate the image [**in-place**](https://en.wikipedia.org/wiki/In-pla
 **Example 1:**
 
 ```
-Given input matrix = 
+Given input matrix =
 [
   [1,2,3],
   [4,5,6],
@@ -1133,7 +1121,7 @@ Given input matrix =
   [ 2, 4, 8,10],
   [13, 3, 6, 7],
   [15,14,12,16]
-], 
+],
 
 rotate the input matrix in-place such that it becomes:
 [
@@ -1155,20 +1143,20 @@ public:
                 swap(matrix[i][j],matrix[matrix.size()-1-j][matrix.size()-1-i]);
             }
         }
-        
+
         for(int i=0;i<matrix.size();i++){//horizontal exchange
             for(int j=0;j<matrix.size()/2;j++){
                 swap(matrix[j][i],matrix[matrix.size()-1-j][i]);
             }
         }
-        
+
     }
 };
 ```
 
 ### 42.Trapping Rain Water
 
-Given *n* non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+Given _n_ non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
 
 ![img](http://www.leetcode.com/static/images/problemset/rainwatertrap.png)
 The above elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped. **Thanks Marcos** for contributing this image!
@@ -1182,7 +1170,7 @@ Output: 6
 
 #### 解析
 
-对于每个柱子（高为height），找到其左右最高的柱子（left_max,right_max），上面的积水为：max(left_max,right_max)-height.
+对于每个柱子（高为 height），找到其左右最高的柱子（left_max,right_max），上面的积水为：max(left_max,right_max)-height.
 
 具体方法：
 
@@ -1217,7 +1205,7 @@ public:
             }
         }
         return res;
-        
+
     }
 };
 ```
@@ -1264,7 +1252,7 @@ public:
                 else{
                     digits[i]=digits[i]+1;
                     break;
-                }    
+                }
             }
             else{
                 flag=false;
@@ -1275,7 +1263,7 @@ public:
                 if(flag==false)
                     break;
             }
-               
+
         }
         return digits;
     }
@@ -1284,11 +1272,11 @@ public:
 
 ### 70.Climbing Stairs
 
-You are climbing a stair case. It takes *n* steps to reach to the top.
+You are climbing a stair case. It takes _n_ steps to reach to the top.
 
 Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
-**Note:** Given *n* will be a positive integer.
+**Note:** Given _n_ will be a positive integer.
 
 **Example 1:**
 
@@ -1314,7 +1302,7 @@ Explanation: There are three ways to climb to the top.
 
 #### 解析
 
-[斐波那契数列](https://zh.wikipedia.org/zh/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97) 的一种变体，和[青蛙跳台阶（剑指offer原题）](https://www.nowcoder.com/practice/8c82a5b80378478f9484d87d1c5f12a4?tpId=13&tqId=11161&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)是一模一样的题。
+[斐波那契数列](https://zh.wikipedia.org/zh/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97) 的一种变体，和[青蛙跳台阶（剑指 offer 原题）](https://www.nowcoder.com/practice/8c82a5b80378478f9484d87d1c5f12a4?tpId=13&tqId=11161&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)是一模一样的题。
 
 #### 代码
 
@@ -1339,13 +1327,11 @@ public:
 };
 ```
 
-
-
 ### 89.Gray Code
 
 The gray code is a binary numeral system where two successive values differ in only one bit.
 
-Given a non-negative integer *n* representing the total number of bits in the code, print the sequence of gray code. A gray code sequence must begin with 0.
+Given a non-negative integer _n_ representing the total number of bits in the code, print the sequence of gray code. A gray code sequence must begin with 0.
 
 **Example 1:**
 
@@ -1382,7 +1368,7 @@ Explanation: We define the gray code sequence to begin with 0.
 
 格雷码，维基百科解释[在此](https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%9B%B7%E7%A0%81)。
 
-本题题意为生成n比特的所有格雷码，将其转化为十进制并以列表形式返回。
+本题题意为生成 n 比特的所有格雷码，将其转化为十进制并以列表形式返回。
 
 下面来看看规律：
 
@@ -1394,7 +1380,7 @@ n=2：00，01，11，10
 
 n=3：000，001，011，010，110，111，101，100
 
-**推广：n = i的grey code的前一半包括了n = i-1的所有grey code，而后一半则为前一半逆序后加上上2^(i-1)。**
+**推广：n = i 的 grey code 的前一半包括了 n = i-1 的所有 grey code，而后一半则为前一半逆序后加上上 2^(i-1)。**
 
 #### 代码
 
@@ -1413,25 +1399,25 @@ public:
             k<<=1;//2^(i-1)
         }
         return res;
-        
+
     }
 };
 ```
 
 ### 73.Set Matrix Zeroes
 
-Given a *m* x *n* matrix, if an element is 0, set its entire row and column to 0. Do it [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm).
+Given a _m_ x _n_ matrix, if an element is 0, set its entire row and column to 0. Do it [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm).
 
 **Example 1:**
 
 ```
-Input: 
+Input:
 [
   [1,1,1],
   [1,0,1],
   [1,1,1]
 ]
-Output: 
+Output:
 [
   [1,0,1],
   [0,0,0],
@@ -1443,13 +1429,13 @@ Output:
 **Example 2:**
 
 ```
-Input: 
+Input:
 [
   [0,1,2,0],
   [3,4,5,2],
   [1,3,1,5]
 ]
-Output: 
+Output:
 [
   [0,0,0,0],
   [0,4,5,0],
@@ -1460,17 +1446,17 @@ Output:
 
 **Follow up:**
 
-- A straight forward solution using O(*m**n*) space is probably a bad idea.
-- A simple improvement uses O(*m* + *n*) space, but still not the best solution.
+- A straight forward solution using O(_m\*\*n_) space is probably a bad idea.
+- A simple improvement uses O(_m_ + _n_) space, but still not the best solution.
 - Could you devise a constant space solution?
 
 #### 解析
 
-O(1)可以用第一行和第一列来存储，中间有任何一个数为0，则将其对应的第一行和第一列的数设为0即可，此外，在此之前需要分别遍历一次第一行和第一列，用两个布尔常量判断是否需要将第一行和第一列设为0.
+O(1)可以用第一行和第一列来存储，中间有任何一个数为 0，则将其对应的第一行和第一列的数设为 0 即可，此外，在此之前需要分别遍历一次第一行和第一列，用两个布尔常量判断是否需要将第一行和第一列设为 0.
 
 #### 代码
 
-````cpp
+```cpp
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
@@ -1521,16 +1507,16 @@ public:
             for(int k=0;k<m;k++)
                 matrix[k][0]=0;
         return;
-        
+
     }
 };
-````
+```
 
 ### 134.Gas Station
 
-There are *N* gas stations along a circular route, where the amount of gas at station *i* is `gas[i]`.
+There are _N_ gas stations along a circular route, where the amount of gas at station _i_ is `gas[i]`.
 
-You have a car with an unlimited gas tank and it costs `cost[i]` of gas to travel from station *i* to its next station (*i*+1). You begin the journey with an empty tank at one of the gas stations.
+You have a car with an unlimited gas tank and it costs `cost[i]` of gas to travel from station _i_ to its next station (_i_+1). You begin the journey with an empty tank at one of the gas stations.
 
 Return the starting gas station's index if you can travel around the circuit once in the clockwise direction, otherwise return -1.
 
@@ -1543,7 +1529,7 @@ Return the starting gas station's index if you can travel around the circuit onc
 **Example 1:**
 
 ```
-Input: 
+Input:
 gas  = [1,2,3,4,5]
 cost = [3,4,5,1,2]
 
@@ -1563,7 +1549,7 @@ Therefore, return 3 as the starting index.
 **Example 2:**
 
 ```
-Input: 
+Input:
 gas  = [2,3,4]
 cost = [3,4,3]
 
@@ -1582,32 +1568,32 @@ Therefore, you can't travel around the circuit once no matter where you start.
 
 这题要想清楚不容易，尽管想清楚后代码写起来很简单。
 
-I.  显然当gas[i]<cost[i]时，i不能作为起点。
+I. 显然当 gas[i]<cost[i]时，i 不能作为起点。
 
-II. 当对所有加油站求和：sum(gas[i] - cost[i]) <0时，无法环绕一圈。反之，则一定能环绕一圈。
+II. 当对所有加油站求和：sum(gas[i] - cost[i]) <0 时，无法环绕一圈。反之，则一定能环绕一圈。
 
 问题是如果可以环绕一圈，如何找起点？
 
-性质1. 对于任意一个加油站i，假如从i出发可以环绕一圈，则i一定可以到达任何一个加油站。显而易见。
+性质 1. 对于任意一个加油站 i，假如从 i 出发可以环绕一圈，则 i 一定可以到达任何一个加油站。显而易见。
 
-性质2. 如果这样的i是唯一的，则必然不存在j!=i， 从j出发可以到达i。
+性质 2. 如果这样的 i 是唯一的，则必然不存在 j!=i， 从 j 出发可以到达 i。
 
-反证法：如果存在这样的j，则必然存在j->i->i的路径，而这个路径会覆盖j->j一周的路径。那么j也将是一个符合条件的起点。与唯一解的限制条件矛盾。
+反证法：如果存在这样的 j，则必然存在 j->i->i 的路径，而这个路径会覆盖 j->j 一周的路径。那么 j 也将是一个符合条件的起点。与唯一解的限制条件矛盾。
 
-性质3. 假如i是最后的解，则由1可知，从0 ~ i-1出发无法达到i。而从i出发可以到达i+1 ~ n-1。
+性质 3. 假如 i 是最后的解，则由 1 可知，从 0 ~ i-1 出发无法达到 i。而从 i 出发可以到达 i+1 ~ n-1。
 
 结合以上三条性质，得出解决的思路：
 
-0. 如果对所有加油站的sum(gas[i] - cost[i])<0，则无解。否则进入1。
-1. 从0开始计算sum(gas[i] - cost[i])，当遇到i1使sum<0时，说明从0出发无法到达i1。根据性质1，0不是起始点。而由于从0出发已经到达了1 ~ i1-1。根据性质2，1 ~ i1-1一定不是正确的起始点。又因为gas[i]-cost[i]导致sum小于0，所以i1+1为新的起始点候选。
-2. 将sum清0，并从i1出发，假如又遇到i2使sum(gas[i] - cost[i]) < 0 时，说明i1出发无法绕一圈，更具性质1，排除i1。又因为i1+1 ~ i2-1都能从i1出发到达,。根据性质2，它们也必然不是起始点。此时i2+1为起始点的候选。
-3. 以此类推，直到遇到ik，使从ik出发可以到达ik+1 ~ n-1。
+0. 如果对所有加油站的 sum(gas[i] - cost[i])<0，则无解。否则进入 1。
+1. 从 0 开始计算 sum(gas[i] - cost[i])，当遇到 i1 使 sum<0 时，说明从 0 出发无法到达 i1。根据性质 1，0 不是起始点。而由于从 0 出发已经到达了 1 ~ i1-1。根据性质 2，1 ~ i1-1 一定不是正确的起始点。又因为 gas[i]-cost[i]导致 sum 小于 0，所以 i1+1 为新的起始点候选。
+1. 将 sum 清 0，并从 i1 出发，假如又遇到 i2 使 sum(gas[i] - cost[i]) < 0 时，说明 i1 出发无法绕一圈，更具性质 1，排除 i1。又因为 i1+1 ~ i2-1 都能从 i1 出发到达,。根据性质 2，它们也必然不是起始点。此时 i2+1 为起始点的候选。
+1. 以此类推，直到遇到 ik，使从 ik 出发可以到达 ik+1 ~ n-1。
 
-其中步骤0可以合并到1~3的扫描中，一个pass来得到解。
+其中步骤 0 可以合并到 1~3 的扫描中，一个 pass 来得到解。
 
 #### 代码
 
-````cpp
+```cpp
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
@@ -1624,11 +1610,11 @@ public:
         return start;
     }
 };
-````
+```
 
 ### 135.Candy
 
-There are *N* children standing in a line. Each child is assigned a rating value.
+There are _N_ children standing in a line. Each child is assigned a rating value.
 
 You are giving candies to these children subjected to the following requirements:
 
@@ -1657,11 +1643,11 @@ Explanation: You can allocate to the first, second and third child with 1, 2, 1 
 
 #### 解析
 
-多观察几个输入，我们发现单调递增的序列后一个的candy数是前一个加一；
+多观察几个输入，我们发现单调递增的序列后一个的 candy 数是前一个加一；
 
-单调递减的序列，最小的数为1，从最小的数 nums[i] 逆序遍历，前面的数 nums[i-1]=max(nums[i-1],nums[i]+1);
+单调递减的序列，最小的数为 1，从最小的数 nums[i] 逆序遍历，前面的数 nums[i-1]=max(nums[i-1],nums[i]+1);
 
-初始的糖果都为1.
+初始的糖果都为 1.
 
 #### 代码
 
@@ -1691,7 +1677,7 @@ public:
 
 ### 136.Single Number
 
-Given a **non-empty** array of integers, every element appears *twice* except for one. Find that single one.
+Given a **non-empty** array of integers, every element appears _twice_ except for one. Find that single one.
 
 **Note:**
 
@@ -1737,7 +1723,7 @@ public:
 
 ### 137.Single Number II
 
-Given a **non-empty** array of integers, every element appears *three* times except for one, which appears exactly once. Find that single one.
+Given a **non-empty** array of integers, every element appears _three_ times except for one, which appears exactly once. Find that single one.
 
 **Note:**
 
@@ -1760,7 +1746,7 @@ Output: 99
 
 ### 解析
 
-由于x^x^x = x，无法直接利用I的方法来解。但可以应用类似的思路，即利用位运算来消除重复3次的数。以一个数组[14 14 14 9]为例，将每个数字以二进制表达：
+由于 x^x^x = x，无法直接利用 I 的方法来解。但可以应用类似的思路，即利用位运算来消除重复 3 次的数。以一个数组[14 14 14 9]为例，将每个数字以二进制表达：
 
 1110
 
@@ -1770,11 +1756,11 @@ Output: 99
 
 1001
 
-__\_\_\_
+\_\_\_\_\_
 
-4331    对每一位进行求和
+4331 对每一位进行求和
 
-1001    对每一位的和做%3运算，来消去所有重复3次的数
+1001 对每一位的和做%3 运算，来消去所有重复 3 次的数
 
 #### 代码
 
@@ -1874,7 +1860,7 @@ Output: 7 -> 8 -> 0 -> 7
 
 #### 代码
 
-````cpp
+```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -1895,7 +1881,7 @@ public:
             s1.push(p1->val);
             p1=p1->next;
         }
-            
+
         while(p2!=nullptr){
             s2.push(p2->val);
             p2=p2->next;
@@ -1923,7 +1909,7 @@ public:
         return ret->next;
     }
 };
-````
+```
 
 ### 206.Reverse Linked List
 
@@ -1971,9 +1957,9 @@ public:
 
 ### 92.Reverse Linked List II
 
-Reverse a linked list from position *m* to *n*. Do it in one-pass.
+Reverse a linked list from position _m_ to _n_. Do it in one-pass.
 
-**Note: **1 ≤ *m* ≤ *n* ≤ length of list.
+**Note: **1 ≤ _m_ ≤ _n_ ≤ length of list.
 
 **Example:**
 
@@ -1984,7 +1970,7 @@ Output: 1->4->3->2->5->NULL
 
 #### 解析
 
-反转整个链表的变种，指定了起点和终点。由于m=1时会变动头节点，所以加入一个add头节点，可以使用静态初始化，运行时间更短。
+反转整个链表的变种，指定了起点和终点。由于 m=1 时会变动头节点，所以加入一个 add 头节点，可以使用静态初始化，运行时间更短。
 
 #### 代码
 
@@ -2017,19 +2003,19 @@ public:
             last=first;
             first=l;
         }
-        
+
         front->next->next=l;
         front->next=last;
         head=head->next;
         return head;
-        
+
     }
 };
 ```
 
 ### 86.Partition List
 
-Given a linked list and a value *x*, partition it such that all nodes less than *x* come before nodes greater than or equal to *x*.
+Given a linked list and a value _x_, partition it such that all nodes less than _x_ come before nodes greater than or equal to _x_.
 
 You should preserve the original relative order of the nodes in each of the two partitions.
 
@@ -2042,7 +2028,7 @@ Output: 1->2->2->4->3->5
 
 #### 解析
 
-将小于x和大于等于x的分成两个链表（less，greater），然后再将 greater 的接在 less 的后面。
+将小于 x 和大于等于 x 的分成两个链表（less，greater），然后再将 greater 的接在 less 的后面。
 
 #### 代码
 
@@ -2077,14 +2063,14 @@ public:
         g->next=nullptr;
         l->next=greater.next;
         return less.next;
-        
+
     }
 };
 ```
 
 ### 83.Remove Duplicates from Sorted List
 
-Given a sorted linked list, delete all duplicates such that each element appear only *once*.
+Given a sorted linked list, delete all duplicates such that each element appear only _once_.
 
 **Example 1:**
 
@@ -2136,7 +2122,7 @@ public:
 
 ### 82.Remove Duplicates from Sorted List II
 
-Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only *distinct* numbers from the original list.
+Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only _distinct_ numbers from the original list.
 
 **Example 1:**
 
@@ -2157,13 +2143,13 @@ Output: 2->3
 
 ##### 迭代版
 
-可以设置两个指针p1，p2，p1指向头结点head，p2指向head->next。
+可以设置两个指针 p1，p2，p1 指向头结点 head，p2 指向 head->next。
 
-1.如果p1==p2，只有可能最前面出现重复，如上面第二个例子所示，这时找到第一个值不同的结点，按照nullptr和正常结点分别处理；
+1.如果 p1==p2，只有可能最前面出现重复，如上面第二个例子所示，这时找到第一个值不同的结点，按照 nullptr 和正常结点分别处理；
 
-2.在上面的判断结束以后，如果p2->next为nullptr，直接返回头结点；
+2.在上面的判断结束以后，如果 p2->next 为 nullptr，直接返回头结点；
 
-3.在上面两个判断都不成立时候，如果p2所指结点的值和它下一个结点的值一样，则p1不变，往后找，找到第一个不同值的结点，p1下一个结点指向该结点；
+3.在上面两个判断都不成立时候，如果 p2 所指结点的值和它下一个结点的值一样，则 p1 不变，往后找，找到第一个不同值的结点，p1 下一个结点指向该结点；
 
 4.以上都不满足，则没有重复值。
 
@@ -2215,7 +2201,7 @@ public:
                 }while(p2->next&&p2->val==p2->next->val);
                 p1->next=p2->next;
                 p2=p2->next;
-                
+
             }
             else{
                 p1=p2;
@@ -2258,7 +2244,7 @@ public:
 
 ### 61.Rotate List
 
-Given a linked list, rotate the list to the right by *k* places, where *k* is non-negative.
+Given a linked list, rotate the list to the right by _k_ places, where _k_ is non-negative.
 
 **Example 1:**
 
@@ -2285,7 +2271,7 @@ rotate 4 steps to the right: 2->0->1->NULL
 
 #### 解析
 
-先遍历一遍，得到链表长度，然后如果k>len，k%=len，将尾结点下一个结点指向头结点，然后从尾结点向后跑 len-k 个结点再断开即可。
+先遍历一遍，得到链表长度，然后如果 k>len，k%=len，将尾结点下一个结点指向头结点，然后从尾结点向后跑 len-k 个结点再断开即可。
 
 #### 代码
 
@@ -2322,7 +2308,7 @@ public:
 
 ### 19.Remove Nth Node From End of List
 
-Given a linked list, remove the *n*-th node from the end of list and return its head.
+Given a linked list, remove the _n_-th node from the end of list and return its head.
 
 **Example:**
 
@@ -2335,7 +2321,7 @@ After removing the second node from the end, the linked list becomes 1->2->3->5.
 
 **Note:**
 
-Given *n* will always be valid.
+Given _n_ will always be valid.
 
 **Follow up:**
 
@@ -2343,7 +2329,7 @@ Could you do this in one pass?
 
 #### 解析
 
-找到倒数第n个指针，一次遍历实现，可以设置两个指针p1，p2，p2先走n步，然后再一起走，p2指向最后一个结点时，p1->next为需要删除的结点，注意需要删除头结点的特殊情况，依然是新建一个结点放在最前面。
+找到倒数第 n 个指针，一次遍历实现，可以设置两个指针 p1，p2，p2 先走 n 步，然后再一起走，p2 指向最后一个结点时，p1->next 为需要删除的结点，注意需要删除头结点的特殊情况，依然是新建一个结点放在最前面。
 
 ```cpp
 /**
@@ -2361,7 +2347,7 @@ public:
         dummy.next=head;
         ListNode* p1=&dummy;
         ListNode* p2=&dummy;
-        
+
         for(int i=0;i<n;i++)
             p2=p2->next;
         while(p2->next){
@@ -2424,25 +2410,24 @@ public:
             p=tmp;
         }
         return head;
-        
+
     }
 };
 ```
 
 ### 25.Reverse Nodes in k-Group
 
-Given a linked list, reverse the nodes of a linked list *k* at a time and return its modified list.
+Given a linked list, reverse the nodes of a linked list _k_ at a time and return its modified list.
 
-*k* is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of *k* then left-out nodes in the end should remain as it is.
-
+_k_ is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of _k_ then left-out nodes in the end should remain as it is.
 
 **Example:**
 
 Given this linked list: `1->2->3->4->5`
 
-For *k* = 2, you should return: `2->1->4->3->5`
+For _k_ = 2, you should return: `2->1->4->3->5`
 
-For *k* = 3, you should return: `3->2->1->4->5`
+For _k_ = 3, you should return: `3->2->1->4->5`
 
 **Note:**
 
@@ -2486,7 +2471,7 @@ public:
             cur=Next;
         }
         return prev;
-        
+
     }
 };
 ```
@@ -2499,7 +2484,7 @@ Return a deep copy of the list.
 
 #### 解析
 
-和《剑指offer》[复杂链表的复制](https://github.com/starFalll/Sword-pointing-to-offer#25%E5%A4%8D%E6%9D%82%E9%93%BE%E8%A1%A8%E7%9A%84%E5%A4%8D%E5%88%B6) 是一样的题。
+和《剑指 offer》[复杂链表的复制](https://github.com/starFalll/Sword-pointing-to-offer#25%E5%A4%8D%E6%9D%82%E9%93%BE%E8%A1%A8%E7%9A%84%E5%A4%8D%E5%88%B6) 是一样的题。
 
 最简单的解法很显然需要额外的空间，这个额外的空间是由 `hash table` 的维护造成的。因为当我们访问一个结点时可能它的 random 指针指向的结点还没有访问过，结点还没有创建，所以需要用 `hash table` 的额外线性空间维护。
 
@@ -2512,7 +2497,7 @@ Return a deep copy of the list.
 
 ```
 
-节点1的 random 指向了3。首先我们可以通过 next 遍历链表，依次拷贝主节点，并将其添加到原节点后面，如下：
+节点 1 的 random 指向了 3。首先我们可以通过 next 遍历链表，依次拷贝主节点，并将其添加到原节点后面，如下：
 
 ```
 
@@ -2520,7 +2505,7 @@ Return a deep copy of the list.
 
 ```
 
-调整新的节点的 random 指针，对于上面例子来说，我们需要将1'的 random 指向3'，其实也就是原先 random 指针的next节点。
+调整新的节点的 random 指针，对于上面例子来说，我们需要将 1'的 random 指向 3'，其实也就是原先 random 指针的 next 节点。
 
 ```
 |--------------------------|
@@ -2568,12 +2553,12 @@ public:
             cur->next=new_head->next;
             cur=cur->next;
             if(cur){
-                new_head->next=cur->next;    
+                new_head->next=cur->next;
             }
             new_head=new_head->next;
         }
         return res;
-        
+
     }
 };
 ```
@@ -2587,7 +2572,7 @@ Can you solve it without using extra space?
 
 #### 解析
 
-如果一个指针走一步，一个指针走两步，两个指针开始指向的结点不同，若干步以后两个指针指向同一个结点，说明存在循环。遇到有任意一个指针指向nullptr说明不存在循环。
+如果一个指针走一步，一个指针走两步，两个指针开始指向的结点不同，若干步以后两个指针指向同一个结点，说明存在循环。遇到有任意一个指针指向 nullptr 说明不存在循环。
 
 #### 代码
 
@@ -2628,11 +2613,11 @@ Can you solve it without using extra space?
 
 #### 解析
 
-和《剑指offer》[链表中环的入口结点](https://github.com/starFalll/Sword-pointing-to-offer#55%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%8E%AF%E7%9A%84%E5%85%A5%E5%8F%A3%E7%BB%93%E7%82%B9) 是一样的题。
+和《剑指 offer》[链表中环的入口结点](https://github.com/starFalll/Sword-pointing-to-offer#55%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%8E%AF%E7%9A%84%E5%85%A5%E5%8F%A3%E7%BB%93%E7%82%B9) 是一样的题。
 
-找是否成环可以看 141.Linked List Cycle 题。找到环以后绕环一圈即为环的大小n。
+找是否成环可以看 141.Linked List Cycle 题。找到环以后绕环一圈即为环的大小 n。
 
-然后又是两个指针指向头结点，第一个指针先走n步，然后两个指针一起走，相遇即是入口结点。
+然后又是两个指针指向头结点，第一个指针先走 n 步，然后两个指针一起走，相遇即是入口结点。
 
 #### 代码
 
@@ -2661,7 +2646,7 @@ public:
         }
         return p1;
     }
-    
+
     bool hasCycle(ListNode *head,int& n) {
         if(!head) return false;
         ListNode* p1=head;
@@ -2685,8 +2670,8 @@ public:
 
 ### 143.Reorder List
 
-Given a singly linked list *L*: *L*0→*L*1→…→*L**n*-1→*L*n,
-reorder it to: *L*0→*L**n*→*L*1→*L**n*-1→*L*2→*L**n*-2→…
+Given a singly linked list _L_: *L*0→*L*1→…→*L\*\*n*-1→*L*n,
+reorder it to: *L*0→*L\*\*n*→*L*1→*L\*\*n*-1→*L*2→*L\*\*n*-2→…
 
 You may **not** modify the values in the list's nodes, only nodes itself may be changed.
 
@@ -2749,7 +2734,7 @@ public:
             p=tmp;
         }
         p->next=p2;
-        
+
     }
 };
 ```
@@ -2782,16 +2767,16 @@ cache.get(4);       // returns 4
 
 #### 解析
 
-为了使查找、插入和删除都有较高的性能，这题的关键是要使用一个双向链表和一个HashMap，因为：
+为了使查找、插入和删除都有较高的性能，这题的关键是要使用一个双向链表和一个 HashMap，因为：
 
-- HashMap保存每个节点的地址，可以基本保证在`O(1)`时间内查找节点
+- HashMap 保存每个节点的地址，可以基本保证在`O(1)`时间内查找节点
 - 双向链表能够在`O(1)`时间内添加和删除节点，单链表则不行
 
 具体实现细节：
 
 - 越靠近链表头部，表示节点上次访问距离现在时间最短，尾部的节点表示最近访问最少
-- 访问节点时，如果节点存在，把该节点交换到链表头部，同时更新hash表中该节点的地址
-- 插入节点时，如果cache的size达到了上限capacity，则删除尾部节点，同时要在hash表中删除对应的项；新节点插入链表头部
+- 访问节点时，如果节点存在，把该节点交换到链表头部，同时更新 hash 表中该节点的地址
+- 插入节点时，如果 cache 的 size 达到了上限 capacity，则删除尾部节点，同时要在 hash 表中删除对应的项；新节点插入链表头部
 
 C++的`std::list` 就是个双向链表，且它有个 `splice()`方法，`O(1)`时间，非常好用。
 
@@ -2812,7 +2797,7 @@ public:
     LRUCache(int capacity) {
         this->_capacity=capacity;
     }
-    
+
     int get(int key) {
         if(cacheMap.find(key)==cacheMap.end()) return -1;
         //put node to list head and update map
@@ -2820,7 +2805,7 @@ public:
         cacheMap[key]=cacheList.begin();
         return cacheMap[key]->value;
     }
-    
+
     void put(int key, int value) {
         if(cacheMap.find(key)==cacheMap.end()){
             if(cacheList.size()==_capacity){
@@ -2875,11 +2860,11 @@ cache.get(4);       // returns 4
 
 #### 解析
 
-这道题是让我们实现最近不常用页面置换算法LFU (Least Frequently Used), 之前我们做过一道类似的题[LRU Cache](https://github.com/starFalll/LeetCode/blob/master/146.LRU%20Cache.md)，让我们求最近最少使用页面置换算法LRU (Least Recnetly Used)。两种算法虽然名字看起来很相似，但是其实是不同的。顾名思义，LRU算法是首先淘汰最长时间未被使用的页面，而LFU是先淘汰一定时间内被访问次数最少的页面。光说无凭，举个例子来看看，比如说我们的cache的大小为3，然后我们按顺序存入 5，4，5，4，5，7，这时候cache刚好被装满了，因为put进去之前存在的数不会占用额外地方。那么此时我们想再put进去一个8，如果使用LRU算法，应该将4删除，因为4最久未被使用，而如果使用LFU算法，则应该删除7，因为7被使用的次数最少，只使用了一次。相信这个简单的例子可以大概说明二者的区别。
+这道题是让我们实现最近不常用页面置换算法 LFU (Least Frequently Used), 之前我们做过一道类似的题[LRU Cache](https://github.com/starFalll/LeetCode/blob/master/146.LRU%20Cache.md)，让我们求最近最少使用页面置换算法 LRU (Least Recnetly Used)。两种算法虽然名字看起来很相似，但是其实是不同的。顾名思义，LRU 算法是首先淘汰最长时间未被使用的页面，而 LFU 是先淘汰一定时间内被访问次数最少的页面。光说无凭，举个例子来看看，比如说我们的 cache 的大小为 3，然后我们按顺序存入 5，4，5，4，5，7，这时候 cache 刚好被装满了，因为 put 进去之前存在的数不会占用额外地方。那么此时我们想再 put 进去一个 8，如果使用 LRU 算法，应该将 4 删除，因为 4 最久未被使用，而如果使用 LFU 算法，则应该删除 7，因为 7 被使用的次数最少，只使用了一次。相信这个简单的例子可以大概说明二者的区别。
 
-这道题比之前那道LRU的题目还要麻烦一些，因为那道题只要用个list把数字按时间顺序存入，链表底部的位置总是最久未被使用的，每次删除底部的值即可。而这道题不一样，由于需要删除最少次数的数字，那么我们必须要统计每一个key出现的次数，所以我们用一个哈希表m来记录当前数据{key, value}和其出现次数之间的映射，这样还不够，为了方便操作，我们需要把相同频率的key都放到一个list中，那么需要另一个哈希表freq来建立频率和一个里面所有key都是当前频率的list之间的映射。由于题目中要我们在O(1)的时间内完成操作了，为了快速的定位freq中key的位置，我们再用一个哈希表iter来建立key和freq中key的位置之间的映射。最后当然我们还需要两个变量cap和minFreq，分别来保存cache的大小，和当前最小的频率。
+这道题比之前那道 LRU 的题目还要麻烦一些，因为那道题只要用个 list 把数字按时间顺序存入，链表底部的位置总是最久未被使用的，每次删除底部的值即可。而这道题不一样，由于需要删除最少次数的数字，那么我们必须要统计每一个 key 出现的次数，所以我们用一个哈希表 m 来记录当前数据{key, value}和其出现次数之间的映射，这样还不够，为了方便操作，我们需要把相同频率的 key 都放到一个 list 中，那么需要另一个哈希表 freq 来建立频率和一个里面所有 key 都是当前频率的 list 之间的映射。由于题目中要我们在 O(1)的时间内完成操作了，为了快速的定位 freq 中 key 的位置，我们再用一个哈希表 iter 来建立 key 和 freq 中 key 的位置之间的映射。最后当然我们还需要两个变量 cap 和 minFreq，分别来保存 cache 的大小，和当前最小的频率。
 
-为了更好的讲解思路，我们还是用例子来说明吧，我们假设cache的大小为2，假设我们已经按顺序put进去5，4，那么来看一下内部的数据是怎么保存的，由于value的值并不是很重要，为了不影响key和frequence，我们采用value#来标记：
+为了更好的讲解思路，我们还是用例子来说明吧，我们假设 cache 的大小为 2，假设我们已经按顺序 put 进去 5，4，那么来看一下内部的数据是怎么保存的，由于 value 的值并不是很重要，为了不影响 key 和 frequence，我们采用 value#来标记：
 
 m:
 
@@ -2897,15 +2882,15 @@ iter:
 
 5 -> list.begin()
 
-这应该不是很难理解，m中5对应的频率为1，4对应的频率为1，然后freq中频率为1的有4和5。iter中是key所在freq中对应链表中的位置的iterator。然后我们的下一步操作是get(5)，下面是get需要做的步骤：
+这应该不是很难理解，m 中 5 对应的频率为 1，4 对应的频率为 1，然后 freq 中频率为 1 的有 4 和 5。iter 中是 key 所在 freq 中对应链表中的位置的 iterator。然后我们的下一步操作是 get(5)，下面是 get 需要做的步骤：
 
-1. 如果m中不存在5，那么返回-1
-2. 从freq中频率为1的list中将5删除
-3. 将m中5对应的frequence值自增1
-4. 将5保存到freq中频率为2的list的末尾
-5. 在iter中保存5在freq中频率为2的list中的位置
-6. 如果freq中频率为minFreq的list为空，minFreq自增1
-7. 返回m中5对应的value值
+1. 如果 m 中不存在 5，那么返回-1
+2. 从 freq 中频率为 1 的 list 中将 5 删除
+3. 将 m 中 5 对应的 frequence 值自增 1
+4. 将 5 保存到 freq 中频率为 2 的 list 的末尾
+5. 在 iter 中保存 5 在 freq 中频率为 2 的 list 中的位置
+6. 如果 freq 中频率为 minFreq 的 list 为空，minFreq 自增 1
+7. 返回 m 中 5 对应的 value 值
 
 经过这些步骤后，我们再来看下此时内部数据的值：
 
@@ -2927,21 +2912,21 @@ iter:
 
 5 -> list.begin()
 
-这应该不是很难理解，m中5对应的频率为2，4对应的频率为1，然后freq中频率为1的只有4，频率为2的只有5。iter中是key所在freq中对应链表中的位置的iterator。然后我们下一步操作是要put进去一个7，下面是put需要做的步骤：
+这应该不是很难理解，m 中 5 对应的频率为 2，4 对应的频率为 1，然后 freq 中频率为 1 的只有 4，频率为 2 的只有 5。iter 中是 key 所在 freq 中对应链表中的位置的 iterator。然后我们下一步操作是要 put 进去一个 7，下面是 put 需要做的步骤：
 
-1. 如果调用get(7)返回的结果不是-1，那么在将m中7对应的value更新为当前value，并返回
-2. 如果此时m的大小大于了cap，即超过了cache的容量，则：
+1. 如果调用 get(7)返回的结果不是-1，那么在将 m 中 7 对应的 value 更新为当前 value，并返回
+2. 如果此时 m 的大小大于了 cap，即超过了 cache 的容量，则：
 
-　　a）在m中移除minFreq对应的list的首元素的纪录，即移除4 -> {value4, 1}
+a）在 m 中移除 minFreq 对应的 list 的首元素的纪录，即移除 4 -> {value4, 1}
 
-　　b）在iter中清除4对应的纪录，即移除4 -> list.begin()
+b）在 iter 中清除 4 对应的纪录，即移除 4 -> list.begin()
 
-　　c）在freq中移除minFreq对应的list的首元素，即移除4
+c）在 freq 中移除 minFreq 对应的 list 的首元素，即移除 4
 
-3. 在m中建立7的映射，即 7 -> {value7, 1}
-4. 在freq中频率为1的list末尾加上7
-5. 在iter中保存7在freq中频率为1的list中的位置
-6. minFreq重置为1
+3. 在 m 中建立 7 的映射，即 7 -> {value7, 1}
+4. 在 freq 中频率为 1 的 list 末尾加上 7
+5. 在 iter 中保存 7 在 freq 中频率为 1 的 list 中的位置
+6. minFreq 重置为 1
 
 经过这些步骤后，我们再来看下此时内部数据的值：
 
@@ -2961,7 +2946,7 @@ iter:
 
 7 -> list.begin()
 
-5 -> list.begin()	
+5 -> list.begin()
 
 #### 代码
 
@@ -2977,7 +2962,7 @@ public:
     LFUCache(int capacity) {
         _cap=capacity;
     }
-    
+
     int get(int key) {
         if(m.count(key)==0) return -1;
       	//change key's freq add 1,and move key's position
@@ -2989,7 +2974,7 @@ public:
             minfrq++;
         return m[key].first;
     }
-    
+
     void put(int key, int value) {
         if(_cap<=0) return;
         int find=get(key);
@@ -3110,7 +3095,7 @@ public:
             }
         }
         return true;
-            
+
     }
 };
 ```
@@ -3141,13 +3126,13 @@ Output: -1
 
 What should we return when `needle` is an empty string? This is a great question to ask during an interview.
 
-For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's [strstr()](http://www.cplusplus.com/reference/cstring/strstr/) and Java's [indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)).
+For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's [strstr()](http://www.cplusplus.com/reference/cstring/strstr/) and Java's [indexOf()](<https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)>).
 
 #### 解析
 
-字符串匹配，可以使用暴力或者kmp，面试的时候暴力即可，但是要bug free
+字符串匹配，可以使用暴力或者 kmp，面试的时候暴力即可，但是要 bug free
 
-注意，类似于i\<haystack.size()-needle.size()+1，当i=0时候仍然会判true，因为c++中容器的size返回的是size_t类型，大小由机器位数决定，32位机器为4字节无符号数，64位为8字节无符号数，所以haystack.size()-needle.size()+1\>0
+注意，类似于 i\<haystack.size()-needle.size()+1，当 i=0 时候仍然会判 true，因为 c++中容器的 size 返回的是 size_t 类型，大小由机器位数决定，32 位机器为 4 字节无符号数，64 位为 8 字节无符号数，所以 haystack.size()-needle.size()+1\>0
 
 #### 代码
 
@@ -3191,7 +3176,7 @@ If no valid conversion could be performed, a zero value is returned.
 **Note:**
 
 - Only the space character `' '` is considered as whitespace character.
-- Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. If the numerical value is out of the range of representable values, INT_MAX (231 − 1) or INT_MIN (−231) is returned.
+- Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231, 231 − 1]. If the numerical value is out of the range of representable values, INT_MAX (231 − 1) or INT_MIN (−231) is returned.
 
 **Example 1:**
 
@@ -3225,7 +3210,7 @@ Explanation: Conversion stops at digit '3' as the next character is not a numeri
 ```
 Input: "words and 987"
 Output: 0
-Explanation: The first non-whitespace character is 'w', which is not a numerical 
+Explanation: The first non-whitespace character is 'w', which is not a numerical
              digit or a +/- sign. Therefore no valid conversion could be performed.
 ```
 
@@ -3268,19 +3253,19 @@ public:
             j++;
         }
         for(;j<str.size();j++){
-            
+
             int tmp=str[j]-'0';
             if(tmp<0||tmp>9){
                 break;
             }
-            res*=10;  
+            res*=10;
             res+=tmp;
             if(flag==1&&(-res)<INT_MIN)//out of the range of representable values
             {
-                
+
                 return INT_MIN;
             }
-                
+
             else if((flag==0)&&(res>INT_MAX))
                 return INT_MAX;
         }
@@ -3379,15 +3364,13 @@ public:
                 if(maxlen<=(j-i+1)&&f[i][j]){
                     maxlen=j-i+1;
                     start=i;
-                }     
+                }
             }
         }
         return s.substr(start,maxlen);
     }
 };
 ```
-
-
 
 Manacher 算法解法：
 
@@ -3410,15 +3393,15 @@ public:
                 maxright=i+RL[i]-1;
                 pos=i;
             }
-            
+
             if(maxlen<=RL[i]){
                 res=i;
                 maxlen=RL[i];
             }
-            
+
         }
         return s.substr((res-maxlen+1)/2,maxlen-1);
-        
+
     }
     string preProcess(const string& s){
         int n=s.size();
@@ -3460,7 +3443,7 @@ All given inputs are in lowercase letters `a-z`.
 
 #### 解析
 
-以第一个string为基准，其他string相同位置与之对比。
+以第一个 string 为基准，其他 string 相同位置与之对比。
 
 #### 代码
 
@@ -3474,7 +3457,7 @@ public:
                 if(strs[0][i]!=strs[j][i])
                     return strs[0].substr(0,i);
             }
-            
+
         }
         return strs[0];
     }
@@ -3489,8 +3472,8 @@ Given a string, find the length of the **longest substring** without repeating c
 
 ```
 Input: "abcabcbb"
-Output: 3 
-Explanation: The answer is "abc", with the length of 3. 
+Output: 3
+Explanation: The answer is "abc", with the length of 3.
 
 ```
 
@@ -3508,13 +3491,13 @@ Explanation: The answer is "b", with the length of 1.
 ```
 Input: "pwwkew"
 Output: 3
-Explanation: The answer is "wke", with the length of 3. 
+Explanation: The answer is "wke", with the length of 3.
              Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 ```
 
 #### 解析
 
-用hash table存储不同的char
+用 hash table 存储不同的 char
 
 #### 代码
 
@@ -3614,9 +3597,9 @@ Output: false
 
 #### 解析
 
-'.' 和 当前字符匹配是一样的情况，但是'*'要复杂很多。
+'.' 和 当前字符匹配是一样的情况，但是'\*'要复杂很多。
 
-第二个字符是 '*' 的时候，如果模式中的字符匹配，分为两种情况：
+第二个字符是 '\*' 的时候，如果模式中的字符匹配，分为两种情况：
 
 1. 指向 s 字符串的指针移到下一个字符，指向 p 字符串的不变
 2. 指向 s 字符串的指针不变，指向 p 字符串的往后移到两个字符
@@ -3628,7 +3611,7 @@ class Solution {
 public:
     bool isMatch(string s, string p) {
         if (p.empty())    return s.empty();
-        
+
         if ('*' == p[1])
             return (isMatch(s, p.substr(2)) || !s.empty() && (s[0] == p[0] || '.' == p[0]) && isMatch(s.substr(1), p));
         else
@@ -3709,26 +3692,26 @@ Output: false
 
 #### 解析
 
-对于s中的每个元素
-如果* s == * p 或 * p ==‘? 这意味着这是匹配，然后转到下一个元素s ++， p ++。
-如果p =='*’，这也是一个匹配，这时候可能一个或多个字符是可用的，所以让我们保存这个 \* 的位置和匹配的s位置。
-如果不匹配，那么我们检查是否有*在之前出现过：
+对于 s 中的每个元素
+如果* s == * p 或 _ p ==‘? 这意味着这是匹配，然后转到下一个元素 s ++， p ++。
+如果 p =='_’，这也是一个匹配，这时候可能一个或多个字符是可用的，所以让我们保存这个 \* 的位置和匹配的 s 位置。
+如果不匹配，那么我们检查是否有\*在之前出现过：
 
-- 如果没有*，则返回false；
-- 如果有\*，我们将当前p设置为*的下一个元素，并将当前s设置为下一个保存的s位置。
+- 如果没有\*，则返回 false；
+- 如果有\*，我们将当前 p 设置为\*的下一个元素，并将当前 s 设置为下一个保存的 s 位置。
 
 例如
 
-abed 
-？b * d ** 
+abed
+？b \* d \*\*
 
 a = ?,继续，b = b，继续，
-e = \*，保存*位置prev = 3，保存位置ss = 3，p ++ 
-e！= d，检查是否存在a *，存在，则 ss ++，s = ss；p = prev + 1 
+e = \*，保存*位置 prev = 3，保存位置 ss = 3，p ++
+e！= d，检查是否存在 a *，存在，则 ss ++，s = ss；p = prev + 1
 d = d，继续，结束。
-检查p中的剩余元素，如果所有都是*，则为true，否则为false; 
+检查 p 中的剩余元素，如果所有都是\*，则为 true，否则为 false;
 
-**请注意，在char数组中，最后一个是NOT NULL，要检查结尾，请使用“\*p”或“* p =='\0'。**
+**请注意，在 char 数组中，最后一个是 NOT NULL，要检查结尾，请使用“\*p”或“\* p =='\0'。**
 
 #### 代码
 
@@ -3775,7 +3758,7 @@ Some examples:
 `"abc"` => `false`
 `"1 a"` => `false`
 `"2e10"` => `true`
-`" -90e3   "` => `true`
+`" -90e3 "` => `true`
 `" 1e"` => `false`
 `"e3"` => `false`
 `" 6e-1"` => `true`
@@ -3799,7 +3782,7 @@ The signature of the `C++` function had been updated. If you still see your func
 
 #### 解析
 
-和剑指offer中的表示 [数值的字符串](https://github.com/starFalll/Sword-pointing-to-offer#53%E8%A1%A8%E7%A4%BA%E6%95%B0%E5%80%BC%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2) 差不多，只是多了前后的空格。
+和剑指 offer 中的表示 [数值的字符串](https://github.com/starFalll/Sword-pointing-to-offer#53%E8%A1%A8%E7%A4%BA%E6%95%B0%E5%80%BC%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2) 差不多，只是多了前后的空格。
 
 在数值之前可能有一个表示正负的’-‘或者’+’。接下来是若干个 0 到 9 的数位表示数值的整数部分（在某些小数里可能没有数值的整数部分）。如果数值是一个小数，那么在小数点后面可能会有若干个 0 到 9 的数位表示数值的小数部分。如果数值用科学计数法表示，接下来是一个’e’或者‘E’，以及紧跟着的一个整数（可以有正负号）表示指数。
 
@@ -3827,7 +3810,7 @@ public:
             p++;
         return num&&(p==end);
     }
-    
+
     bool scanUnsignedInt(string::iterator& p,string::iterator& end)
     {
         auto first=p;
@@ -3843,7 +3826,7 @@ public:
             p++;
         return scanUnsignedInt(p,end);
     }
-    
+
 };
 ```
 
@@ -3866,8 +3849,8 @@ For example, two is written as `II` in Roman numeral, just two one's added toget
 
 Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not `IIII`. Instead, the number four is written as `IV`. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as `IX`. There are six instances where subtraction is used:
 
-- `I` can be placed before `V` (5) and `X` (10) to make 4 and 9. 
-- `X` can be placed before `L` (50) and `C` (100) to make 40 and 90. 
+- `I` can be placed before `V` (5) and `X` (10) to make 4 and 9.
+- `X` can be placed before `L` (50) and `C` (100) to make 40 and 90.
 - `C` can be placed before `D` (500) and `M` (1000) to make 400 and 900.
 
 Given an integer, convert it to a roman numeral. Input is guaranteed to be within the range from 1 to 3999.
@@ -3932,8 +3915,6 @@ public:
 };
 ```
 
-
-
 ### 13.Roman to Integer
 
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
@@ -3953,8 +3934,8 @@ For example, two is written as `II` in Roman numeral, just two one's added toget
 
 Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not `IIII`. Instead, the number four is written as `IV`. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as `IX`. There are six instances where subtraction is used:
 
-- `I` can be placed before `V` (5) and `X` (10) to make 4 and 9. 
-- `X` can be placed before `L` (50) and `C` (100) to make 40 and 90. 
+- `I` can be placed before `V` (5) and `X` (10) to make 4 and 9.
+- `X` can be placed before `L` (50) and `C` (100) to make 40 and 90.
 - `C` can be placed before `D` (500) and `M` (1000) to make 400 and 900.
 
 Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.
@@ -4024,7 +4005,7 @@ public:
             }
         }
         return res;
-        
+
     }
 };
 ```
@@ -4046,11 +4027,9 @@ The count-and-say sequence is the sequence of integers with the first five terms
 `11` is read off as `"two 1s"` or `21`.
 `21` is read off as `"one 2`, then `one 1"` or `1211`.
 
-Given an integer *n* where 1 ≤ *n* ≤ 30, generate the *n*th term of the count-and-say sequence.
+Given an integer _n_ where 1 ≤ _n_ ≤ 30, generate the *n*th term of the count-and-say sequence.
 
 Note: Each term of the sequence of integers will be represented as a string.
-
- 
 
 **Example 1:**
 
@@ -4069,7 +4048,7 @@ Output: "1211"
 
 #### 解析
 
-这道题的题意很难理解，题意是n=1时输出字符串1；n=2时，数上次字符串中的数值个数，因为上次字符串有1个1，所以输出11；n=3时，由于上次字符是11，有2个1，所以输出21；n=4时，由于上次字符串是21，有1个2和1个1，所以输出1211。依次类推，写个countAndSay(n)函数返回字符串。
+这道题的题意很难理解，题意是 n=1 时输出字符串 1；n=2 时，数上次字符串中的数值个数，因为上次字符串有 1 个 1，所以输出 11；n=3 时，由于上次字符是 11，有 2 个 1，所以输出 21；n=4 时，由于上次字符串是 21，有 1 个 2 和 1 个 1，所以输出 1211。依次类推，写个 countAndSay(n)函数返回字符串。
 
 #### 代码
 
@@ -4138,7 +4117,7 @@ public:
 
 ### 58.Length of Last Word
 
-Given a string *s* consists of upper/lower-case alphabets and empty space characters `' '`, return the length of last word in the string.
+Given a string _s_ consists of upper/lower-case alphabets and empty space characters `' '`, return the length of last word in the string.
 
 If the last word does not exist, return 0.
 
@@ -4171,11 +4150,9 @@ public:
 };
 ```
 
-
-
 ### 71.Simplify Path
 
-Given an absolute path for a file (Unix-style), simplify it. 
+Given an absolute path for a file (Unix-style), simplify it.
 
 For example,
 **path** = `"/home/"`, => `"/home"`
@@ -4203,7 +4180,7 @@ In a UNIX-style file system, a period ('.') refers to the current directory, so 
 
 #### 代码
 
-````cpp
+```cpp
 class Solution {
 public:
     string simplifyPath(string path) {
@@ -4219,7 +4196,7 @@ public:
                 res.pop_back();
                 while(!res.empty()&&*(res.end()-1)!='/')
                     res.pop_back();
-                
+
                 i=i+2;
             }
             else if(*i!='.'||((i+1)!=path.end()&&*(i+1)!='/')){
@@ -4237,10 +4214,10 @@ public:
         if(res.empty())
             res.push_back('/');
         return res;
-        
+
     }
 };
-````
+```
 
 ## 栈
 
@@ -4296,7 +4273,7 @@ Output: true
 
 #### 解析
 
-既可以用stack保存左边的符号，也可以用string（因为有pop_back方法）。
+既可以用 stack 保存左边的符号，也可以用 string（因为有 pop_back 方法）。
 
 #### 代码
 
@@ -4354,7 +4331,7 @@ Explanation: The longest valid parentheses substring is "()()"
 1. 从头到尾扫描字符串。
 2. 如果当前字符是 '('，将其下标 push 到堆栈。如果当前字符是 ')' 并且堆栈顶部索引处的字符是 '('，我们找到一匹配的字符串，所以从堆栈弹出。否则，我们将 ')' 的下标 push 到堆栈。
 3. 扫描完成后，堆栈将只包含无法匹配的字符下标。观察可以发现：相邻下标之间的子串应该是有效的括号。
-4. 如果堆栈为空，则整个输入字符串有效。否则，我们可以扫描堆栈以获得最长的有效子字符串，如步骤3中所述。
+4. 如果堆栈为空，则整个输入字符串有效。否则，我们可以扫描堆栈以获得最长的有效子字符串，如步骤 3 中所述。
 
 #### 代码
 
@@ -4374,7 +4351,7 @@ public:
                     lefts.push(i);
             }
         }
-        if(lefts.empty()) 
+        if(lefts.empty())
             longest=s.size();
         else{
             int a=s.size(),b=0;
@@ -4386,24 +4363,20 @@ public:
             longest=max(longest,a);
         }
         return longest;
-        
+
     }
 };
 ```
 
 ### 84.Largest Rectangle in Histogram
 
-Given *n* non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
+Given _n_ non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
 
 ![img](https://leetcode.com/static/images/problemset/histogram.png)
 Above is a histogram where width of each bar is 1, given height = `[2,1,5,6,2,3]`.
 
- 
-
 ![img](https://leetcode.com/static/images/problemset/histogram_area.png)
 The largest rectangle is shown in the shaded area, which has area = `10` unit.
-
- 
 
 **Example:**
 
@@ -4414,15 +4387,15 @@ Output: 10
 
 #### 解析
 
-这道题目算是比较难的一道题目了，首先最简单的做法就是对于任意一个bar，向左向右遍历，直到高度小于该bar，这时候计算该区域的矩形区域面积。对于每一个bar，我们都做如上处理，最后就可以得到最大值了。当然这种做法是O(n^2)，过不了大数据集合测试。
+这道题目算是比较难的一道题目了，首先最简单的做法就是对于任意一个 bar，向左向右遍历，直到高度小于该 bar，这时候计算该区域的矩形区域面积。对于每一个 bar，我们都做如上处理，最后就可以得到最大值了。当然这种做法是 O(n^2)，过不了大数据集合测试。
 
-从上面我们直到，对于任意一个bar n，我们得到的包含该bar n的矩形区域里面bar n是最小的。我们使用ln和rn来表示bar n向左以及向右第一个小于bar n的bar的索引位置。
+从上面我们直到，对于任意一个 bar n，我们得到的包含该 bar n 的矩形区域里面 bar n 是最小的。我们使用 ln 和 rn 来表示 bar n 向左以及向右第一个小于 bar n 的 bar 的索引位置。
 
-譬如题目中的bar 2的高度为5，它的ln为1，rn为4。包含bar 2的矩形区域面积为(4 - 1 - 1) * 5 = 10。
+譬如题目中的 bar 2 的高度为 5，它的 ln 为 1，rn 为 4。包含 bar 2 的矩形区域面积为(4 - 1 - 1) \* 5 = 10。
 
-我们可以从左到右遍历所有bar，并将其push到一个stack中，如果当前bar的高度小于栈顶bar，我们pop出栈顶的bar，同时以该bar计算矩形面积。那么我们如何知道该bar的ln和rn呢？rn铁定就是当前遍历到的bar的索引，而ln则是当前的栈顶bar的索引，因为此时栈顶bar的高度一定小于pop出来的bar的高度。
+我们可以从左到右遍历所有 bar，并将其 push 到一个 stack 中，如果当前 bar 的高度小于栈顶 bar，我们 pop 出栈顶的 bar，同时以该 bar 计算矩形面积。那么我们如何知道该 bar 的 ln 和 rn 呢？rn 铁定就是当前遍历到的 bar 的索引，而 ln 则是当前的栈顶 bar 的索引，因为此时栈顶 bar 的高度一定小于 pop 出来的 bar 的高度。
 
-为了更好的处理最后一个bar的情况，我们在实际中会插入一个高度为0的bar，这样就能pop出最后一个bar并计算了。
+为了更好的处理最后一个 bar 的情况，我们在实际中会插入一个高度为 0 的 bar，这样就能 pop 出最后一个 bar 并计算了。
 
 #### 代码
 
@@ -4482,7 +4455,7 @@ Explanation: (4 + (13 / 5)) = 6
 ```
 Input: ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]
 Output: 22
-Explanation: 
+Explanation:
   ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
 = ((10 * (6 / (12 * -11))) + 17) + 5
 = ((10 * (6 / -132)) + 17) + 5
@@ -4531,7 +4504,7 @@ public:
 
 ### 144. Binary Tree Preorder Traversal
 
-Given a binary tree, return the *preorder* traversal of its nodes' values.
+Given a binary tree, return the _preorder_ traversal of its nodes' values.
 
 **Example:**
 
@@ -4570,14 +4543,14 @@ public:
         res.insert(res.end(),tmp1.begin(),tmp1.end());
         res.insert(res.end(),tmp2.begin(),tmp2.end());
         return res;
-        
+
     }
 };
 ```
 
 ### 94.Binary Tree Inorder Traversal
 
-Given a binary tree, return the *inorder* traversal of its nodes' values.
+Given a binary tree, return the _inorder_ traversal of its nodes' values.
 
 **Example:**
 
@@ -4621,7 +4594,7 @@ public:
 
 ### 145.Binary Tree Postorder Traversal
 
-Given a binary tree, return the *postorder* traversal of its nodes' values.
+Given a binary tree, return the _postorder_ traversal of its nodes' values.
 
 **Example:**
 
@@ -4665,7 +4638,7 @@ public:
 
 ### 102.Binary Tree Level Order Traversal
 
-Given a binary tree, return the *level order* traversal of its nodes' values. (ie, from left to right, level by level).
+Given a binary tree, return the _level order_ traversal of its nodes' values. (ie, from left to right, level by level).
 
 For example:
 Given binary tree `[3,9,20,null,null,15,7]`,
@@ -4727,7 +4700,7 @@ public:
 
 ### 107.Binary Tree Level Order Traversal II
 
-Given a binary tree, return the *bottom-up level order* traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
+Given a binary tree, return the _bottom-up level order_ traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
 
 For example:
 Given binary tree `[3,9,20,null,null,15,7]`,
@@ -4790,7 +4763,7 @@ public:
 
 ### 103.Binary Tree Zigzag Level Order Traversal
 
-Given a binary tree, return the *zigzag level order* traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).
+Given a binary tree, return the _zigzag level order_ traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).
 
 For example:
 Given binary tree `[3,9,20,null,null,15,7]`,
@@ -4840,13 +4813,13 @@ public:
         bool flag=false;//false for postive
         while(!q.empty()){
             vector<int> line;
-            while(!q.empty()){   
+            while(!q.empty()){
                 TreeNode* tmp=q.front();
                 q.pop();
                 line.push_back(tmp->val);
                 if(tmp->left) next.push(tmp->left);
                 if(tmp->right) next.push(tmp->right);
-                
+
             }
             if(flag){
                 reverse(line.begin(),line.end());
@@ -4915,21 +4888,21 @@ Output: [2,1,4,null,null,3]
 
 ##### 普通方法
 
-此题使用普通中序遍历的解法是使用一个vector保存中序遍历的结点指针，然后寻找两处逆向的位置，即顺序遍历vector，其中第一个大于后面一个数的数 a 和后面小于a的最大数交换。此种方法时间复杂度为O(n)，空间复杂度为O(n)。
+此题使用普通中序遍历的解法是使用一个 vector 保存中序遍历的结点指针，然后寻找两处逆向的位置，即顺序遍历 vector，其中第一个大于后面一个数的数 a 和后面小于 a 的最大数交换。此种方法时间复杂度为 O(n)，空间复杂度为 O(n)。
 
-##### Morris遍历
+##### Morris 遍历
 
-使用Morris遍历通过调整树的结构，可以只用O(1)的空间复杂度实现对二叉树的遍历。
+使用 Morris 遍历通过调整树的结构，可以只用 O(1)的空间复杂度实现对二叉树的遍历。
 
-。下图是Morris算法对二叉树遍历的完整的过程。
+。下图是 Morris 算法对二叉树遍历的完整的过程。
 
 [![img](https://oychao.github.io/images/BTree.svg)](https://oychao.github.io/images/BTree.svg)
 
-Morris中序遍历的流程
+Morris 中序遍历的流程
 
-从图中的说明可以看出，Morris的最核心的思想就是：找到当前节点中序遍历的前驱结点，并将前驱节点的右节点指向当前节点，知道当前节点的左子树处理完成后，再将树结构调整回原状。
+从图中的说明可以看出，Morris 的最核心的思想就是：找到当前节点中序遍历的前驱结点，并将前驱节点的右节点指向当前节点，知道当前节点的左子树处理完成后，再将树结构调整回原状。
 
-总结Morris中序遍历算法过程如下：
+总结 Morris 中序遍历算法过程如下：
 
 1. 初始化当前节点指向根节点
 
@@ -4952,13 +4925,13 @@ Morris中序遍历的流程
 
          并设置当前节点指向当前节点的右节点
 
-##### Leetcode优化方法
+##### Leetcode 优化方法
 
-disscuss区的方法，使用普通中序遍历，用三个指针，一个prev记录前序结点的位置，一个first记录第一个要交换的结点，一个last记录第二个要交换的结点。
+disscuss 区的方法，使用普通中序遍历，用三个指针，一个 prev 记录前序结点的位置，一个 first 记录第一个要交换的结点，一个 last 记录第二个要交换的结点。
 
 #### 代码
 
-##### Morris中序遍历
+##### Morris 中序遍历
 
 ```cpp
 /**
@@ -5011,7 +4984,7 @@ public:
 };
 ```
 
-##### Leetcode优化方法
+##### Leetcode 优化方法
 
 ```cpp
 /**
@@ -5164,7 +5137,7 @@ public:
         if(!p||!q) return false;
         return p->val==q->val&&isSymmetric(p->left,q->right)&&isSymmetric(p->right,q->left);
     }
-    
+
 };
 ```
 
@@ -5174,7 +5147,7 @@ Given a binary tree, determine if it is height-balanced.
 
 For this problem, a height-balanced binary tree is defined as:
 
-> a binary tree in which the depth of the two subtrees of *every* node never differ by more than 1.
+> a binary tree in which the depth of the two subtrees of _every_ node never differ by more than 1.
 
 **Example 1:**
 
@@ -5208,7 +5181,7 @@ Return false.
 
 #### 解析
 
-基于DFS。我们在DFS递归中返回当前节点的高度。当当前节点（包括当前结点）的子树平衡时，函数ifbalance（）返回非负值作为高度。否则返回-1。根据两个孩子的 left 和 right，父节点可以检查子树是否平衡，并确定其返回值。
+基于 DFS。我们在 DFS 递归中返回当前节点的高度。当当前节点（包括当前结点）的子树平衡时，函数 ifbalance（）返回非负值作为高度。否则返回-1。根据两个孩子的 left 和 right，父节点可以检查子树是否平衡，并确定其返回值。
 
 #### 代码
 
@@ -5227,7 +5200,7 @@ public:
     bool isBalanced(TreeNode* root) {
         return ifbalance(root) != -1;
     }
-    
+
     int ifbalance(TreeNode* root)
     {
         if(!root) return 0;
@@ -5289,16 +5262,16 @@ public:
     void flatten(TreeNode* root) {
         flatten(root,nullptr);
     }
-    
+
     TreeNode* flatten(TreeNode* root,TreeNode* tail)
     {
         if(root==nullptr) return tail;
       	//root is list ,and tail behind it
         root->right=flatten(root->left,flatten(root->right,tail));
         root->left=nullptr;
-        
+
         return root;
-        
+
     }
 };
 ```
@@ -5353,7 +5326,7 @@ After calling your function, the tree should look like:
 
 1.通用版本，不仅仅适用于完全二叉树
 
-````cpp
+```cpp
 /**
  * Definition for binary tree with next pointer.
  * struct TreeLinkNode {
@@ -5383,7 +5356,7 @@ public:
         }
     }
 };
-````
+```
 
 2.仅仅适用于完全二叉树
 
@@ -5410,8 +5383,6 @@ public:
     }
 };
 ```
-
-
 
 ### 117.Populating Next Right Pointers in Each Node II
 
@@ -5460,7 +5431,7 @@ After calling your function, the tree should look like:
 
 #### 解析
 
-和116题的代码一样。
+和 116 题的代码一样。
 
 #### 代码
 
@@ -5547,7 +5518,7 @@ public:
         auto leftlen=distance(in_first,inroot);
         root->left=buildTree(pre_first+1,pre_first+1+leftlen,in_first,inroot);
         root->right=buildTree(pre_first+1+leftlen,pre_last,inroot+1,in_last);
-        
+
         return root;
     }
 };
@@ -5604,7 +5575,7 @@ public:
         auto leftlen=distance(in_first,inroot);
         root->left=buildTree(in_first,inroot,post_first,post_first+leftlen);
         root->right=buildTree(inroot+1,in_last,post_first+leftlen,post_last-1);
-        
+
         return root;
     }
 };
@@ -5612,7 +5583,7 @@ public:
 
 ### 96.Unique Binary Search Trees
 
-Given *n*, how many structurally unique **BST's** (binary search trees) that store values 1 ... *n*?
+Given _n_, how many structurally unique **BST's** (binary search trees) that store values 1 ... _n_?
 
 **Example:**
 
@@ -5635,22 +5606,22 @@ Given n = 3, there are a total of 5 unique BST's:
 
 ```
  1       1           2          3       3
-  \       \         / \        /       / 
+  \       \         / \        /       /
    3       2       1   3      2       1
   /         \                /         \
 2            3              1           2
 
 ```
 
-比如，以1为根的树的个数，等于左子树的个数乘以右子树的个数，左子树是0个元素的树，右子树是2个元素的树。以2为根的树的个数，等于左子树的个数乘以右子树的个数，左子树是1个元素的树，右子树也是1个元素的树。依此类推。
+比如，以 1 为根的树的个数，等于左子树的个数乘以右子树的个数，左子树是 0 个元素的树，右子树是 2 个元素的树。以 2 为根的树的个数，等于左子树的个数乘以右子树的个数，左子树是 1 个元素的树，右子树也是 1 个元素的树。依此类推。
 
-当数组为 `1,2,3,...,n`时，基于以下原则的构建的BST树具有唯一性： \textbf{以i为根节点的树，其左子树由[1, i-1]构成， 其右子树由[i+1, n]构成。}
+当数组为 `1,2,3,...,n`时，基于以下原则的构建的 BST 树具有唯一性： \textbf{以 i 为根节点的树，其左子树由[1, i-1]构成， 其右子树由[i+1, n]构成。}
 
-定义`f(i)`为以`[1,i]`能产生的Unique Binary Search Tree的数目，则
+定义`f(i)`为以`[1,i]`能产生的 Unique Binary Search Tree 的数目，则
 
-如果数组为空，毫无疑问，只有一种BST，即空树，`f(0)=1`。
+如果数组为空，毫无疑问，只有一种 BST，即空树，`f(0)=1`。
 
-如果数组仅有一个元素{1}，只有一种BST，单个节点，`f(1)=1`。
+如果数组仅有一个元素{1}，只有一种 BST，单个节点，`f(1)=1`。
 
 如果数组有两个元素{1,2}， 那么有如下两种可能
 
@@ -5665,7 +5636,7 @@ $f(2) = f(0) * f(1)$，when 1 as root
 
 \+ $ f(1) * f(0) $ ，when 2 as root
 
-再看一看3个元素的数组，可以发现BST的取值方式如下：
+再看一看 3 个元素的数组，可以发现 BST 的取值方式如下：
 
 $f(3) = f(0) * f(2)$ ，when 1 as root
 
@@ -5698,7 +5669,7 @@ public:
 
 ### 95.Unique Binary Search Trees II
 
-Given an integer *n*, generate all structurally unique **BST's** (binary search trees) that store values 1 ... *n*.
+Given an integer _n_, generate all structurally unique **BST's** (binary search trees) that store values 1 ... _n_.
 
 **Example:**
 
@@ -5806,7 +5777,7 @@ Explanation: The input is: [5,1,4,null,null,3,6]. The root node's value
 
 #### 解析
 
-BST中序遍历顺序的结点数值是递增的，可以利用这个特性求解。
+BST 中序遍历顺序的结点数值是递增的，可以利用这个特性求解。
 
 #### 代码
 
@@ -5833,7 +5804,7 @@ public:
         if(prev&&prev->val>=root->val) return false;//if inorder not increment,false
         prev=root;
         return isValidBST(root->right,prev);
-        
+
     }
 };
 ```
@@ -5842,7 +5813,7 @@ public:
 
 Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
 
-For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of *every* node never differ by more than 1.
+For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of _every_ node never differ by more than 1.
 
 **Example:**
 
@@ -5874,7 +5845,7 @@ class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
         return sortedArrayToBST(nums,0,nums.size());
-        
+
     }
     TreeNode* sortedArrayToBST(vector<int>& nums,int low,int hight)
     {
@@ -5885,7 +5856,7 @@ public:
         root->right=sortedArrayToBST(nums,mid+1,hight);
         return root;
     }
-    
+
 };
 ```
 
@@ -5893,7 +5864,7 @@ public:
 
 Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
 
-For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of *every* node never differ by more than 1.
+For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of _every_ node never differ by more than 1.
 
 **Example:**
 
@@ -6212,7 +6183,7 @@ Output: 42
 
 #### 解析
 
-这道题我们可以采用dfs遍历二叉树，先算出左右树的结果 l 和 r，如果 l 大于0，那么对后续结果有利，便加上这个值，r同理，因为是一条路径，使用 dfs 返回的时只能从左右两条子树中选一条最大的与根节点的和，或者如果两个子树都是小于0的，那么便只返回根节点。
+这道题我们可以采用 dfs 遍历二叉树，先算出左右树的结果 l 和 r，如果 l 大于 0，那么对后续结果有利，便加上这个值，r 同理，因为是一条路径，使用 dfs 返回的时只能从左右两条子树中选一条最大的与根节点的和，或者如果两个子树都是小于 0 的，那么便只返回根节点。
 
 #### 代码
 
@@ -6318,7 +6289,7 @@ private:
         if(root->left) sumNum(root->left,total);
         if(root->right) sumNum(root->right,total);
         return;
-        
+
     }
 public:
     int sumNumbers(TreeNode* root) {
@@ -6334,12 +6305,12 @@ public:
 
 ### 88.Merge Sorted Array
 
-Given two sorted integer arrays *nums1* and *nums2*, merge *nums2* into *nums1* as one sorted array.
+Given two sorted integer arrays _nums1_ and _nums2_, merge _nums2_ into _nums1_ as one sorted array.
 
 **Note:**
 
-- The number of elements initialized in *nums1* and *nums2* are *m* and *n* respectively.
-- You may assume that *nums1* has enough space (size that is greater or equal to *m* + *n*) to hold additional elements from *nums2*.
+- The number of elements initialized in _nums1_ and _nums2_ are _m_ and _n_ respectively.
+- You may assume that _nums1_ has enough space (size that is greater or equal to _m_ + _n_) to hold additional elements from _nums2_.
 
 **Example:**
 
@@ -6353,7 +6324,7 @@ Output: [1,2,2,3,5,6]
 
 #### 解析
 
-nums1的空间大于等于 m+n，则可以从末尾往前排序。
+nums1 的空间大于等于 m+n，则可以从末尾往前排序。
 
 #### 代码
 
@@ -6426,7 +6397,7 @@ public:
 
 ### 23.Merge k Sorted Lists
 
-Merge *k* sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+Merge _k_ sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
 **Example:**
 
@@ -6442,7 +6413,7 @@ Output: 1->1->2->3->4->4->5->6
 
 #### 解析
 
-可以复用[之前一题](https://github.com/starFalll/LeetCode/blob/master/algorithms/21.Merge%20Two%20Sorted%20Lists.md)的代码。时间复杂度为O(n1+n2+n3+....)。
+可以复用[之前一题](https://github.com/starFalll/LeetCode/blob/master/algorithms/21.Merge%20Two%20Sorted%20Lists.md)的代码。时间复杂度为 O(n1+n2+n3+....)。
 
 #### 代码
 
@@ -6462,7 +6433,7 @@ private:
         if(!p1) return p2;
         if(!p2) return p1;
         ListNode dummy(-1);
-        ListNode* res=&dummy;   
+        ListNode* res=&dummy;
         while(p1&&p2){
             if(p1->val>p2->val){
                 res->next=p2;
@@ -6490,7 +6461,7 @@ public:
         }
         return p;
     }
-    
+
 };
 ```
 
@@ -6498,11 +6469,9 @@ public:
 
 Sort a linked list using insertion sort.
 
-
 ![img](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
 A graphical example of insertion sort. The partial sorted list (black) initially contains only the first element in the list.
 With each iteration one element (red) is removed from the input data and inserted in-place into the sorted list
-
 
 **Algorithm of Insertion Sort:**
 
@@ -6566,13 +6535,13 @@ public:
         }
         return dummy.next;
     }
-    
+
 };
 ```
 
 ### 148.Sort List
 
-Sort a linked list in *O*(*n* log *n*) time using constant space complexity.
+Sort a linked list in _O_(_n_ log _n_) time using constant space complexity.
 
 **Example 1:**
 
@@ -6647,9 +6616,9 @@ public:
         step 3: merge step
         */
         return merge2Lists(l,r);
-        
+
     }
-    
+
 };
 ```
 
@@ -6683,21 +6652,21 @@ Output: 1
 
 **Note:**
 
-Your algorithm should run in *O*(*n*) time and uses constant extra space.
+Your algorithm should run in _O_(_n_) time and uses constant extra space.
 
 #### 解析
 
-##### 方法1
+##### 方法 1
 
-使用hash table 存储 nums 中的内容，然后顺序遍历正数，从 i 到 INT_MAX，返回第一个不在  hash table 中的数。
+使用 hash table 存储 nums 中的内容，然后顺序遍历正数，从 i 到 INT_MAX，返回第一个不在 hash table 中的数。
 
-##### 方法2
+##### 方法 2
 
 本质上是桶排序，每当 `A[i]!=i+1` 的时候，将 `A[i]` 与 `A[A[i]-1]` 交换，也就是把每个数字放回对应的下标的位置，直到交换完，即 `A[i]==i+1`。
 
 #### 代码
 
-##### 方法1
+##### 方法 1
 
 ```cpp
 class Solution {
@@ -6718,7 +6687,7 @@ public:
 };
 ```
 
-##### 方法2
+##### 方法 2
 
 ```cpp
 class Solution {
@@ -6743,7 +6712,7 @@ public:
 
 ### 75.Sort Colors
 
-Given an array with *n* objects colored red, white or blue, sort them **in-place **so that objects of the same color are adjacent, with the colors in the order red, white and blue.
+Given an array with _n_ objects colored red, white or blue, sort them **in-place **so that objects of the same color are adjacent, with the colors in the order red, white and blue.
 
 Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
 
@@ -6764,7 +6733,7 @@ Output: [0,0,1,1,2,2]
 
 #### 解析
 
-设置两个index，最开始一个位于头部，一个位于尾部，变量 i 从0开始遍历如果指向的内容是2则 i 和尾部交换，尾部往前走；如果 i 指向 0，则和头部交换，头部往后走。
+设置两个 index，最开始一个位于头部，一个位于尾部，变量 i 从 0 开始遍历如果指向的内容是 2 则 i 和尾部交换，尾部往前走；如果 i 指向 0，则和头部交换，头部往后走。
 
 #### 代码
 
@@ -6794,7 +6763,7 @@ public:
 
 Given an array of integers `nums` sorted in ascending order, find the starting and ending position of a given `target` value.
 
-Your algorithm's runtime complexity must be in the order of *O*(log *n*).
+Your algorithm's runtime complexity must be in the order of _O_(log _n_).
 
 If the target is not found in the array, return `[-1, -1]`.
 
@@ -6941,7 +6910,7 @@ public:
 
 ### 74.Search a 2D Matrix
 
-Write an efficient algorithm that searches for a value in an *m* x *n* matrix. This matrix has the following properties:
+Write an efficient algorithm that searches for a value in an _m_ x _n_ matrix. This matrix has the following properties:
 
 - Integers in each row are sorted from left to right.
 - The first integer of each row is greater than the last integer of the previous row.
@@ -7013,7 +6982,7 @@ public:
 
 ### 78.Subsets
 
-Given a set of **distinct** integers, *nums*, return all possible subsets (the power set).
+Given a set of **distinct** integers, _nums_, return all possible subsets (the power set).
 
 **Note:** The solution set must not contain duplicate subsets.
 
@@ -7040,21 +7009,21 @@ Output:
 
 使用增量构造的方法，每个元素都有两种选择，选或者不选。
 
-##### 迭代法I
+##### 迭代法 I
 
-使用二进制法，本方法的前提是：集合的元素不超过int位数。用一个int整数表示位向量，第`i`位为1，则表示选择`S[i]`，为0则不选择。例如 `S={A,B,C,D}`，则`0110=6`表示子集 `{B,C}`。
+使用二进制法，本方法的前提是：集合的元素不超过 int 位数。用一个 int 整数表示位向量，第`i`位为 1，则表示选择`S[i]`，为 0 则不选择。例如 `S={A,B,C,D}`，则`0110=6`表示子集 `{B,C}`。
 
-这种方法最巧妙。因为它不仅能生成子集，还能方便的表示集合的并、交、差等集合运算。设两个集合的位向量分别为B_1和B_2，则$B_1\cup B_2, B_1 \cap B_2, B_1 \triangle B_2B1∪B2,B1∩B2,B1△B2$分别对应集合的并、交、对称差。
+这种方法最巧妙。因为它不仅能生成子集，还能方便的表示集合的并、交、差等集合运算。设两个集合的位向量分别为 B_1 和 B_2，则$B_1\cup B_2, B_1 \cap B_2, B_1 \triangle B_2B1∪B2,B1∩B2,B1△B2$分别对应集合的并、交、对称差。
 
 二进制法，也可以看做是位向量法，只不过更加优化。
 
-##### 迭代法II
+##### 迭代法 II
 
-起始subset集为：[]
-添加S0后为：[], **[S0]**
-添加S1后为：[], [S0], **[S1], [S0, S1]**
-添加S2后为：[], [S0], [S1], [S0, S1],** [S2], [S0, S2], [S1, S2], [S0, S1, S2]**
-加粗subset为每次新增的。显然规律为添加Si后，新增的subset为克隆现有的所有subset，并在它们后面都加上Si。
+起始 subset 集为：[]
+添加 S0 后为：[], **[S0]**
+添加 S1 后为：[], [S0], **[S1], [S0, S1]**
+添加 S2 后为：[], [S0], [S1], [S0, S1],** [S2], [S0, S2], [S1, S2], [S0, S1, S2]**
+加粗 subset 为每次新增的。显然规律为添加 Si 后，新增的 subset 为克隆现有的所有 subset，并在它们后面都加上 Si。
 
 #### 代码
 
@@ -7088,7 +7057,7 @@ public:
 };
 ```
 
-##### 迭代法I
+##### 迭代法 I
 
 ```cpp
 class Solution {
@@ -7110,7 +7079,7 @@ public:
 };
 ```
 
-##### 迭代法II
+##### 迭代法 II
 
 ```cpp
 class Solution {
@@ -7158,17 +7127,17 @@ Output:
 
 题目和 [上一道题](https://github.com/starFalll/LeetCode/blob/master/algorithms/78.Subsets.md) 差不多，只是集合里面可以有重复的数值。
 
-类似于上一题迭代法II的方法：
+类似于上一题迭代法 II 的方法：
 
 例如[1,2,2]
 
-起始subset集为：[]
-添加S0后为：[], **[1]**
-添加S1后为：[], [1], **[2], [1, 2]**
-添加S2后为：[], [1], *[2], [1, 2],* **[2,2], [1,2,2]**
-加粗subset为每次新增的。如果新增加的数和排序后没有和前一个数重复，则处理方法和上一题一样；如果重复，那么只有斜体部分末尾才增加，即当前结果的后一半增加。
+起始 subset 集为：[]
+添加 S0 后为：[], **[1]**
+添加 S1 后为：[], [1], **[2], [1, 2]**
+添加 S2 后为：[], [1], _[2], [1, 2],_ **[2,2], [1,2,2]**
+加粗 subset 为每次新增的。如果新增加的数和排序后没有和前一个数重复，则处理方法和上一题一样；如果重复，那么只有斜体部分末尾才增加，即当前结果的后一半增加。
 
-注意，首先要对nums排序，不然会出错。
+注意，首先要对 nums 排序，不然会出错。
 
 #### 代码
 
@@ -7222,7 +7191,7 @@ Output:
 
 #### 代码
 
-````cpp
+```cpp
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -7247,11 +7216,11 @@ public:
         }
     }
 };
-````
+```
 
 ### 77.Combinations
 
-Given two integers *n* and *k*, return all possible combinations of *k* numbers out of 1 ... *n*.
+Given two integers _n_ and _k_, return all possible combinations of _k_ numbers out of 1 ... _n_.
 
 **Example:**
 
@@ -7270,7 +7239,7 @@ Output:
 
 #### 解析
 
-和subset，permutations差不多，都可以采用回溯法。
+和 subset，permutations 差不多，都可以采用回溯法。
 
 #### 代码
 
@@ -7287,7 +7256,7 @@ public:
         dfs(nums,k,path,res,0);
         return res;
     }
-    
+
     void dfs(vector<int>& S,int len,vector<int>& path,vector<vector<int>>& res,int deep)
     {
         if(path.size()==len){
@@ -7362,7 +7331,7 @@ public:
 
 ### 62.Unique Paths
 
-A robot is located at the top-left corner of a *m* x *n* grid (marked 'Start' in the diagram below).
+A robot is located at the top-left corner of a _m_ x _n_ grid (marked 'Start' in the diagram below).
 
 The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
 
@@ -7371,7 +7340,7 @@ How many possible unique paths are there?
 ![img](https://leetcode.com/static/images/problemset/robot_maze.png)
 Above is a 7 x 3 grid. How many possible unique paths are there?
 
-**Note:** *m* and *n* will be at most 100.
+**Note:** _m_ and _n_ will be at most 100.
 
 **Example 1:**
 
@@ -7426,7 +7395,7 @@ public:
         }else{
             return f[x][y]=dfs(x-1,y)+dfs(x,y-1);
         }
-        
+
     }
 };
 ```
@@ -7451,7 +7420,7 @@ public:
 
 ### 63.Unique Paths II
 
-A robot is located at the top-left corner of a *m* x *n* grid (marked 'Start' in the diagram below).
+A robot is located at the top-left corner of a _m_ x _n_ grid (marked 'Start' in the diagram below).
 
 The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
 
@@ -7461,7 +7430,7 @@ Now consider if some obstacles are added to the grids. How many unique paths wou
 
 An obstacle and empty space is marked as `1` and `0` respectively in the grid.
 
-**Note:** *m* and *n* will be at most 100.
+**Note:** _m_ and _n_ will be at most 100.
 
 **Example 1:**
 
@@ -7520,7 +7489,7 @@ public:
 
 ### 50.Pow(x, n)
 
-Implement [pow(*x*, *n*)](http://www.cplusplus.com/reference/valarray/pow/), which calculates *x* raised to the power *n* (xn).
+Implement [pow(_x_, _n_)](http://www.cplusplus.com/reference/valarray/pow/), which calculates _x_ raised to the power _n_ (xn).
 
 **Example 1:**
 
@@ -7549,8 +7518,8 @@ Explanation: 2-2 = 1/22 = 1/4 = 0.25
 
 **Note:**
 
-- -100.0 < *x* < 100.0
-- *n* is a 32-bit signed integer, within the range [−231, 231 − 1]
+- -100.0 < _x_ < 100.0
+- _n_ is a 32-bit signed integer, within the range [−231, 231 − 1]
 
 #### 解析
 
@@ -7579,7 +7548,7 @@ public:
 
 Implement `int sqrt(int x)`.
 
-Compute and return the square root of *x*, where *x* is guaranteed to be a non-negative integer.
+Compute and return the square root of _x_, where _x_ is guaranteed to be a non-negative integer.
 
 Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned.
 
@@ -7596,7 +7565,7 @@ Output: 2
 ```
 Input: 8
 Output: 2
-Explanation: The square root of 8 is 2.82842..., and since 
+Explanation: The square root of 8 is 2.82842..., and since
              the decimal part is truncated, 2 is returned.
 ```
 
@@ -7648,7 +7617,7 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 
 #### 解析
 
-动态规划思想，用一个变量sum存储和，如果sum值小于等于0，则sum置0，重新开始求和。
+动态规划思想，用一个变量 sum 存储和，如果 sum 值小于等于 0，则 sum 置 0，重新开始求和。
 
 #### 代码
 
@@ -7668,6 +7637,3 @@ public:
     }
 };
 ```
-
-
-
