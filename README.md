@@ -147,6 +147,7 @@ LeetCode Solution
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/146.LRU%20Cache.md)|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/147.Insertion%20Sort%20List.md)|
 |148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/148.Sort%20List.md)|
+|149|[Max Points on a Liney](https://leetcode.com/problems/max-points-on-a-liney/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/149.Max%20Points%20on%20a%20Liney.md)|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/150.Evaluate%20Reverse%20Polish%20Notation.md)|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/151.Reverse%20Words%20in%20a%20String.md)|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/152.Maximum%20Product%20Subarray.md)|
