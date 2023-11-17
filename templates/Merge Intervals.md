@@ -45,6 +45,7 @@ Actually, interval merge problems don't need segment tree or map in Leetcode, it
 [1024. Video Stitching](https://leetcode.com/problems/video-stitching/)
 
 ```c++
+// st, end from min valid position begin
 class Solution {
 public:
     int videoStitching(vector<vector<int>>& clips, int time) {
