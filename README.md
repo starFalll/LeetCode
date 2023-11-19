@@ -197,9 +197,11 @@ LeetCode Solution
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/240.Search%20a%202D%20Matrix%20II.md)|
 |269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/269.Alien%20Dictionary.md)|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/279.Perfect%20Squares.md)|
+|282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/282.Expression%20Add%20Operators.md)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/283.Move%20Zeroes.md)|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/287.Find%20the%20Duplicate%20Number.md)|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/300.Longest%20Increasing%20Subsequence.md)|
+|301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/301.Remove%20Invalid%20Parentheses.md)|
 |305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/305.Number%20of%20Islands%20II.md)|
 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/309.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.md)|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/322.Coin%20Change.md)|

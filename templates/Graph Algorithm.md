@@ -127,6 +127,49 @@ int dijkstra(int start, int end, vector<int>* graph) {
 
 ### Prime
 
+template:
+
+适用于稠密图，时间复杂度 O(n2)
+
+核心思想：每次挑一条与当前集合相连的最短边。
+
+```c++
+// st[i] 表示点i是否在当前生成树集合中
+// dist[i] 表示点i到当前集合的最短边的长度
+// g[i][j] 表示点i和点j之间边的长度
+// 返回值：最小生成树中所有边的总长度
+int Prim()
+{
+    int res = 0;
+    for (int i = 1; i <= n; i ++ )
+    {
+        dist[i] = INF;
+        st[i] = false;
+    }
+    dist[1] = 0;
+    for (int i = 1; i <= n; i ++ )
+    {
+        int id = -1, min_dist = INF;
+        // 寻找最短边
+        for (int j = 1; j <= n; j ++ )
+            if (!st[j] && dist[j] < min_dist)
+            {
+                id = j;
+                min_dist = dist[j];
+            }
+        st[id] = true;
+        res += dist[id];
+        // 用新加入的点更新其余点到生成树的最短边
+        for (int j = 1; j <= n; j ++ )
+            if (!st[j])
+                dist[j] = min(dist[j], g[id][j]);
+    }
+    return res;
+}
+```
+
+
+
 [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/):
 
 ```cpp
