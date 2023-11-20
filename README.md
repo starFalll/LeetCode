@@ -251,6 +251,7 @@ LeetCode Solution
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/746.Min%20Cost%20Climbing%20Stairs.md)|
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/764.Largest%20Plus%20Sign.md)|
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/815.Bus%20Routes.md)|
+|827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/827.Making%20A%20Large%20Island.md)|
 |834|[Sum of Distances in Tree ](https://leetcode.com/problems/sum-of-distances-in-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/834.Sum%20of%20Distances%20in%20Tree%20.md)|
 |847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/847.Shortest%20Path%20Visiting%20All%20Nodes.md)|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/860.Lemonade%20Change.md)|
@@ -289,6 +290,7 @@ LeetCode Solution
 |2221|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2221.Find%20Triangular%20Sum%20of%20an%20Array.md)|
 |2251|[Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2251.Number%20of%20Flowers%20in%20Full%20Bloom.md)|
 |2369|[Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2369.Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array.md)|
+|2458|[Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2458.Height%20of%20Binary%20Tree%20After%20Subtree%20Removal%20Queries.md)|
 |2483|[Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2483.Minimum%20Penalty%20for%20a%20Shop.md)|
 |2534|[Time Taken to Cross the Door](https://leetcode.com/problems/time-taken-to-cross-the-door/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2534.Time%20Taken%20to%20Cross%20the%20Door.md)|
 |2552|[Count Increasing Quadruplets](https://leetcode.com/problems/count-increasing-quadruplets/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2552.Count%20Increasing%20Quadruplets.md)|
