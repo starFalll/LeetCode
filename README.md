@@ -258,6 +258,7 @@ LeetCode Solution
 |920|[Number of Music Playlists ](https://leetcode.com/problems/number-of-music-playlists/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/920.Number%20of%20Music%20Playlists%20.md)|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/941.Valid%20Mountain%20Array.md)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/973.K%20Closest%20Points%20to%20Origin.md)|
+|975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/975.Odd%20Even%20Jump.md)|
 |992|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/992.Subarrays%20with%20K%20Different%20Integers.md)|
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1005.Maximize%20Sum%20Of%20Array%20After%20K%20Negations.md)|
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1035.Uncrossed%20Lines.md)|
