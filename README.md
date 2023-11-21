@@ -285,6 +285,7 @@ LeetCode Solution
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1871.Jump%20Game%20VII.md)|
 |1944|[Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1944.Number%20of%20Visible%20People%20in%20a%20Queue.md)|
 |2050|[Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2050.Parallel%20Courses%20III.md)|
+|2088|[Count Fertile Pyramids in a Land](https://leetcode.com/problems/count-fertile-pyramids-in-a-land/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2088.Count%20Fertile%20Pyramids%20in%20a%20Land.md)|
 |2104|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2104.Sum%20of%20Subarray%20Ranges.md)|
 |2158|[Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2158.Amount%20of%20New%20Area%20Painted%20Each%20Day.md)|
 |2195|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2195.Append%20K%20Integers%20With%20Minimal%20Sum.md)|
