@@ -242,3 +242,8 @@ If a question is about how to find sortest path, we can always use BFS to solve 
 Note: Using BFS, we need record the shortest path among all the possible. But recording visited matrix of all the path is cost of space. One of the common way is just record the shortest path at the (row, col). For Example, [505. The Maze II](https://leetcode.com/problems/the-maze-ii/)
 
 If can or cannot arrive at one place defined by mutiply factors, for two factors (path len  + other), we can add a new matrix to record the other factor, only if it can update or equal to current min/max val in the position of the matrix, then can continue. [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
+
+## DFS
+
+DFS Iterator version: similar with BFS, but using `Stack` rather than `Queue`
+

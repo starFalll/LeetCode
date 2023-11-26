@@ -262,6 +262,7 @@ LeetCode Solution
 |992|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/992.Subarrays%20with%20K%20Different%20Integers.md)|
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1005.Maximize%20Sum%20Of%20Array%20After%20K%20Negations.md)|
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1035.Uncrossed%20Lines.md)|
+|1036|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1036.Escape%20a%20Large%20Maze.md)|
 |1088|[Confusing Number II](https://leetcode.com/problems/confusing-number-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1088.Confusing%20Number%20II.md)|
 |1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1095.Find%20in%20Mountain%20Array.md)|
 |1096|[Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1096.Brace%20Expansion%20II.md)|
