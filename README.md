@@ -234,6 +234,7 @@ LeetCode Solution
 |518|[Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/518.Coin%20Change%20II.md)|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/542.01%20Matrix.md)|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/547.Friend%20Circles.md)|
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/560.Subarray%20Sum%20Equals%20K.md)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/567.Permutation%20in%20String.md)|
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/583.Delete%20Operation%20for%20Two%20Strings.md)|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/617.Merge%20Two%20Binary%20Trees.md)|
@@ -263,6 +264,7 @@ LeetCode Solution
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1005.Maximize%20Sum%20Of%20Array%20After%20K%20Negations.md)|
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1035.Uncrossed%20Lines.md)|
 |1036|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1036.Escape%20a%20Large%20Maze.md)|
+|1074|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1074.Number%20of%20Submatrices%20That%20Sum%20to%20Target.md)|
 |1088|[Confusing Number II](https://leetcode.com/problems/confusing-number-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1088.Confusing%20Number%20II.md)|
 |1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1095.Find%20in%20Mountain%20Array.md)|
 |1096|[Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1096.Brace%20Expansion%20II.md)|
