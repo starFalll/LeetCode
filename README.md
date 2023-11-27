@@ -252,9 +252,12 @@ LeetCode Solution
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/746.Min%20Cost%20Climbing%20Stairs.md)|
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/764.Largest%20Plus%20Sign.md)|
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/815.Bus%20Routes.md)|
+|818|[Race Car](https://leetcode.com/problems/race-car/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/818.Race%20Car.md)|
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/827.Making%20A%20Large%20Island.md)|
 |834|[Sum of Distances in Tree ](https://leetcode.com/problems/sum-of-distances-in-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/834.Sum%20of%20Distances%20in%20Tree%20.md)|
+|843|[Guess the Word](https://leetcode.com/problems/guess-the-word/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/843.Guess%20the%20Word.md)|
 |847|[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/847.Shortest%20Path%20Visiting%20All%20Nodes.md)|
+|853|[Car Fleet](https://leetcode.com/problems/car-fleet/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/853.Car%20Fleet.md)|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/860.Lemonade%20Change.md)|
 |920|[Number of Music Playlists ](https://leetcode.com/problems/number-of-music-playlists/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/920.Number%20of%20Music%20Playlists%20.md)|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/941.Valid%20Mountain%20Array.md)|
@@ -285,6 +288,7 @@ LeetCode Solution
 |1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1631.Path%20With%20Minimum%20Effort.md)|
 |1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1647.Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique.md)|
 |1751|[Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1751.Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended%20II.md)|
+|1776|[Car Fleet II](https://leetcode.com/problems/car-fleet-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1776.Car%20Fleet%20II.md)|
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1871.Jump%20Game%20VII.md)|
 |1944|[Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1944.Number%20of%20Visible%20People%20in%20a%20Queue.md)|
 |2050|[Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2050.Parallel%20Courses%20III.md)|
