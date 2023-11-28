@@ -236,6 +236,7 @@ LeetCode Solution
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/547.Friend%20Circles.md)|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/560.Subarray%20Sum%20Equals%20K.md)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/567.Permutation%20in%20String.md)|
+|568|[Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/568.Maximum%20Vacation%20Days.md)|
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/583.Delete%20Operation%20for%20Two%20Strings.md)|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/617.Merge%20Two%20Binary%20Trees.md)|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/647.Palindromic%20Substrings.md)|
@@ -299,6 +300,7 @@ LeetCode Solution
 |2195|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2195.Append%20K%20Integers%20With%20Minimal%20Sum.md)|
 |2221|[Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2221.Find%20Triangular%20Sum%20of%20an%20Array.md)|
 |2251|[Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2251.Number%20of%20Flowers%20in%20Full%20Bloom.md)|
+|2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2328.Number%20of%20Increasing%20Paths%20in%20a%20Grid.md)|
 |2366|[Minimum Replacements to Sort the Array](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2366.Minimum%20Replacements%20to%20Sort%20the%20Array.md)|
 |2369|[Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2369.Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array.md)|
 |2402|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2402.Meeting%20Rooms%20III.md)|
