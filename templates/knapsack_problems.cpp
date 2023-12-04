@@ -27,6 +27,7 @@ void test_1_wei_bag_problem() {
         for(int j = bagWeight; j >= weight[i]; j--) { // Traverse backpack capacity
             dp[j] = max(dp[j], dp[j - weight[i]] + value[i]); // max value 求最大值用max选其中一个
             // dp[j] += dp[j - weight[i]] + value[i]  total sum, 求和则用这种
+            // dp[j] += dp[j - weight[i]] 求装满背包的方法总和
         }
     }
     cout << dp[bagWeight] << endl;
@@ -50,6 +51,7 @@ void test_2_wei_bag_problem() {
         for(int j = weight[i]; j <= bagWeight; j++) { // ------this line is different. Traverse backpack capacity
             dp[j] = max(dp[j], dp[j - weight[i]] + value[i]); // max value 求最大值用max选其中一个
             // dp[j] += dp[j - weight[i]] + value[i]  total sum, 求和则用这种
+            // dp[j] += dp[j - weight[i]] 求装满背包的方法总和
         }
     }
     cout << dp[bagWeight] << endl;
