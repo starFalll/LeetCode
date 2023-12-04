@@ -243,6 +243,7 @@ LeetCode Solution
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/654.Maximum%20Binary%20Tree.md)|
 |659|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/659.Max%20Area%20of%20Island.md)|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/674.Longest%20Continuous%20Increasing%20Subsequence.md)|
+|679|[24 Game](https://leetcode.com/problems/24-game/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/679.24%20Game.md)|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/680.Valid%20Palindrome%20II.md)|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/700.Search%20in%20a%20Binary%20Search%20Tree.md)|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/714.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.md)|
