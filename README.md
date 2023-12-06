@@ -298,6 +298,7 @@ LeetCode Solution
 |1776|[Car Fleet II](https://leetcode.com/problems/car-fleet-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1776.Car%20Fleet%20II.md)|
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1871.Jump%20Game%20VII.md)|
 |1944|[Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1944.Number%20of%20Visible%20People%20in%20a%20Queue.md)|
+|1970|[Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1970.Last%20Day%20Where%20You%20Can%20Still%20Cross.md)|
 |2050|[Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2050.Parallel%20Courses%20III.md)|
 |2088|[Count Fertile Pyramids in a Land](https://leetcode.com/problems/count-fertile-pyramids-in-a-land/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2088.Count%20Fertile%20Pyramids%20in%20a%20Land.md)|
 |2104|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2104.Sum%20of%20Subarray%20Ranges.md)|
