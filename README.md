@@ -263,6 +263,7 @@ LeetCode Solution
 |853|[Car Fleet](https://leetcode.com/problems/car-fleet/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/853.Car%20Fleet.md)|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/860.Lemonade%20Change.md)|
 |920|[Number of Music Playlists ](https://leetcode.com/problems/number-of-music-playlists/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/920.Number%20of%20Music%20Playlists%20.md)|
+|924|[Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/924.Minimize%20Malware%20Spread.md)|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/941.Valid%20Mountain%20Array.md)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/973.K%20Closest%20Points%20to%20Origin.md)|
 |975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/975.Odd%20Even%20Jump.md)|
