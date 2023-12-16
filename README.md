@@ -200,6 +200,7 @@ LeetCode Solution
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/282.Expression%20Add%20Operators.md)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/283.Move%20Zeroes.md)|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/287.Find%20the%20Duplicate%20Number.md)|
+|295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/295.Find%20Median%20from%20Data%20Stream.md)|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/300.Longest%20Increasing%20Subsequence.md)|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/301.Remove%20Invalid%20Parentheses.md)|
 |305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/305.Number%20of%20Islands%20II.md)|
