@@ -239,6 +239,7 @@ LeetCode Solution
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/567.Permutation%20in%20String.md)|
 |568|[Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/568.Maximum%20Vacation%20Days.md)|
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/583.Delete%20Operation%20for%20Two%20Strings.md)|
+|588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/588.Design%20In-Memory%20File%20System.md)|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/617.Merge%20Two%20Binary%20Trees.md)|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/647.Palindromic%20Substrings.md)|
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/654.Maximum%20Binary%20Tree.md)|
