@@ -196,6 +196,7 @@ LeetCode Solution
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/238.Product%20of%20Array%20Except%20Self.md)|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/240.Search%20a%202D%20Matrix%20II.md)|
+|259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/259.3Sum%20Smaller.md)|
 |269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/269.Alien%20Dictionary.md)|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/279.Perfect%20Squares.md)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/282.Expression%20Add%20Operators.md)|
@@ -257,6 +258,7 @@ LeetCode Solution
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/746.Min%20Cost%20Climbing%20Stairs.md)|
 |759|[Employee Free Time](https://leetcode.com/problems/employee-free-time/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/759.Employee%20Free%20Time.md)|
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/764.Largest%20Plus%20Sign.md)|
+|773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/773.Sliding%20Puzzle.md)|
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/815.Bus%20Routes.md)|
 |818|[Race Car](https://leetcode.com/problems/race-car/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/818.Race%20Car.md)|
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/827.Making%20A%20Large%20Island.md)|
@@ -330,6 +332,7 @@ LeetCode Solution
 |2573|[Find the String with LCP ](https://leetcode.com/problems/find-the-string-with-lcp/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2573.Find%20the%20String%20with%20LCP%20.md)|
 |2573|[Find the String with LCP](https://leetcode.com/problems/find-the-string-with-lcp/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2573.Find%20the%20String%20with%20LCP.md)|
 |2616|[Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2616.Minimize%20the%20Maximum%20Difference%20of%20Pairs.md)|
+|2659|[Make Array Empty](https://leetcode.com/problems/make-array-empty/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2659.Make%20Array%20Empty.md)|
 |2707|[Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2707.Extra%20Characters%20in%20a%20String.md)|
 |2713|[Maximum Strictly Increasing Cells in a Matrix](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2713.Maximum%20Strictly%20Increasing%20Cells%20in%20a%20Matrix.md)|
 |2765|[Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2765.Longest%20Alternating%20Subarray.md)|
