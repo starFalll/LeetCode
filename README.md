@@ -219,6 +219,7 @@ LeetCode Solution
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/376.Wiggle%20Subsequence.md)|
 |377|[ Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/377.%20Combination%20Sum%20IV.md)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/392.Is%20Subsequence.md)|
+|398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/398.Random%20Pick%20Index.md)|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/399.Evaluate%20Division.md)|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/406.Queue%20Reconstruction%20by%20Height.md)|
 |440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/440.K-th%20Smallest%20in%20Lexicographical%20Order.md)|
@@ -235,8 +236,10 @@ LeetCode Solution
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/509.Fibonacci%20Number.md)|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/516.Longest%20Palindromic%20Subsequence.md)|
 |518|[Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/518.Coin%20Change%20II.md)|
+|528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/528.Random%20Pick%20with%20Weight.md)|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/542.01%20Matrix.md)|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/547.Friend%20Circles.md)|
+|556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/556.Next%20Greater%20Element%20III.md)|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/560.Subarray%20Sum%20Equals%20K.md)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/567.Permutation%20in%20String.md)|
 |568|[Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/568.Maximum%20Vacation%20Days.md)|
@@ -245,19 +248,23 @@ LeetCode Solution
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/617.Merge%20Two%20Binary%20Trees.md)|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/647.Palindromic%20Substrings.md)|
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/654.Maximum%20Binary%20Tree.md)|
+|658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/658.Find%20K%20Closest%20Elements.md)|
 |659|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/659.Max%20Area%20of%20Island.md)|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/674.Longest%20Continuous%20Increasing%20Subsequence.md)|
 |679|[24 Game](https://leetcode.com/problems/24-game/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/679.24%20Game.md)|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/680.Valid%20Palindrome%20II.md)|
+|684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/684.Redundant%20Connection.md)|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/700.Search%20in%20a%20Binary%20Search%20Tree.md)|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/714.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.md)|
 |718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/718.Maximum%20Length%20of%20Repeated%20Subarray.md)|
 |719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/719.Find%20K-th%20Smallest%20Pair%20Distance.md)|
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/725.Split%20Linked%20List%20in%20Parts.md)|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/739.Daily%20Temperatures.md)|
+|743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/743.Network%20Delay%20Time.md)|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/746.Min%20Cost%20Climbing%20Stairs.md)|
 |759|[Employee Free Time](https://leetcode.com/problems/employee-free-time/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/759.Employee%20Free%20Time.md)|
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/764.Largest%20Plus%20Sign.md)|
+|767|[Reorganize String](https://leetcode.com/problems/reorganize-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/767.Reorganize%20String.md)|
 |773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/773.Sliding%20Puzzle.md)|
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/815.Bus%20Routes.md)|
 |818|[Race Car](https://leetcode.com/problems/race-car/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/818.Race%20Car.md)|
@@ -290,6 +297,7 @@ LeetCode Solution
 |1282|[Group the People Given the Group Size They Belong To ](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1282.Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To%20.md)|
 |1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1293.Shortest%20Path%20in%20a%20Grid%20with%20Obstacles%20Elimination.md)|
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1326.Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.md)|
+|1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1335.Minimum%20Difficulty%20of%20a%20Job%20Schedule.md)|
 |1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1345.Jump%20Game%20IV.md)|
 |1352|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1352.Product%20of%20the%20Last%20K%20Numbers.md)|
 |1359|[Count All Valid Pickup and Delivery Options ](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1359.Count%20All%20Valid%20Pickup%20and%20Delivery%20Options%20.md)|
