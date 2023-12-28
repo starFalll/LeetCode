@@ -1,6 +1,12 @@
 # Tree
 
+Example: [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/), can use both ways (BIT or Segment tree)
+
 ## Binary Indexed Tree
+
+Single point modification, interval sum.
+
+**must initialize to n+1, start from 1 (because of lowbit calculate)**.
 
 Time Complexity: all O(logn)
 
@@ -43,29 +49,48 @@ https://www.acwing.com/blog/content/24440/
 
 https://leetcode.cn/problems/longest-increasing-subsequence-ii/solutions/1/by-lfool-f6vs/
 
+### Fixed array:
+
+```c++
+struct SegTree{
+    vector<int> st;
+    SegTree(int n) {
+        st.resize(n*4, 0);
+    }
+    void pushUp(int idx){
+        st[idx] = st[idx*2+1] + st[idx*2+2];
+    }
+
+    void update(int idx, int start, int end, 
+        int l, int r, int val) {
+        if (l <= start && end <= r) {
+            st[idx] += (end-start + 1)*val;
+            return;
+        }
+        int mid = (start + end) >> 1;
+        if (l <= mid) update(idx*2+1, start, mid, l, r, val);
+        if (r > mid) update(idx*2+2, mid+1, end, l, r, val);
+        pushUp(idx);
+    }
+
+    int query(int idx, int start, int end, int l, int r) {
+        if (l <= start && end <= r) return st[idx];
+        int mid = (start + end) >> 1;
+        int ans = 0;
+        if (l <= mid) ans += query(idx*2+1, start, mid, l, r);
+        if (r > mid) ans += query(idx*2+2, mid+1, end, l, r);
+        return ans;
+    }
+};
+```
+
+### Dynamic version
+
 ```c++
 struct Node {
     shared_ptr<Node> left, right;
     int val, add;
 };
-
-// Fixed interval range. 
-void buildTree(shared_ptr<Node> node, int start, int end, vector<int>& arr) {
-    // 到达叶子节点
-    if (start == end) {
-        node->val = arr[start];
-        return ;
-    }
-    int mid = (start + end) >> 1;
-    buildTree(node->left, start, mid);
-    buildTree(node->right, mid + 1, end);
-    // 向上更新
-    pushUp(node);
-}
-// 向上更新
-void pushUp(shared_ptr<Node> node) {
-    node->val = node->left->val + node->right->val;
-}
 
 // dynamic creation.
 class SegmentTreeDynamic {
@@ -166,7 +191,6 @@ public:
         for (int i = 0; i < nums.size(); i++) {
             int cnt = query(node, 0, N, max(0, nums[i]-k), nums[i]-1) + 1;
             update(node, 0, N, nums[i], nums[i], cnt);
-            cout<<cnt<<endl;
             ans = max(ans, cnt);
         }
         return ans;
