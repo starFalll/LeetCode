@@ -43,6 +43,10 @@ public:
 
 ## Segment Tree
 
+1. Interval query
+2. Interval modify
+3. node modify
+
 All the following implementations are based on the update operations of finding "sum of intervals" and "addition and subtraction" of intervals. (区间和)
 
 https://www.acwing.com/blog/content/24440/
@@ -57,20 +61,18 @@ struct SegTree{
     SegTree(int n) {
         st.resize(n*4, 0);
     }
-    void pushUp(int idx){
-        st[idx] = st[idx*2+1] + st[idx*2+2];
-    }
 
     void update(int idx, int start, int end, 
         int l, int r, int val) {
         if (l <= start && end <= r) {
-            st[idx] += (end-start + 1)*val;
+            st[idx] += (end-start + 1)*val; // interval sum
+            // st[idx] = val; // interval coverage
             return;
         }
         int mid = (start + end) >> 1;
         if (l <= mid) update(idx*2+1, start, mid, l, r, val);
         if (r > mid) update(idx*2+2, mid+1, end, l, r, val);
-        pushUp(idx);
+        st[idx] = st[idx*2+1] + st[idx*2+2];
     }
 
     int query(int idx, int start, int end, int l, int r) {
