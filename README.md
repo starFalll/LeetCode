@@ -272,6 +272,7 @@ LeetCode Solution
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/764.Largest%20Plus%20Sign.md)|
 |767|[Reorganize String](https://leetcode.com/problems/reorganize-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/767.Reorganize%20String.md)|
 |773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/773.Sliding%20Puzzle.md)|
+|785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite?/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/785.Is%20Graph%20Bipartite?.md)|
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/815.Bus%20Routes.md)|
 |818|[Race Car](https://leetcode.com/problems/race-car/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/818.Race%20Car.md)|
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/827.Making%20A%20Large%20Island.md)|
@@ -296,6 +297,7 @@ LeetCode Solution
 |1096|[Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1096.Brace%20Expansion%20II.md)|
 |1106|[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1106.Parsing%20A%20Boolean%20Expression.md)|
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1143.Longest%20Common%20Subsequence.md)|
+|1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1155.Number%20of%20Dice%20Rolls%20With%20Target%20Sum.md)|
 |1203|[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1203.Sort%20Items%20by%20Groups%20Respecting%20Dependencies.md)|
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1207.Unique%20Number%20of%20Occurrences.md)|
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1209.Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.md)|
@@ -314,6 +316,7 @@ LeetCode Solution
 |1494|[Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1494.Parallel%20Courses%20II.md)|
 |1541|[Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1541.Minimum%20Insertions%20to%20Balance%20a%20Parentheses%20String.md)|
 |1573|[Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1573.Number%20of%20Ways%20to%20Split%20a%20String.md)|
+|1578|[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1578.Minimum%20Time%20to%20Make%20Rope%20Colorful.md)|
 |1584|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1584.Min%20Cost%20to%20Connect%20All%20Points.md)|
 |1601|[Maximum Number of Achievable Transfer Requests](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1601.Maximum%20Number%20of%20Achievable%20Transfer%20Requests.md)|
 |1610|[Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1610.Maximum%20Number%20of%20Visible%20Points.md)|
