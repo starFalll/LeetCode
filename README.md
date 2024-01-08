@@ -219,6 +219,7 @@ LeetCode Solution
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
 |355|[Design Twitter](https://leetcode.com/problems/design-twitter/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/355.Design%20Twitter.md)|
 |365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/365.How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.md)|
+|365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/365.Water%20and%20Jug%20Problem.md)|
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/376.Wiggle%20Subsequence.md)|
 |377|[ Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/377.%20Combination%20Sum%20IV.md)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/392.Is%20Subsequence.md)|
@@ -286,6 +287,7 @@ LeetCode Solution
 |920|[Number of Music Playlists ](https://leetcode.com/problems/number-of-music-playlists/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/920.Number%20of%20Music%20Playlists%20.md)|
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/921.Minimum%20Add%20to%20Make%20Parentheses%20Valid.md)|
 |924|[Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/924.Minimize%20Malware%20Spread.md)|
+|939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/939.Minimum%20Area%20Rectangle.md)|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/941.Valid%20Mountain%20Array.md)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/973.K%20Closest%20Points%20to%20Origin.md)|
 |975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/975.Odd%20Even%20Jump.md)|
@@ -334,6 +336,7 @@ LeetCode Solution
 |1970|[Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1970.Last%20Day%20Where%20You%20Can%20Still%20Cross.md)|
 |2050|[Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2050.Parallel%20Courses%20III.md)|
 |2088|[Count Fertile Pyramids in a Land](https://leetcode.com/problems/count-fertile-pyramids-in-a-land/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2088.Count%20Fertile%20Pyramids%20in%20a%20Land.md)|
+|2101|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2101.Detonate%20the%20Maximum%20Bombs.md)|
 |2104|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2104.Sum%20of%20Subarray%20Ranges.md)|
 |2127|[Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2127.Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting.md)|
 |2158|[Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2158.Amount%20of%20New%20Area%20Painted%20Each%20Day.md)|
