@@ -2,6 +2,17 @@
 
 ### Condition
 
+```c++
+#include <mutex>
+std::mutex g_i_mutex; 
+{
+	const std::lock_guard<std::mutex> lock(g_i_mutex);
+}
+
+```
+
+
+
 [1195. Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)
 
 ```c++
