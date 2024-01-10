@@ -56,32 +56,53 @@ https://leetcode.cn/problems/longest-increasing-subsequence-ii/solutions/1/by-lf
 ### Fixed array:
 
 ```c++
-struct SegTree{
-    vector<int> st;
+struct SegTree {
+    vector<int> tree;
+    vector<int> adds;
     SegTree(int n) {
-        st.resize(n*4, 0);
+        tree.resize(4*n, 0);
+        adds.resize(4*n, 0);
     }
-
-    void update(int idx, int start, int end, 
-        int l, int r, int val) {
+    void pushDown(int idx, int left_num, int right_num) {
+        if (adds[idx] == 0) return;
+        tree[idx*2+1] += adds[idx]*left_num;
+        tree[idx*2+2] += adds[idx]*right_num;
+      	
+        adds[idx*2+1] += adds[idx];
+        adds[idx*2+2] += adds[idx];
+      /* Overwrite operation
+        tree[idx*2+1] = adds[idx]*left_num;
+        tree[idx*2+2] = adds[idx]*right_num;
+        adds[idx*2+1] = adds[idx];
+        adds[idx*2+2] = adds[idx];
+        */
+        adds[idx] = 0;
+    }
+    void update(int idx, int start, int end, int l, int r, int val) {
         if (l <= start && end <= r) {
-            st[idx] += (end-start + 1)*val; // interval sum
-            // st[idx] = val; // interval coverage
+            tree[idx] += (end - start + 1) * val; // interval sum
+          	// tree[idx] = (end - start + 1) * val; Overwrite operation
+            // adds[idx] = val;
+            adds[idx] += val;
             return;
         }
-        int mid = (start + end) >> 1;
+        int mid = start + (end - start) / 2;
+        pushDown(idx, mid - start + 1, end-mid);
         if (l <= mid) update(idx*2+1, start, mid, l, r, val);
         if (r > mid) update(idx*2+2, mid+1, end, l, r, val);
-        st[idx] = st[idx*2+1] + st[idx*2+2];
+        tree[idx] = tree[idx*2+1] + tree[idx*2+2];
     }
 
     int query(int idx, int start, int end, int l, int r) {
-        if (l <= start && end <= r) return st[idx];
-        int mid = (start + end) >> 1;
-        int ans = 0;
-        if (l <= mid) ans += query(idx*2+1, start, mid, l, r);
-        if (r > mid) ans += query(idx*2+2, mid+1, end, l, r);
-        return ans;
+        if (l <= start && end <= r) {
+            return tree[idx];
+        }
+        int mid = start + (end - start) / 2;
+        int res = 0;
+        pushDown(idx, mid - start + 1, end-mid);
+        if (l <= mid) res += query(idx*2+1, start, mid, l, r);
+        if (r > mid) res += query(idx*2+2, mid+1, end, l, r);
+        return res;
     }
 };
 ```
