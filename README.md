@@ -277,6 +277,7 @@ LeetCode Solution
 |759|[Employee Free Time](https://leetcode.com/problems/employee-free-time/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/759.Employee%20Free%20Time.md)|
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/764.Largest%20Plus%20Sign.md)|
 |767|[Reorganize String](https://leetcode.com/problems/reorganize-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/767.Reorganize%20String.md)|
+|772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/772.Basic%20Calculator%20III.md)|
 |773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/773.Sliding%20Puzzle.md)|
 |785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite?/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/785.Is%20Graph%20Bipartite?.md)|
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/815.Bus%20Routes.md)|
