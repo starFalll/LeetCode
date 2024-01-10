@@ -8,7 +8,7 @@ if *p* is a [prime number](https://en.wikipedia.org/wiki/Prime_number), then for
 
 Then:
 $$
-a^{-1} = a^{p-2}
+a^{-1} = a^{p-2} MOD p
 $$
 
 
