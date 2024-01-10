@@ -224,6 +224,7 @@ LeetCode Solution
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/376.Wiggle%20Subsequence.md)|
 |377|[ Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/377.%20Combination%20Sum%20IV.md)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/392.Is%20Subsequence.md)|
+|395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/395.Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.md)|
 |398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/398.Random%20Pick%20Index.md)|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/399.Evaluate%20Division.md)|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/406.Queue%20Reconstruction%20by%20Height.md)|
