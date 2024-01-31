@@ -196,6 +196,7 @@ LeetCode Solution
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/238.Product%20of%20Array%20Except%20Self.md)|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/240.Search%20a%202D%20Matrix%20II.md)|
+|256|[Paint House](https://leetcode.com/problems/paint-house/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/256.Paint%20House.md)|
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/259.3Sum%20Smaller.md)|
 |269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/269.Alien%20Dictionary.md)|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/279.Perfect%20Squares.md)|
@@ -312,6 +313,7 @@ LeetCode Solution
 |1136|[Parallel Courses](https://leetcode.com/problems/parallel-courses/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1136.Parallel%20Courses.md)|
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1143.Longest%20Common%20Subsequence.md)|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1155.Number%20of%20Dice%20Rolls%20With%20Target%20Sum.md)|
+|1197|[ Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1197.%20Minimum%20Knight%20Moves.md)|
 |1203|[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1203.Sort%20Items%20by%20Groups%20Respecting%20Dependencies.md)|
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1207.Unique%20Number%20of%20Occurrences.md)|
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1209.Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.md)|
