@@ -9,3 +9,5 @@
 [2616. Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)
 
 [2812. Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/)
+
+**对于unordered array，要使用二分查找, 可以采用mid和mid+1/mid-1比大小来判断方向。**

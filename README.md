@@ -229,6 +229,7 @@ LeetCode Solution
 |398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/398.Random%20Pick%20Index.md)|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/399.Evaluate%20Division.md)|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/406.Queue%20Reconstruction%20by%20Height.md)|
+|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/414.Third%20Maximum%20Number.md)|
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/417.Pacific%20Atlantic%20Water%20Flow.md)|
 |440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/440.K-th%20Smallest%20in%20Lexicographical%20Order.md)|
 |443|[String Compression](https://leetcode.com/problems/string-compression/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/443.String%20Compression.md)|
@@ -238,6 +239,7 @@ LeetCode Solution
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/454.4Sum%20II.md)|
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/455.Assign%20Cookies.md)|
 |460|[LFU Cache](https://leetcode.com/problems/lfu-cache/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/460.LFU%20Cache.md)|
+|465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/465.Optimal%20Account%20Balancing.md)|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/474.Ones%20and%20Zeroes.md)|
 |491|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/491.Non-decreasing%20Subsequences.md)|
 |493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/493.Reverse%20Pairs.md)|
@@ -247,6 +249,7 @@ LeetCode Solution
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/509.Fibonacci%20Number.md)|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/516.Longest%20Palindromic%20Subsequence.md)|
 |518|[Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/518.Coin%20Change%20II.md)|
+|523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/523.Continuous%20Subarray%20Sum.md)|
 |528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/528.Random%20Pick%20with%20Weight.md)|
 |540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/540.Single%20Element%20in%20a%20Sorted%20Array.md)|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/542.01%20Matrix.md)|
@@ -259,6 +262,7 @@ LeetCode Solution
 |588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/588.Design%20In-Memory%20File%20System.md)|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/617.Merge%20Two%20Binary%20Trees.md)|
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/622.Design%20Circular%20Queue.md)|
+|642|[Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/642.Design%20Search%20Autocomplete%20System.md)|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/647.Palindromic%20Substrings.md)|
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/654.Maximum%20Binary%20Tree.md)|
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/658.Find%20K%20Closest%20Elements.md)|
@@ -355,6 +359,7 @@ LeetCode Solution
 |1802|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1802.Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array.md)|
 |1825|[Finding MK Average](https://leetcode.com/problems/finding-mk-average/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1825.Finding%20MK%20Average.md)|
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1871.Jump%20Game%20VII.md)|
+|1901|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1901.Find%20a%20Peak%20Element%20II.md)|
 |1944|[Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1944.Number%20of%20Visible%20People%20in%20a%20Queue.md)|
 |1970|[Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1970.Last%20Day%20Where%20You%20Can%20Still%20Cross.md)|
 |2007|[ Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2007.%20Find%20Original%20Array%20From%20Doubled%20Array.md)|
