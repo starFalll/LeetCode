@@ -1,8 +1,83 @@
 # Tree
 
-Example: [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/), can use both ways (BIT or Segment tree)
+## Trie
+
+Prefix tree / Dictionary tree
+
+**Smart pointer version template:**
+
+```c++
+#include <vector>
+#include <string>
+#include <memory>
+#include <iostream>
+
+using namespace std;
+
+struct TrieNode
+{
+    shared_ptr<vector<shared_ptr<TrieNode>>> node;
+    bool is_word;
+    TrieNode(bool word = false)
+    {
+        node = make_shared<vector<shared_ptr<TrieNode>>>(26);
+        is_word = word;
+    }
+};
+
+void BuildTrieTree(shared_ptr<TrieNode> root, string& word)
+{
+    for(int i=0;i<word.size();++i)
+    {
+        if(!root->node->at(word[i]-'a'))
+            root->node->at(word[i]-'a') = make_shared<TrieNode>();
+        root=root->node->at(word[i]-'a');
+    }
+    root->is_word = true;
+}
+
+void DFS(shared_ptr<TrieNode> root, vector<string>& res, string& path) {
+    if (root->is_word) {
+        res.push_back(path);
+    }
+    for (int i = 0; i < 26; i++) {
+        if (root->node->at(i)) {
+            string tmp = path;
+            tmp += ('a'+i);
+            DFS(root->node->at(i), res, tmp);
+        }
+    }
+}
+
+vector<string> Search(shared_ptr<TrieNode> root, string pref) {
+    auto cur = root;
+    vector<string> res;
+    for (int i = 0; i < pref.size(); i++) {
+        if (!cur->node->at(pref[i]-'a')) return res;
+        cur = cur->node->at(pref[i]-'a');
+    }
+    DFS(cur, res, pref);
+    return res;
+}
+
+int main() {
+    shared_ptr<TrieNode> root = make_shared<TrieNode>();;
+    vector<string> words = {"abbbc", "gsfss", "sdfhhh", "asdgasfhash", "asdsgad"};
+    for (auto& word : words) {
+        BuildTrieTree(root, word);
+    } 
+    auto res = Search(root, "asd");
+    for (auto& item : res) {
+        cout<<item<<endl;
+    }
+    return 0;
+}
+
+```
 
 ## Binary Indexed Tree
+
+Example: [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/), can use both ways (BIT or Segment tree)
 
 Single point modification, interval sum.
 
