@@ -274,6 +274,7 @@ LeetCode Solution
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/725.Split%20Linked%20List%20in%20Parts.md)|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/739.Daily%20Temperatures.md)|
 |743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/743.Network%20Delay%20Time.md)|
+|745|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/745.Prefix%20and%20Suffix%20Search.md)|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/746.Min%20Cost%20Climbing%20Stairs.md)|
 |759|[Employee Free Time](https://leetcode.com/problems/employee-free-time/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/759.Employee%20Free%20Time.md)|
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/764.Largest%20Plus%20Sign.md)|
@@ -290,9 +291,11 @@ LeetCode Solution
 |853|[Car Fleet](https://leetcode.com/problems/car-fleet/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/853.Car%20Fleet.md)|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/860.Lemonade%20Change.md)|
 |900|[ RLE Iterator](https://leetcode.com/problems/rle-iterator/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/900.%20RLE%20Iterator.md)|
+|919|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/919.Complete%20Binary%20Tree%20Inserter.md)|
 |920|[Number of Music Playlists ](https://leetcode.com/problems/number-of-music-playlists/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/920.Number%20of%20Music%20Playlists%20.md)|
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/921.Minimum%20Add%20to%20Make%20Parentheses%20Valid.md)|
 |924|[Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/924.Minimize%20Malware%20Spread.md)|
+|928|[Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/928.Minimize%20Malware%20Spread%20II.md)|
 |939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/939.Minimum%20Area%20Rectangle.md)|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/941.Valid%20Mountain%20Array.md)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/973.K%20Closest%20Points%20to%20Origin.md)|
