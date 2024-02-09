@@ -274,6 +274,7 @@ LeetCode Solution
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/680.Valid%20Palindrome%20II.md)|
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/684.Redundant%20Connection.md)|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/700.Search%20in%20a%20Binary%20Search%20Tree.md)|
+|713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/713.Subarray%20Product%20Less%20Than%20K.md)|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/714.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.md)|
 |715|[Range Module](https://leetcode.com/problems/range-module/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/715.Range%20Module.md)|
 |718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/718.Maximum%20Length%20of%20Repeated%20Subarray.md)|
