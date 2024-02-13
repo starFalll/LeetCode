@@ -256,6 +256,7 @@ LeetCode Solution
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/496.Next%20Greater%20Element%20I.md)|
 |503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/503.Next%20Greater%20Element%20II.md)|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/509.Fibonacci%20Number.md)|
+|515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/515.Find%20Largest%20Value%20in%20Each%20Tree%20Row.md)|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/516.Longest%20Palindromic%20Subsequence.md)|
 |518|[Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/518.Coin%20Change%20II.md)|
 |523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/523.Continuous%20Subarray%20Sum.md)|
@@ -270,6 +271,7 @@ LeetCode Solution
 |568|[Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/568.Maximum%20Vacation%20Days.md)|
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/583.Delete%20Operation%20for%20Two%20Strings.md)|
 |588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/588.Design%20In-Memory%20File%20System.md)|
+|606|[ Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/606.%20Construct%20String%20from%20Binary%20Tree.md)|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/617.Merge%20Two%20Binary%20Trees.md)|
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/622.Design%20Circular%20Queue.md)|
 |642|[Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/642.Design%20Search%20Autocomplete%20System.md)|
@@ -316,11 +318,13 @@ LeetCode Solution
 |921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/921.Minimum%20Add%20to%20Make%20Parentheses%20Valid.md)|
 |924|[Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/924.Minimize%20Malware%20Spread.md)|
 |928|[Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/928.Minimize%20Malware%20Spread%20II.md)|
+|938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/938.Range%20Sum%20of%20BST.md)|
 |939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/939.Minimum%20Area%20Rectangle.md)|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/941.Valid%20Mountain%20Array.md)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/973.K%20Closest%20Points%20to%20Origin.md)|
 |975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/975.Odd%20Even%20Jump.md)|
 |980|[ Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/980.%20Unique%20Paths%20III.md)|
+|987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/987.Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.md)|
 |992|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/992.Subarrays%20with%20K%20Different%20Integers.md)|
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/993.Cousins%20in%20Binary%20Tree.md)|
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/994.Rotting%20Oranges.md)|
@@ -395,6 +399,7 @@ LeetCode Solution
 |2328|[Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2328.Number%20of%20Increasing%20Paths%20in%20a%20Grid.md)|
 |2366|[Minimum Replacements to Sort the Array](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2366.Minimum%20Replacements%20to%20Sort%20the%20Array.md)|
 |2369|[Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2369.Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array.md)|
+|2385|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2385.Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected.md)|
 |2402|[Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2402.Meeting%20Rooms%20III.md)|
 |2407|[Longest Increasing Subsequence II](https://leetcode.com/problems/longest-increasing-subsequence-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2407.Longest%20Increasing%20Subsequence%20II.md)|
 |2421|[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2421.Number%20of%20Good%20Paths.md)|
