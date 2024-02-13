@@ -192,6 +192,7 @@ LeetCode Solution
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/224.Basic%20Calculator.md)|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/226.Invert%20Binary%20Tree.md)|
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/230.Kth%20Smallest%20Element%20in%20a%20BST.md)|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/234.Palindrome%20Linked%20List.md)|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)|
@@ -220,6 +221,7 @@ LeetCode Solution
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/337.House%20Robber%20III.md)|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/338.Counting%20Bits.md)|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/343.Integer%20Break.md)|
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/347.Top%20K%20Frequent%20Elements.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
 |355|[Design Twitter](https://leetcode.com/problems/design-twitter/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/355.Design%20Twitter.md)|
 |365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/365.How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.md)|
@@ -229,11 +231,13 @@ LeetCode Solution
 |377|[ Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/377.%20Combination%20Sum%20IV.md)|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1---duplicates-allowed/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/381.Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.md)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/392.Is%20Subsequence.md)|
+|394|[Decode String](https://leetcode.com/problems/decode-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/394.Decode%20String.md)|
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/395.Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.md)|
 |398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/398.Random%20Pick%20Index.md)|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/399.Evaluate%20Division.md)|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/406.Queue%20Reconstruction%20by%20Height.md)|
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/414.Third%20Maximum%20Number.md)|
+|416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/416.Partition%20Equal%20Subset%20Sum.md)|
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/417.Pacific%20Atlantic%20Water%20Flow.md)|
 |440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/440.K-th%20Smallest%20in%20Lexicographical%20Order.md)|
 |443|[String Compression](https://leetcode.com/problems/string-compression/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/443.String%20Compression.md)|

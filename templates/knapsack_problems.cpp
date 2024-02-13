@@ -13,6 +13,7 @@
 //4. 确定遍历顺序
 //5. 举例推导dp数组
 
+
 // 01 knapsack
 // 01 背包
 // Each item can only be used once
@@ -23,9 +24,11 @@ void test_1_wei_bag_problem() {
 
     // Initial
     vector<int> dp(bagWeight + 1, 0);
+    // vector<int> dp(bagWeight + 1, INT_MAX/2);  如果是求最小值
     for(int i = 0; i < weight.size(); i++) { // Iterate over items
         for(int j = bagWeight; j >= weight[i]; j--) { // Traverse backpack capacity
-            dp[j] = max(dp[j], dp[j - weight[i]] + value[i]); // max value 求最大值用max选其中一个
+            dp[j] = max(dp[j], dp[j - weight[i]] + value[i]); // max value 求最大值用max选其中一个，可以表示最多能装这么多重量的max_value/装满能装的max_value
+            // dp[j] = min(dp[j], dp[j - weight[i]] + value[i]) //  求最小值，只能表示装满背包的最小值，因为如果dp[j - weight[i]]没设置，则可以没法change dp[j]
             // dp[j] += dp[j - weight[i]] + value[i]  total sum, 求和则用这种
             // dp[j] += dp[j - weight[i]] 求装满背包的方法总和
         }
@@ -43,6 +46,7 @@ void test_2_wei_bag_problem() {
 
     // Initial
     vector<int> dp(bagWeight + 1, 0);
+    // vector<int> dp(bagWeight + 1, INT_MAX/2);  如果是求最小值
     // If you want to find the number of combinations, the outer layer for loop traverses the items, and the inner layer for traverses the backpack.
     // If you want to find the number of permutations, the outer for loop traverses the backpack, and the inner loop traverses the items.
     // 如果求组合数就是外层for循环遍历物品，内层for遍历背包。
@@ -50,6 +54,7 @@ void test_2_wei_bag_problem() {
     for(int i = 0; i < weight.size(); i++) { // Iterate over items
         for(int j = weight[i]; j <= bagWeight; j++) { // ------this line is different. Traverse backpack capacity
             dp[j] = max(dp[j], dp[j - weight[i]] + value[i]); // max value 求最大值用max选其中一个
+            // dp[j] = min(dp[j], dp[j - weight[i]] + value[i]) //  求最小值，只能表示装满背包的最小值，因为如果dp[j - weight[i]]没设置，则可以没法change dp[j]
             // dp[j] += dp[j - weight[i]] + value[i]  total sum, 求和则用这种
             // dp[j] += dp[j - weight[i]] 求装满背包的方法总和
         }
