@@ -295,6 +295,7 @@ LeetCode Solution
 |785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite?/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/785.Is%20Graph%20Bipartite?.md)|
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/815.Bus%20Routes.md)|
 |818|[Race Car](https://leetcode.com/problems/race-car/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/818.Race%20Car.md)|
+|823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/823.Binary%20Trees%20With%20Factors.md)|
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/827.Making%20A%20Large%20Island.md)|
 |834|[Sum of Distances in Tree ](https://leetcode.com/problems/sum-of-distances-in-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/834.Sum%20of%20Distances%20in%20Tree%20.md)|
 |843|[Guess the Word](https://leetcode.com/problems/guess-the-word/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/843.Guess%20the%20Word.md)|
