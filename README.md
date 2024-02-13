@@ -239,6 +239,7 @@ LeetCode Solution
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/414.Third%20Maximum%20Number.md)|
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/416.Partition%20Equal%20Subset%20Sum.md)|
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/417.Pacific%20Atlantic%20Water%20Flow.md)|
+|438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/438.Find%20All%20Anagrams%20in%20a%20String.md)|
 |440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/440.K-th%20Smallest%20in%20Lexicographical%20Order.md)|
 |443|[String Compression](https://leetcode.com/problems/string-compression/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/443.String%20Compression.md)|
 |444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/444.Sequence%20Reconstruction.md)|
@@ -261,6 +262,7 @@ LeetCode Solution
 |528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/528.Random%20Pick%20with%20Weight.md)|
 |540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/540.Single%20Element%20in%20a%20Sorted%20Array.md)|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/542.01%20Matrix.md)|
+|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/543.Diameter%20of%20Binary%20Tree.md)|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/547.Friend%20Circles.md)|
 |556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/556.Next%20Greater%20Element%20III.md)|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/560.Subarray%20Sum%20Equals%20K.md)|
@@ -280,6 +282,7 @@ LeetCode Solution
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/680.Valid%20Palindrome%20II.md)|
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/684.Redundant%20Connection.md)|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/700.Search%20in%20a%20Binary%20Search%20Tree.md)|
+|704|[Binary Search](https://leetcode.com/problems/binary-search/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/704.Binary%20Search.md)|
 |713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/713.Subarray%20Product%20Less%20Than%20K.md)|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/714.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.md)|
 |715|[Range Module](https://leetcode.com/problems/range-module/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/715.Range%20Module.md)|
@@ -320,10 +323,12 @@ LeetCode Solution
 |980|[ Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/980.%20Unique%20Paths%20III.md)|
 |992|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/992.Subarrays%20with%20K%20Different%20Integers.md)|
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/993.Cousins%20in%20Binary%20Tree.md)|
+|994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/994.Rotting%20Oranges.md)|
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1005.Maximize%20Sum%20Of%20Array%20After%20K%20Negations.md)|
 |1011|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1011.Capacity%20To%20Ship%20Packages%20Within%20D%20Days.md)|
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1035.Uncrossed%20Lines.md)|
 |1036|[Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1036.Escape%20a%20Large%20Maze.md)|
+|1062|[Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1062.Longest%20Repeating%20Substring.md)|
 |1074|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1074.Number%20of%20Submatrices%20That%20Sum%20to%20Target.md)|
 |1088|[Confusing Number II](https://leetcode.com/problems/confusing-number-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1088.Confusing%20Number%20II.md)|
 |1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1095.Find%20in%20Mountain%20Array.md)|
