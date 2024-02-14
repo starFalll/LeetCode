@@ -203,6 +203,7 @@ LeetCode Solution
 |256|[Paint House](https://leetcode.com/problems/paint-house/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/256.Paint%20House.md)|
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/259.3Sum%20Smaller.md)|
 |269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/269.Alien%20Dictionary.md)|
+|276|[Paint Fence](https://leetcode.com/problems/paint-fence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/276.Paint%20Fence.md)|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/279.Perfect%20Squares.md)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/282.Expression%20Add%20Operators.md)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/283.Move%20Zeroes.md)|
@@ -237,6 +238,7 @@ LeetCode Solution
 |398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/398.Random%20Pick%20Index.md)|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/399.Evaluate%20Division.md)|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/406.Queue%20Reconstruction%20by%20Height.md)|
+|407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/407.Trapping%20Rain%20Water%20II.md)|
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/414.Third%20Maximum%20Number.md)|
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/416.Partition%20Equal%20Subset%20Sum.md)|
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/417.Pacific%20Atlantic%20Water%20Flow.md)|
@@ -393,6 +395,7 @@ LeetCode Solution
 |2101|[Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2101.Detonate%20the%20Maximum%20Bombs.md)|
 |2104|[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2104.Sum%20of%20Subarray%20Ranges.md)|
 |2127|[Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2127.Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting.md)|
+|2149|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2149.Rearrange%20Array%20Elements%20by%20Sign.md)|
 |2158|[Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2158.Amount%20of%20New%20Area%20Painted%20Each%20Day.md)|
 |2167|[Minimum Time to Remove All Cars Containing Illegal Goods](https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2167.Minimum%20Time%20to%20Remove%20All%20Cars%20Containing%20Illegal%20Goods.md)|
 |2195|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2195.Append%20K%20Integers%20With%20Minimal%20Sum.md)|
