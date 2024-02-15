@@ -217,7 +217,6 @@ LeetCode Solution
 |314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/314.Binary%20Tree%20Vertical%20Order%20Traversal.md)|
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/315.Count%20of%20Smaller%20Numbers%20After%20Self.md)|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/322.Coin%20Change.md)|
-|329|[Longest Increasing Path in a Matrix copy](https://leetcode.com/problems/longest-increasing-path-in-a-matrix-copy/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/329.Longest%20Increasing%20Path%20in%20a%20Matrix%20copy.md)|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/329.Longest%20Increasing%20Path%20in%20a%20Matrix.md)|
 |332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/332.Reconstruct%20Itinerary.md)|
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/337.House%20Robber%20III.md)|
@@ -254,10 +253,12 @@ LeetCode Solution
 |460|[LFU Cache](https://leetcode.com/problems/lfu-cache/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/460.LFU%20Cache.md)|
 |465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/465.Optimal%20Account%20Balancing.md)|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/474.Ones%20and%20Zeroes.md)|
+|489|[Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/489.Robot%20Room%20Cleaner.md)|
 |491|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/491.Non-decreasing%20Subsequences.md)|
 |493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/493.Reverse%20Pairs.md)|
 |494|[Target Sum](https://leetcode.com/problems/target-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/494.Target%20Sum.md)|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/496.Next%20Greater%20Element%20I.md)|
+|498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/498.Diagonal%20Traverse.md)|
 |503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/503.Next%20Greater%20Element%20II.md)|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/509.Fibonacci%20Number.md)|
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/515.Find%20Largest%20Value%20in%20Each%20Tree%20Row.md)|
@@ -306,6 +307,7 @@ LeetCode Solution
 |772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/772.Basic%20Calculator%20III.md)|
 |773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/773.Sliding%20Puzzle.md)|
 |785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite?/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/785.Is%20Graph%20Bipartite?.md)|
+|787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/787.Cheapest%20Flights%20Within%20K%20Stops.md)|
 |815|[Bus Routes](https://leetcode.com/problems/bus-routes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/815.Bus%20Routes.md)|
 |818|[Race Car](https://leetcode.com/problems/race-car/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/818.Race%20Car.md)|
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/823.Binary%20Trees%20With%20Factors.md)|
@@ -348,6 +350,7 @@ LeetCode Solution
 |1136|[Parallel Courses](https://leetcode.com/problems/parallel-courses/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1136.Parallel%20Courses.md)|
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1143.Longest%20Common%20Subsequence.md)|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1155.Number%20of%20Dice%20Rolls%20With%20Target%20Sum.md)|
+|1195|[Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1195.Fizz%20Buzz%20Multithreaded.md)|
 |1197|[ Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1197.%20Minimum%20Knight%20Moves.md)|
 |1203|[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1203.Sort%20Items%20by%20Groups%20Respecting%20Dependencies.md)|
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1207.Unique%20Number%20of%20Occurrences.md)|
@@ -356,6 +359,7 @@ LeetCode Solution
 |1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1268.Search%20Suggestions%20System.md)|
 |1282|[Group the People Given the Group Size They Belong To ](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1282.Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To%20.md)|
 |1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1293.Shortest%20Path%20in%20a%20Grid%20with%20Obstacles%20Elimination.md)|
+|1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1319.Number%20of%20Operations%20to%20Make%20Network%20Connected.md)|
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1326.Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.md)|
 |1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1335.Minimum%20Difficulty%20of%20a%20Job%20Schedule.md)|
 |1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1345.Jump%20Game%20IV.md)|
@@ -382,10 +386,12 @@ LeetCode Solution
 |1664|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1664.Ways%20to%20Make%20a%20Fair%20Array.md)|
 |1751|[Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1751.Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended%20II.md)|
 |1776|[Car Fleet II](https://leetcode.com/problems/car-fleet-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1776.Car%20Fleet%20II.md)|
+|1778|[Shortest Path in a Hidden Grid](https://leetcode.com/problems/shortest-path-in-a-hidden-grid/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1778.Shortest%20Path%20in%20a%20Hidden%20Grid.md)|
 |1802|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1802.Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array.md)|
 |1825|[Finding MK Average](https://leetcode.com/problems/finding-mk-average/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1825.Finding%20MK%20Average.md)|
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1871.Jump%20Game%20VII.md)|
 |1901|[Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1901.Find%20a%20Peak%20Element%20II.md)|
+|1929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1929.Unique%20Email%20Addresses.md)|
 |1944|[Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1944.Number%20of%20Visible%20People%20in%20a%20Queue.md)|
 |1970|[Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1970.Last%20Day%20Where%20You%20Can%20Still%20Cross.md)|
 |2007|[ Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2007.%20Find%20Original%20Array%20From%20Doubled%20Array.md)|
@@ -417,7 +423,6 @@ LeetCode Solution
 |2534|[Time Taken to Cross the Door](https://leetcode.com/problems/time-taken-to-cross-the-door/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2534.Time%20Taken%20to%20Cross%20the%20Door.md)|
 |2552|[Count Increasing Quadruplets](https://leetcode.com/problems/count-increasing-quadruplets/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2552.Count%20Increasing%20Quadruplets.md)|
 |2571|[Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2571.Minimum%20Operations%20to%20Reduce%20an%20Integer%20to%200.md)|
-|2573|[Find the String with LCP ](https://leetcode.com/problems/find-the-string-with-lcp/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2573.Find%20the%20String%20with%20LCP%20.md)|
 |2573|[Find the String with LCP](https://leetcode.com/problems/find-the-string-with-lcp/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2573.Find%20the%20String%20with%20LCP.md)|
 |2616|[Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2616.Minimize%20the%20Maximum%20Difference%20of%20Pairs.md)|
 |2659|[Make Array Empty](https://leetcode.com/problems/make-array-empty/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/2659.Make%20Array%20Empty.md)|

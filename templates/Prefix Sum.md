@@ -6,6 +6,12 @@ So we just need to prove if `nums[0...i]-k`exists, which can using prefix sum.
 
 [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
+`nums[i,...j] = nums[0...i] - nums[0...j] = k`
+
+-> 所以如果`nums[0...i]-k`有结果，则说明`nums[i....j]==k`存在，用prefix sum处理，用hashmap存储前缀和。
+
+先加res是为了解决k=0的情况，由于先加res，由于存在`sum==k`的情况，所以初始化需要插入`{0, 1}`
+
 ```c++
 class Solution {
 public:
