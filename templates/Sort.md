@@ -15,7 +15,7 @@ int partition(int arr[],int low,int high)
   //the right position of pivot found so far
   int i=(low-1);
    
-  for(int j=low;j<=high;j++)
+  for(int j=low;j<high;j++)
   {
     //If current element is smaller than the pivot
     if(arr[j]<pivot)
