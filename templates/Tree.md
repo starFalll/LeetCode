@@ -180,6 +180,9 @@ struct SegTree {
         return res;
     }
 };
+
+// SegTree tree(n);
+// tree.query(0, n, ....)
 ```
 
 ### Dynamic version
