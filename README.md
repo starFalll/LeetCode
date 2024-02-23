@@ -200,14 +200,17 @@ LeetCode Solution
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/238.Product%20of%20Array%20Except%20Self.md)|
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/239.Sliding%20Window%20Maximum.md)|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/240.Search%20a%202D%20Matrix%20II.md)|
+|251|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/251.Flatten%202D%20Vector.md)|
 |253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/253.Meeting%20Rooms%20II.md)|
 |256|[Paint House](https://leetcode.com/problems/paint-house/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/256.Paint%20House.md)|
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/259.3Sum%20Smaller.md)|
 |269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/269.Alien%20Dictionary.md)|
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/276.Paint%20Fence.md)|
+|277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/277.Find%20the%20Celebrity.md)|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/279.Perfect%20Squares.md)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/282.Expression%20Add%20Operators.md)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/283.Move%20Zeroes.md)|
+|285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/285.Inorder%20Successor%20in%20BST.md)|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/287.Find%20the%20Duplicate%20Number.md)|
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/295.Find%20Median%20from%20Data%20Stream.md)|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/300.Longest%20Increasing%20Subsequence.md)|
@@ -222,8 +225,10 @@ LeetCode Solution
 |332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/332.Reconstruct%20Itinerary.md)|
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/337.House%20Robber%20III.md)|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/338.Counting%20Bits.md)|
+|340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/340.Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.md)|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/343.Integer%20Break.md)|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/347.Top%20K%20Frequent%20Elements.md)|
+|348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/348.Design%20Tic-Tac-Toe.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
 |355|[Design Twitter](https://leetcode.com/problems/design-twitter/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/355.Design%20Twitter.md)|
 |365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/365.How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.md)|
@@ -357,6 +362,7 @@ LeetCode Solution
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1207.Unique%20Number%20of%20Occurrences.md)|
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1209.Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.md)|
 |1235|[Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1235.Maximum%20Profit%20in%20Job%20Scheduling.md)|
+|1245|[Tree Diameter](https://leetcode.com/problems/tree-diameter/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1245.Tree%20Diameter.md)|
 |1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1268.Search%20Suggestions%20System.md)|
 |1272|[Remove Interval](https://leetcode.com/problems/remove-interval/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1272.Remove%20Interval.md)|
 |1282|[Group the People Given the Group Size They Belong To ](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1282.Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To%20.md)|
@@ -384,6 +390,7 @@ LeetCode Solution
 |1610|[Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1610.Maximum%20Number%20of%20Visible%20Points.md)|
 |1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1631.Path%20With%20Minimum%20Effort.md)|
 |1639|[Number of Ways to Form a Target String Given a Dictionar](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionar/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1639.Number%20of%20Ways%20to%20Form%20a%20Target%20String%20Given%20a%20Dictionar.md)|
+|1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1642.Furthest%20Building%20You%20Can%20Reach.md)|
 |1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1647.Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique.md)|
 |1650|[Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1650.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III.md)|
 |1664|[Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1664.Ways%20to%20Make%20a%20Fair%20Array.md)|
