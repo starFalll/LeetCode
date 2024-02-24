@@ -249,3 +249,44 @@ If there are many status in one position, only different status can revisit posi
 
 DFS Iterator version: similar with BFS, but using `Stack` rather than `Queue`
 
+DFS+memory: One way ro reduce time complexity from exponential level to linear of grid is using memory.
+
+[1463. Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/) (three dimensions)
+
+[329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/): (two dimensions)
+
+```c++
+class Solution {
+private:
+    vector<int> nx = {0, 1, 0, -1, 0};
+    int DFS(vector<vector<int>>& matrix, int row, int col, vector<vector<int>>& dp) {
+        if (dp[row][col] > 0) return dp[row][col];
+        int len = 1;
+        for (int i = 0; i < 4; i++) {
+            int n_i = row + nx[i];
+            int n_j = col + nx[i+1];
+            if (n_i >= 0 && n_i < matrix.size() && n_j >=0 
+                && n_j < matrix[0].size() && matrix[n_i][n_j] > matrix[row][col]) {
+                    len = max(len, DFS(matrix, n_i, n_j, dp)+1);
+                }
+        }
+        dp[row][col] = len;
+        return len;
+    }
+
+public:
+    int longestIncreasingPath(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+        int m = matrix[0].size();
+        vector<vector<int>> dp(n, vector<int>(m, 0));
+        int res = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                res = max(res, DFS(matrix, i, j, dp));
+            }
+        }
+        return res;
+    }
+};
+```
+
