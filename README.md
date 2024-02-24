@@ -71,6 +71,7 @@ LeetCode Solution
 |65|[Valid Number](https://leetcode.com/problems/valid-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/65.Valid%20Number.md)|
 |66|[Plus One](https://leetcode.com/problems/plus-one/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/66.Plus%20One.md)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/67.Add%20Binary.md)|
+|68|[Text Justification](https://leetcode.com/problems/text-justification/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/68.Text%20Justification.md)|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/69.Sqrt(x).md)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/70.Climbing%20Stairs.md)|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/71.Simplify%20Path.md)|
@@ -254,6 +255,7 @@ LeetCode Solution
 |443|[String Compression](https://leetcode.com/problems/string-compression/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/443.String%20Compression.md)|
 |444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/444.Sequence%20Reconstruction.md)|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/445.Add%20Two%20Numbers%20II.md)|
+|451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/451.Sort%20Characters%20By%20Frequency.md)|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/452.Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.md)|
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/454.4Sum%20II.md)|
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/455.Assign%20Cookies.md)|
