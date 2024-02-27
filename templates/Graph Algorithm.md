@@ -243,7 +243,9 @@ Note: Using BFS, we need record the shortest path among all the possible. But re
 
 If can or cannot arrive at one place defined by mutiply factors, for two factors (path len  + other), we can add a new matrix to record the other factor, only if it can update or equal to current min/max val in the position of the matrix, then can continue. [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
 
-If there are many status in one position, only different status can revisit position, we can use a 3D vector to store. [864. Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
+If there are many status in one position, only different status can revisit position, we can use a 3D vector to store. The third dimension is the list of different status (maybeas bit vector) [864. Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
+
+BFS/DFS, when there are many status, we just need to add dimensions to memory them.
 
 ## DFS
 

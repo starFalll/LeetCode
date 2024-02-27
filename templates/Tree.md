@@ -182,7 +182,7 @@ struct SegTree {
 };
 
 // SegTree tree(n);
-// tree.query(0, n, ....)
+// tree.query(0, 0, n, ....)
 ```
 
 ### Dynamic version
