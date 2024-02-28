@@ -16,6 +16,8 @@ std::mutex g_i_mutex;
 [1195. Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)
 
 ```c++
+#include <condition_variable>
+#include <mutex>
 class FizzBuzz {
 private:
     int n;
