@@ -205,6 +205,7 @@ LeetCode Solution
 |253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/253.Meeting%20Rooms%20II.md)|
 |256|[Paint House](https://leetcode.com/problems/paint-house/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/256.Paint%20House.md)|
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/259.3Sum%20Smaller.md)|
+|264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/264.Ugly%20Number%20II.md)|
 |269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/269.Alien%20Dictionary.md)|
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/276.Paint%20Fence.md)|
 |277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/277.Find%20the%20Celebrity.md)|
@@ -330,6 +331,7 @@ LeetCode Solution
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/860.Lemonade%20Change.md)|
 |863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/863.All%20Nodes%20Distance%20K%20in%20Binary%20Tree.md)|
 |864|[Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/864.Shortest%20Path%20to%20Get%20All%20Keys.md)|
+|885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/885.Spiral%20Matrix%20III.md)|
 |900|[ RLE Iterator](https://leetcode.com/problems/rle-iterator/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/900.%20RLE%20Iterator.md)|
 |919|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/919.Complete%20Binary%20Tree%20Inserter.md)|
 |920|[Number of Music Playlists ](https://leetcode.com/problems/number-of-music-playlists/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/920.Number%20of%20Music%20Playlists%20.md)|
@@ -396,6 +398,7 @@ LeetCode Solution
 |1463|[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1463.Cherry%20Pickup%20II.md)|
 |1494|[Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1494.Parallel%20Courses%20II.md)|
 |1507|[Reformat Date](https://leetcode.com/problems/reformat-date/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1507.Reformat%20Date.md)|
+|1508|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1508.Range%20Sum%20of%20Sorted%20Subarray%20Sums.md)|
 |1509|[Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1509.Minimum%20Difference%20Between%20Largest%20and%20Smallest%20Value%20in%20Three%20Moves.md)|
 |1541|[Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1541.Minimum%20Insertions%20to%20Balance%20a%20Parentheses%20String.md)|
 |1573|[Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1573.Number%20of%20Ways%20to%20Split%20a%20String.md)|
