@@ -341,6 +341,7 @@ LeetCode Solution
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/938.Range%20Sum%20of%20BST.md)|
 |939|[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/939.Minimum%20Area%20Rectangle.md)|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/941.Valid%20Mountain%20Array.md)|
+|946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/946.Validate%20Stack%20Sequences.md)|
 |968|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/968.Binary%20Tree%20Cameras.md)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/973.K%20Closest%20Points%20to%20Origin.md)|
 |975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/975.Odd%20Even%20Jump.md)|
