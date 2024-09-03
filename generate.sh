@@ -6,7 +6,7 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 # 输出文件
-output_file="Top_100.md"
+output_file="Top_Interview_Questions.md"
 
 # 清空输出文件（如果存在）
 > "$output_file"
@@ -20,7 +20,7 @@ for number in "$@"; do
 
     # 检查文件是否存在
     if [ ! -f "$filename" ]; then
-        echo "File $filename not found."
+        echo "File ${number} not found."
         continue
     fi
 

@@ -160,6 +160,7 @@ LeetCode Solution
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/162.Find%20Peak%20Element.md)|
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/163.Missing%20Ranges.md)|
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/165.Compare%20Version%20Numbers.md)|
+|166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/166.Fraction%20to%20Recurring%20Decimal.md)|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/167.Two%20Sum%20II%20-%20Input%20array%20is%20sorted.md)|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/168.Excel%20Sheet%20Column%20Title.md)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/169.Majority%20Element.md)|
@@ -189,23 +190,28 @@ LeetCode Solution
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/212.Word%20Search%20II.md)|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/213.House%20Robber%20II.md)|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/215.Kth%20Largest%20Element%20in%20an%20Array.md)|
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/217.Contains%20Duplicate.md)|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/218.The%20Skyline%20Problem.md)|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/221.Maximal%20Square.md)|
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/222.Count%20Complete%20Tree%20Nodes.md)|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/224.Basic%20Calculator.md)|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/226.Invert%20Binary%20Tree.md)|
+|227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/227.Basic%20Calculator%20II.md)|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/230.Kth%20Smallest%20Element%20in%20a%20BST.md)|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/234.Palindrome%20Linked%20List.md)|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)|
+|237|[ Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/237.%20Delete%20Node%20in%20a%20Linked%20List.md)|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/238.Product%20of%20Array%20Except%20Self.md)|
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/239.Sliding%20Window%20Maximum.md)|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/240.Search%20a%202D%20Matrix%20II.md)|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/242.Valid%20Anagram.md)|
 |251|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/251.Flatten%202D%20Vector.md)|
 |253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/253.Meeting%20Rooms%20II.md)|
 |256|[Paint House](https://leetcode.com/problems/paint-house/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/256.Paint%20House.md)|
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/259.3Sum%20Smaller.md)|
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/264.Ugly%20Number%20II.md)|
+|268|[Missing Number](https://leetcode.com/problems/missing-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/268.Missing%20Number.md)|
 |269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/269.Alien%20Dictionary.md)|
 |276|[Paint Fence](https://leetcode.com/problems/paint-fence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/276.Paint%20Fence.md)|
 |277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/277.Find%20the%20Celebrity.md)|
@@ -214,6 +220,7 @@ LeetCode Solution
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/283.Move%20Zeroes.md)|
 |285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/285.Inorder%20Successor%20in%20BST.md)|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/287.Find%20the%20Duplicate%20Number.md)|
+|289|[Game of Life](https://leetcode.com/problems/game-of-life/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/289.Game%20of%20Life.md)|
 |291|[Word Pattern II](https://leetcode.com/problems/word-pattern-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/291.Word%20Pattern%20II.md)|
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/295.Find%20Median%20from%20Data%20Stream.md)|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/297.Serialize%20and%20Deserialize%20Binary%20Tree.md)|
@@ -225,22 +232,34 @@ LeetCode Solution
 |314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/314.Binary%20Tree%20Vertical%20Order%20Traversal.md)|
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/315.Count%20of%20Smaller%20Numbers%20After%20Self.md)|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/322.Coin%20Change.md)|
+|324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/324.Wiggle%20Sort%20II.md)|
+|326|[Power of Three](https://leetcode.com/problems/power-of-three/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/326.Power%20of%20Three.md)|
+|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/328.Odd%20Even%20Linked%20List.md)|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/329.Longest%20Increasing%20Path%20in%20a%20Matrix.md)|
 |332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/332.Reconstruct%20Itinerary.md)|
+|334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/334.Increasing%20Triplet%20Subsequence.md)|
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/337.House%20Robber%20III.md)|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/338.Counting%20Bits.md)|
 |340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/340.Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.md)|
+|341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/341.Flatten%20Nested%20List%20Iterator.md)|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/343.Integer%20Break.md)|
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/344.Reverse%20String.md)|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/347.Top%20K%20Frequent%20Elements.md)|
 |348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/348.Design%20Tic-Tac-Toe.md)|
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/350.Intersection%20of%20Two%20Arrays%20II.md)|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/354.Russian%20Doll%20Envelopes.md)|
 |355|[Design Twitter](https://leetcode.com/problems/design-twitter/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/355.Design%20Twitter.md)|
 |365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/365.How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.md)|
 |365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/365.Water%20and%20Jug%20Problem.md)|
 |366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/366.Find%20Leaves%20of%20Binary%20Tree.md)|
+|371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/371.Sum%20of%20Two%20Integers.md)|
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/376.Wiggle%20Subsequence.md)|
 |377|[ Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/377.%20Combination%20Sum%20IV.md)|
+|378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/378.Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.md)|
+|380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/380.Insert%20Delete%20GetRandom%20O(1).md)|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1---duplicates-allowed/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/381.Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.md)|
+|384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/384.Shuffle%20an%20Array.md)|
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/387.First%20Unique%20Character%20in%20a%20String.md)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/392.Is%20Subsequence.md)|
 |394|[Decode String](https://leetcode.com/problems/decode-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/394.Decode%20String.md)|
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/395.Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.md)|
