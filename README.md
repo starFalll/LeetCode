@@ -291,6 +291,7 @@ LeetCode Solution
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/496.Next%20Greater%20Element%20I.md)|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/498.Diagonal%20Traverse.md)|
 |503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/503.Next%20Greater%20Element%20II.md)|
+|505|[The Maze II](https://leetcode.com/problems/the-maze-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/505.The%20Maze%20II.md)|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/509.Fibonacci%20Number.md)|
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/515.Find%20Largest%20Value%20in%20Each%20Tree%20Row.md)|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/516.Longest%20Palindromic%20Subsequence.md)|

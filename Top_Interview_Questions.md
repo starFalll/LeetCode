@@ -433,21 +433,22 @@ Output: -2
 class Solution {
 public:
     int divide(int dividend, int divisor) {
-        long long a = dividend > 0?dividend:(-(long long)dividend);
-        long long b = divisor > 0?divisor:(-(long long)divisor);
+        long long a = dividend > 0 ? dividend : -(long long)dividend;
+        long long b = divisor > 0 ? divisor : -(long long)divisor;
         long long res = 0;
-        while(a>=b)
-        {
+        while (a >= b) {
             long long c = b;
-            for(int i=0;a>=c;i++,c<<=1)
-            {
-                a-=c;
-                res+=(1<<i);
+            for (int i = 0; a >= c; i++, c<<=1) {
+                a -= c;
+                res += (1<<i);
             }
         }
-        if(((dividend^divisor)>>31) ==0&&res>(INT_MAX>>1))
-            return INT_MAX;
-        return ((dividend^divisor)>>31)?(-res):res;
+        bool flag = (dividend >= 0 && divisor > 0 || dividend < 0 && divisor < 0) ? true : false;
+        if (flag && res > INT_MAX) return INT_MAX;
+        long long min_val = INT_MIN;
+        if (!flag && res > -min_val) return INT_MIN;
+        if (!flag) res = -res;
+        return res;
     }
 };
 ```

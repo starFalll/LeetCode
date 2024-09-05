@@ -7,6 +7,7 @@
 Template:
 
 ```c++
+#include <sstream> // std::stringstream
 class Solution {
     set<string> s;
     void DFS(string exp) {

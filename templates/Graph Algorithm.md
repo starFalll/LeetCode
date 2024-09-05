@@ -241,9 +241,9 @@ If a question is about how to find sortest path, we can always use BFS to solve 
 
 Note: Using BFS, we need record the shortest path among all the possible. But recording visited matrix of all the path is cost of space. One of the common way is just record the shortest path at the (row, col). For Example, [505. The Maze II](https://leetcode.com/problems/the-maze-ii/)
 
-If can or cannot arrive at one place defined by mutiply factors, for two factors (path len  + other), we can add a new matrix to record the other factor, only if it can update or equal to current min/max val in the position of the matrix, then can continue. [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
+If can or cannot arrive at one place defined by mutiply factors, for two factors (path len  + other), we can add a new matrix to record the other factor, only if it can update or equal to current min/max val in the position of the matrix, then can continue. Moreover, we use queue to store vector(row, col, pathlen, other).  [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
 
-If there are many status in one position, only different status can revisit position, we can use a 3D vector to store. The third dimension is the list of different status (maybeas bit vector) [864. Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
+If there are many status in one position, only different status can revisit position, we can use a 3D vector to store. The third dimension is the list of different status (maybe as bit vector) [864. Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
 
 BFS/DFS, when there are many status, we just need to add dimensions to memory them.
 
