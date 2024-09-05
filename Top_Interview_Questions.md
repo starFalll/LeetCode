@@ -721,17 +721,17 @@ Output: false
 #### 解析
 
 `dp[i][j]` indicates whether the first i characters of string s and the first j characters of pattern p match.
-$$
-dp[i][j] = 
+
+$$dp[i][j] = 
 \begin{cases}
 dp[i-1][j-1], & \text{if } s_i \text{ is equal to } p_j \text{ or } p_j \text{ is a question mark} \\
 dp[i][j-1] \lor dp[i-1][j], & \text{if } p_j \text{ is a star} \\
 \text{False}, & \text{otherwise}
-\end{cases}
-$$
-$dp[0][0]=True, dp[i][0] = False.$
+\end{cases}$$
 
-$dp[0][j] = True, \text{when When the first j characters are all stars}$
+$`dp[0][0]=True, dp[i][0] = False.`$
+
+$`dp[0][j] = True, \text{when When the first j characters are all stars}`$
 
 #### 代码
 
