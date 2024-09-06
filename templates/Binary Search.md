@@ -10,7 +10,7 @@
 
 [2812. Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/)
 
-**对于unordered array，要使用二分查找, 可以采用mid和mid+1/mid-1比大小来判断方向。**
+**对于unordered array，要使用二分查找, 可以采用mid和mid+1/mid-1比大小来判断方向。** for example: [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 
 循环退出条件：
 

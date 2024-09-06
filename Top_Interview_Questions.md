@@ -1023,7 +1023,17 @@ Explanation: It could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
 
 #### 解析
 
-特殊的斐波拉切数列
+Special Fibonacci sequence
+
+f(n) How many encodings are there for a string ending with s[n-1]
+
+```
+f(n) = f(n-1)+f(n-2)
+// f(n) can add f(n-1) if s[n-1] is valid
+// f(n) can add f(n-2) if s[n-2, n-1] is valid
+f(0) = 1  
+f(1) = 1 // s=12, f(2) = f(0)+f(1) = 2
+```
 
 #### 代码
 
@@ -1794,7 +1804,7 @@ public:
     }
 };
 ```
-### [[149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)](https://leetcode.com/problems/find-the-string-with-lcp/)
+### [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)
 
 Given an array of `points` where `points[i] = [xi, yi]` represents a point on the **X-Y** plane, return *the maximum number of points that lie on the same straight line*.
 
@@ -2241,11 +2251,11 @@ Explanation: 5! = 120, one trailing zero.
 
 ### 解析
 
-我认为关键的想法是计算在阶乘中有多少5个。
-所以首先我们添加n / 5。（如果是25，则2*25只用了25中一个5还有另一个5的特性没用，所以需要再除）
-等等，我们缺少5X5,2X5X5 ......，所以我们添加n / 25（为什么每个不计算5，因为一个已经计入n / 5）。
-等等，我们缺少5X5X5,2X5X5X5 ......，所以我们添加了n / 125。
-因此，count = n / 5 + n / 25 + n / 125 + ... + 0
+Because all trailing 0 is from factors 5 * 2.
+
+But sometimes one number may have several 5 factors, for example, 25 have two 5 factors, 125 have three 5 factors. In the n! operation, factors 2 is always ample. So we just count how many 5 factors in all number from 1 to n.
+
+Therefore, count = n / 5 + n / 25 + n / 125 + ... + 0
 
 #### 代码
 

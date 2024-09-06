@@ -42,3 +42,23 @@ void generatePrime(int n, vector<int>& res) {
 
 Time complexity: *O*(*n* log log *n*).
 
+## Greatest Common Divisor (GCD)
+
+```c++
+int gcd(int a, int b) {
+      return b == 0 ? a : gcd(b, a % b);
+  }
+// gcd(48, 18) = 6
+```
+
+calculate slope of the line:
+
+https://leetcode.com/problems/max-points-on-a-line/description/
+
+```c++
+int dx = points[j][0] - points[i][0];
+int dy = points[j][1] - points[i][1];
+int d = gcd(dx, dy);
+++m[{dx/d, dy/d}];
+```
+
