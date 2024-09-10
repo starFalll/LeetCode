@@ -16,31 +16,37 @@ We can use this way to devide a large number.
 
 [2842. Count K-Subsequences of a String With Maximum Beauty](https://github.com/starFalll/LeetCode/blob/master/algorithms/2842.Count%20K-Subsequences%20of%20a%20String%20With%20Maximum%20Beauty.md)
 
-## [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+## [Euler's Sieve](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
 
 A way to generate prime list:
 
 ```c++
 void generatePrime(int n, vector<int>& res) {
-        std::vector<bool> primes(n + 1, true);
-        primes[0] = primes[1] = false;
-        for (int p = 2; p * p <= n; ++p) {
-            if (primes[p]) {
-                for (int i = p * p; i <= n; i += p) {
-                    primes[i] = false;
+        vector<int> primes;        // 存储所有找到的质数
+        vector<bool> isPrime(n + 1, true); // 标记数组，初始为所有数都为质数
+        isPrime[0] = isPrime[1] = false;   // 0 和 1 不是质数
+
+        for (int i = 2; i <= n; ++i) {
+            if (isPrime[i]) {
+                primes.push_back(i);   // 如果 i 是质数，加入质数列表
+            }
+            for (int j = 0; j < primes.size() && i * primes[j] <= n; ++j) {
+                isPrime[i * primes[j]] = false; // 标记合数
+                if (i % primes[j] == 0) {  // 如果 i 是 primes[j] 的倍数，跳出循环
+                    break;
                 }
             }
         }
-        std::vector<int> prime_list;
-        for (int i = 2; i <= n; ++i) {
-            if (primes[i]) {
-                res.push_back(i);
-            }
+
+        // 输出质数
+        for (int prime : primes) {
+            cout << prime << " ";
         }
+        cout << endl;
     }
 ```
 
-Time complexity: *O*(*n* log log *n*).
+Time complexity: *O*(*n*).
 
 ## Greatest Common Divisor (GCD)
 
