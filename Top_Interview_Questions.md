@@ -5023,7 +5023,9 @@ Output: 5
 
 #### Solution
 
-XOR && carry <<
+Sum: XOR
+
+carry: & <<
 
 #### Code
 
@@ -5032,10 +5034,9 @@ class Solution {
 public:
     int getSum(int a, int b) {
         do {
-            int low = a^b;
-            int high = (a&b&0x7fffffff) << 1;
-            a = low^high;
-            b = (low&high&0x7fffffff) << 1;
+            int sum = a^b;
+            int carry = (a&b)<<1;
+            a = sum, b = carry;
         } while(b);
         
         return a;
