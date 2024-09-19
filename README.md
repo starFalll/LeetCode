@@ -157,6 +157,7 @@ LeetCode Solution
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.md)|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/154.Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.md)|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/155.Min%20Stack.md)|
+|156|[Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/156.Binary%20Tree%20Upside%20Down.md)|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/160.Intersection%20of%20Two%20Linked%20Lists.md)|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/162.Find%20Peak%20Element.md)|
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/163.Missing%20Ranges.md)|
@@ -219,6 +220,7 @@ LeetCode Solution
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/279.Perfect%20Squares.md)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/282.Expression%20Add%20Operators.md)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/283.Move%20Zeroes.md)|
+|284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/284.Peeking%20Iterator.md)|
 |285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/285.Inorder%20Successor%20in%20BST.md)|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/287.Find%20the%20Duplicate%20Number.md)|
 |289|[Game of Life](https://leetcode.com/problems/game-of-life/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/289.Game%20of%20Life.md)|
@@ -284,6 +286,7 @@ LeetCode Solution
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/455.Assign%20Cookies.md)|
 |460|[LFU Cache](https://leetcode.com/problems/lfu-cache/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/460.LFU%20Cache.md)|
 |465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/465.Optimal%20Account%20Balancing.md)|
+|472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/472.Concatenated%20Words.md)|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/474.Ones%20and%20Zeroes.md)|
 |489|[Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/489.Robot%20Room%20Cleaner.md)|
 |491|[Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/491.Non-decreasing%20Subsequences.md)|
@@ -299,6 +302,7 @@ LeetCode Solution
 |518|[Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/518.Coin%20Change%20II.md)|
 |523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/523.Continuous%20Subarray%20Sum.md)|
 |528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/528.Random%20Pick%20with%20Weight.md)|
+|532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/532.K-diff%20Pairs%20in%20an%20Array.md)|
 |539|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/539.Minimum%20Time%20Difference.md)|
 |540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/540.Single%20Element%20in%20a%20Sorted%20Array.md)|
 |542|[01 Matrix](https://leetcode.com/problems/01-matrix/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/542.01%20Matrix.md)|
@@ -306,6 +310,7 @@ LeetCode Solution
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/547.Friend%20Circles.md)|
 |556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/556.Next%20Greater%20Element%20III.md)|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/560.Subarray%20Sum%20Equals%20K.md)|
+|565|[Array Nesting](https://leetcode.com/problems/array-nesting/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/565.Array%20Nesting.md)|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/567.Permutation%20in%20String.md)|
 |568|[Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/568.Maximum%20Vacation%20Days.md)|
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/583.Delete%20Operation%20for%20Two%20Strings.md)|
