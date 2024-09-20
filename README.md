@@ -327,6 +327,7 @@ LeetCode Solution
 |679|[24 Game](https://leetcode.com/problems/24-game/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/679.24%20Game.md)|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/680.Valid%20Palindrome%20II.md)|
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/684.Redundant%20Connection.md)|
+|688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/688.Knight%20Probability%20in%20Chessboard.md)|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/700.Search%20in%20a%20Binary%20Search%20Tree.md)|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/704.Binary%20Search.md)|
 |713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/713.Subarray%20Product%20Less%20Than%20K.md)|
@@ -343,6 +344,7 @@ LeetCode Solution
 |759|[Employee Free Time](https://leetcode.com/problems/employee-free-time/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/759.Employee%20Free%20Time.md)|
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/764.Largest%20Plus%20Sign.md)|
 |767|[Reorganize String](https://leetcode.com/problems/reorganize-string/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/767.Reorganize%20String.md)|
+|768|[Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/768.Max%20Chunks%20To%20Make%20Sorted%20II.md)|
 |772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/772.Basic%20Calculator%20III.md)|
 |773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/773.Sliding%20Puzzle.md)|
 |785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite?/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/785.Is%20Graph%20Bipartite?.md)|
@@ -378,6 +380,7 @@ LeetCode Solution
 |992|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/992.Subarrays%20with%20K%20Different%20Integers.md)|
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/993.Cousins%20in%20Binary%20Tree.md)|
 |994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/994.Rotting%20Oranges.md)|
+|996|[Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/996.Number%20of%20Squareful%20Arrays.md)|
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1005.Maximize%20Sum%20Of%20Array%20After%20K%20Negations.md)|
 |1011|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1011.Capacity%20To%20Ship%20Packages%20Within%20D%20Days.md)|
 |1035|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1035.Uncrossed%20Lines.md)|
@@ -415,6 +418,7 @@ LeetCode Solution
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1319.Number%20of%20Operations%20to%20Make%20Network%20Connected.md)|
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1326.Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.md)|
 |1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1335.Minimum%20Difficulty%20of%20a%20Job%20Schedule.md)|
+|1344|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1344.Angle%20Between%20Hands%20of%20a%20Clock.md)|
 |1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1345.Jump%20Game%20IV.md)|
 |1352|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1352.Product%20of%20the%20Last%20K%20Numbers.md)|
 |1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/1358.Number%20of%20Substrings%20Containing%20All%20Three%20Characters.md)|
