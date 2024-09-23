@@ -1,6 +1,6 @@
 # Prefix Sum
 
-Fox example, we want to get sum equal to K, `nums[i,...j] = nums[0...i] - nums[0...j] = k`, if `nums[0...i]-k`exists, then `nums[0...j]`exists, so there is `nums[i,...j]` matching the requirements.
+Fox example, we want to get sum equal to K, `nums[i,...j] = nums[0...j] - nums[0...i] = k`, if `nums[0...j]-k`exists, then `nums[0...i]`exists, so there is `nums[i,...j]` matching the requirements.
 
 So we just need to prove if `nums[0...i]-k`exists, which can using prefix sum.
 
@@ -65,6 +65,6 @@ public:
 
 ## Bit Manipulation
 
-When the status number is limited (5 corresponds to 0~32, 6->0~64, etc), we can use bit to store the status.
+When the status number is limited (5 corresponds to 0~31, 6->0~63, etc), we can use bit to store the status.
 
 [1371. Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)

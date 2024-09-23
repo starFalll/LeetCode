@@ -172,6 +172,8 @@ int Prim()
 
 [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/):
 
+add all the neighbors, we can only visit each node once.
+
 ```cpp
 class Solution {
 public:
@@ -187,6 +189,7 @@ public:
                 q.push({(abs(points[i][0] - points[index][0])
                  + abs(points[i][1] - points[index][1])), i});
             }
+           // we can only visit each node once.
             while (visited[q.top().second]) q.pop();
             ans += q.top().first;
             index = q.top().second;
@@ -251,7 +254,7 @@ BFS/DFS, when there are many status, we just need to add dimensions to memory th
 
 DFS Iterator version: similar with BFS, but using `Stack` rather than `Queue`
 
-DFS+memory: One way ro reduce time complexity from exponential level to linear of grid is using memory.
+DFS+memory: One way to reduce time complexity from exponential level to linear of grid is using memory.
 
 [1463. Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/) (three dimensions)
 
