@@ -159,6 +159,7 @@ LeetCode Solution
 |155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/155.Min%20Stack.md)|
 |156|[Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/156.Binary%20Tree%20Upside%20Down.md)|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/160.Intersection%20of%20Two%20Linked%20Lists.md)|
+|161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/161.One%20Edit%20Distance.md)|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/162.Find%20Peak%20Element.md)|
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/163.Missing%20Ranges.md)|
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/165.Compare%20Version%20Numbers.md)|

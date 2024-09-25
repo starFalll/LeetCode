@@ -5237,7 +5237,23 @@ Output: -5
 
 #### Solution
 
+Solution 1:**Max Heap keeps up to k elements**
+
+Time: `O(M * N * logK)`
+
 Space complexity: O(k)
+
+**Solution 2: Min Heap to find kth smallest element from amongst N sorted list**
+
+![image](https://assets.leetcode.com/users/images/47843946-761b-49f9-a06f-5a973fca3ddc_1625719598.4144652.png)
+
+- Since each of the rows in matrix are already sorted, we can understand the problem as finding the **kth smallest element** from amongst `M` sorted rows.
+- We start the pointers to point to the beginning of each rows, then we iterate `k` times, for each time `ith`, the top of the `minHeap` is the `ith` smallest element in the matrix. We pop the `top` from the `minHeap` then add the next element which has the same row with that `top` to the `minHeap`.
+
+Complexity:
+
+- Time: `O(K * logK)`
+- Space: `O(K)`
 
 #### Code
 
@@ -5255,6 +5271,29 @@ public:
             }
         }
         return q.top();
+    }
+};
+```
+
+```c++
+class Solution {
+public:
+    int kthSmallest(vector<vector<int>>& matrix, int k) {
+        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> q;
+        for (int i = 0; i < min((int)matrix.size(), k); i++) {
+            q.push({matrix[i][0], i, 0});
+        }
+        int ans = 0;
+        for (int i = 0; i < k; i++) {
+            auto cur = q.top(); q.pop();
+            ans = cur[0];
+            int row = cur[1], col = cur[2];
+            int next_c = col + 1;
+            if (next_c < matrix[0].size()) {
+                q.push({matrix[row][next_c], row, next_c});
+            }
+        }
+        return ans;
     }
 };
 ```
