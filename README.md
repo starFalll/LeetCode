@@ -213,6 +213,7 @@ LeetCode Solution
 |253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/253.Meeting%20Rooms%20II.md)|
 |256|[Paint House](https://leetcode.com/problems/paint-house/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/256.Paint%20House.md)|
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/259.3Sum%20Smaller.md)|
+|260|[Single Number III](https://leetcode.com/problems/single-number-iii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/260.Single%20Number%20III.md)|
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/264.Ugly%20Number%20II.md)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/268.Missing%20Number.md)|
 |269|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/269.Alien%20Dictionary.md)|
