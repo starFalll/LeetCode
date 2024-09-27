@@ -1,6 +1,6 @@
 ## C++ Multithread
 
-### Condition
+### Mutex
 
 ```c++
 #include <mutex>
@@ -9,9 +9,40 @@ std::mutex g_i_mutex;
 	const std::lock_guard<std::mutex> lock(g_i_mutex);
 }
 
+{
+	const std::unique_lock<std::mutex> lock(g_i_mutex);
+}
+```
+
+Difference between `lock_guard` and `unique_lock`:
+
+`lock_guard` cannot lock and unlock mannually
+
+`unique_lock` has `lock()` and `unlock` function to use, it can defer lock:
+
+```c++
+std::mutex mtx;
+
+void worker(int id) {
+    std::unique_lock<std::mutex> lock(mtx, std::defer_lock);  // 不立即获取锁
+    std::this_thread::sleep_for(std::chrono::seconds(1));      // 模拟一些不需要锁的工作
+    lock.lock();                                               // 在需要时手动加锁
+    std::cout << "Thread " << id << " is working with the resource.\n";
+    // 自动解锁，当 `lock` 退出作用域时
+}
+```
+
+lock many lock at the same time: `std::lock`
+
+```c++
+std::lock(lock1, lock2);
 ```
 
 
+
+## Condition Variable
+
+condition variable must use unique_lock
 
 [1195. Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)
 
@@ -198,3 +229,16 @@ int main()
 
 ```
 
+## Semaphore
+
+```c++
+#include <semaphore.h>
+```
+
+`sem_init(&semaphore, 0, 3)` initializes the semaphore to allow a maximum of 3 threads to access the critical section simultaneously. The second parameter (`0`) indicates that the semaphore is shared between threads in the same process (set to non-zero for inter-process semaphores).
+
+`sem_wait(&semaphore)` is called to decrement the semaphore. If the value is greater than 0, the thread proceeds; otherwise, it blocks until the semaphore is available.
+
+`sem_post(&semaphore)` to increment the semaphore, signaling that it has released the resource. **If the value of the semaphore resulting from this operation is zero, then one of the threads blocked waiting for the semaphore shall be allowed to return successfully from its call to [*sem_wait*()](https://pubs.opengroup.org/onlinepubs/009695399/functions/sem_wait.html)**
+
+Means: count from -1->0, wake one waiting thread.
