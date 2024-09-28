@@ -143,6 +143,7 @@ public:
 // different callables.
 #include <iostream>
 #include <thread>
+#include <functional> // std::ref
 using namespace std;
 
 // A dummy function
@@ -169,7 +170,7 @@ public:
 class Base {
 public:
     // non-static member function
-    void foo()
+    void foo(int& x)
     {
         cout << "Thread using non-static member function "
                 "as callable"
@@ -212,8 +213,8 @@ int main()
 
     // object of Base Class
     Base b;
-  
-    thread th4(&Base::foo, &b);
+  	int x = 0;
+    thread th4(&Base::foo, &b, std::ref(x));
 
     thread th5(&Base::foo1);
 
