@@ -5,12 +5,21 @@
 ```c++
 #include <mutex>
 std::mutex g_i_mutex; 
+// method 1
 {
 	const std::lock_guard<std::mutex> lock(g_i_mutex);
 }
 
+// method 2
 {
 	const std::unique_lock<std::mutex> lock(g_i_mutex);
+}
+
+// method 3
+{
+  g_i_mutex.lock();
+  
+  g_i_mutex.unlock();
 }
 ```
 
