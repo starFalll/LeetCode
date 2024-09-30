@@ -137,6 +137,8 @@ public:
 
 ## multithreading
 
+If we call `detach()`, the thread will run independently, and the main function will end without waiting for the thread to finish. This makes the thread run in the background, and the thread's resources will be cleaned up automatically once it finishes.
+
 ```c++
 // C++ program to demonstrate
 // multithreading using three
@@ -231,8 +233,8 @@ int main()
     // Wait for thread t4 to finish
     th4.join();
 
-    // Wait for thread t5 to finish
-    th5.join();
+    // Not Wait for thread t5 to finish
+    th5.detach();
 
     return 0;
 }
