@@ -165,15 +165,19 @@ LeetCode Solution
 |161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/161.One%20Edit%20Distance.md)|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/162.Find%20Peak%20Element.md)|
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/163.Missing%20Ranges.md)|
+|164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/164.Maximum%20Gap.md)|
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/165.Compare%20Version%20Numbers.md)|
 |166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/166.Fraction%20to%20Recurring%20Decimal.md)|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/167.Two%20Sum%20II%20-%20Input%20array%20is%20sorted.md)|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/168.Excel%20Sheet%20Column%20Title.md)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/169.Majority%20Element.md)|
+|170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii---data-structure-design/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/170.Two%20Sum%20III%20-%20Data%20structure%20design.md)|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/171.Excel%20Sheet%20Column%20Number.md)|
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/172.Factorial%20Trailing%20Zeroes.md)|
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/173.Binary%20Search%20Tree%20Iterator.md)|
+|174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/174.Dungeon%20Game.md)|
 |179|[Largest Number](https://leetcode.com/problems/largest-number/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/179.Largest%20Number.md)|
+|186|[Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/186.Reverse%20Words%20in%20a%20String%20II.md)|
 |187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/187.Repeated%20DNA%20Sequences.md)|
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/188.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV.md)|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/189.Rotate%20Array.md)|
