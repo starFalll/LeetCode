@@ -109,7 +109,7 @@ void RadixSort(vector<int>& nums)
 }
 ```
 
-## Head Sort
+## Heap Sort
 
 Treat the Array as a Complete Binary Tree
 
