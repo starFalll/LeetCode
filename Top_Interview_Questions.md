@@ -249,12 +249,16 @@ Output: false
 
 #### 解析
 
-'.' 和 当前字符匹配是一样的情况，但是'*'要复杂很多。
+`dp[i][j]` indicates whether the first i characters of string s and the first j characters of pattern p match.
 
-第二个字符是 '*' 的时候，如果模式中的字符匹配，分为两种情况：
+$$dp[i][j] = 
+\begin{cases}
+dp[i][j - 2] \lor (i \land dp[i - 1][j] \land (s[i - 1] = p[j - 2] \lor p[j - 2] = '.')), & \text{if } p_{j-1} is a star \\
+i \land dp[i - 1][j - 1] \land (s[i - 1] = p[j - 1] \lor p[j - 1] = '.'), & \text{if } p_j \text{ is not a star} \\
+\text{False}, & \text{otherwise}
+\end{cases}$$
 
-1. 指向 s 字符串的指针移到下一个字符，指向 p 字符串的不变
-2. 指向 s 字符串的指针不变，指向 p 字符串的往后移到两个字符
+$`dp[0][0]=True`$
 
 #### 代码
 
@@ -262,12 +266,19 @@ Output: false
 class Solution {
 public:
     bool isMatch(string s, string p) {
-        if (p.empty())    return s.empty();
-        
-        if ('*' == p[1])
-            return (isMatch(s, p.substr(2)) || !s.empty() && (s[0] == p[0] || '.' == p[0]) && isMatch(s.substr(1), p));
-        else
-            return !s.empty() && (s[0] == p[0] || '.' == p[0]) && isMatch(s.substr(1), p.substr(1));
+        int m = s.size(), n = p.size();
+        vector<vector<bool>> dp(m + 1, vector<bool>(n + 1, false));
+        dp[0][0] = true;
+        for (int i = 0; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (p[j - 1] == '*') {
+                    dp[i][j] = dp[i][j - 2] || (i && dp[i - 1][j] && (s[i - 1] == p[j - 2] || p[j - 2] == '.'));
+                } else {
+                    dp[i][j] = i && dp[i - 1][j - 1] && (s[i - 1] == p[j - 1] || p[j - 1] == '.');
+                }
+            }
+        }
+        return dp[m][n];
     }
 };
 ```
