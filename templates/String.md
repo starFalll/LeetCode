@@ -35,3 +35,83 @@ public:
 ```
 
 Similar:[394. Decode String](https://leetcode.com/problems/decode-string/)
+
+## KMP
+
+如何更好地理解和掌握 KMP 算法? - 海纳的回答 - 知乎
+https://www.zhihu.com/question/21923021/answer/281346746
+
+![img](https://picx.zhimg.com/80/v2-40b4885aace7b31499da9b90b7c46ed3_720w.webp?source=1def8aca)
+
+Time complexity: O(n+m) length of s+length of p
+
+Space complexity: O(m)
+
+```c++
+void getNext(string& s, vector<int>& next)
+{
+    next.resize(s.size(), 0);
+    next[0] = -1;
+    int i = 0, j = -1;
+    while (i < s.size()) {
+        if (j == -1 || s[i] == s[j]) {
+            i++;
+            j++;
+            next[i] = j;
+        }
+        else {
+            j = next[j];
+        }
+    }
+}
+
+int KMP(string& s, string& p)
+{
+    vector<int> next;
+    getNext(p, next);
+    int i = 0, j = 0;
+    while (i < s.size() && j < p.size()) {
+        if (j == -1 || s[i] == p[j]) {
+            i++;
+            j++;
+        }
+        else {
+            j = next[j];
+        }
+    }
+    if (j == p.size()) return i-j;
+    return -1;
+}
+```
+
+### PMT (Partial Match Table)
+
+The value inside of Partial Match Table is the **longest common prefix and suffix** of str.
+
+Calculate the pmt table, which can be used to calculate the **longest common prefix and suffix** of str
+
+[214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
+
+```c++
+void getPMT(string& s, vector<int>& pmt)
+{
+    pmt.resize(s.size(), 0);
+    pmt[0] = 0;
+    int i = 1, j = 0;
+    while (i < s.size()) {
+        if (s[i] == s[j]) {
+            pmt[i] = j+1;
+            i++;
+            j++;
+        }
+        else if (j == 0) {
+            pmt[i] = 0;
+            i++;
+        }
+        else {
+            j = pmt[j-1];
+        }
+    }
+}
+```
+

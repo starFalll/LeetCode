@@ -254,3 +254,60 @@ int main()
 `sem_post(&semaphore)` to increment the semaphore, signaling that it has released the resource. **If the value of the semaphore resulting from this operation is zero, then one of the threads blocked waiting for the semaphore shall be allowed to return successfully from its call to [*sem_wait*()](https://pubs.opengroup.org/onlinepubs/009695399/functions/sem_wait.html)**
 
 Means: count from -1->0, wake one waiting thread.
+
+```c++
+#include <iostream>
+#include <pthread.h>
+#include <semaphore.h>
+#include <unistd.h>  // for sleep()
+
+sem_t emptySlots;  // Semaphore to track available slots
+sem_t fullSlots;   // Semaphore to track filled slots
+int buffer = 0;    // Shared buffer between producer and consumer
+
+void* producer(void* arg) {
+    for (int i = 0; i < 5; ++i) {
+        sem_wait(&emptySlots);  // Wait if there are no empty slots
+        buffer++;  // Produce an item
+        std::cout << "Produced: " << buffer << std::endl;
+        sem_post(&fullSlots);   // Signal that a slot is full
+        sleep(1);  // Sleep to simulate work
+    }
+    return nullptr;
+}
+
+void* consumer(void* arg) {
+    for (int i = 0; i < 5; ++i) {
+        sem_wait(&fullSlots);   // Wait if there are no full slots
+        std::cout << "Consumed: " << buffer << std::endl;
+        buffer--;  // Consume an item
+        sem_post(&emptySlots);  // Signal that a slot is empty
+        sleep(1);  // Sleep to simulate work
+    }
+    return nullptr;
+}
+
+int main() {
+    pthread_t prodThread, consThread;
+
+    // Initialize semaphores
+    sem_init(&emptySlots, 0, 1);  // Start with 1 empty slot
+    sem_init(&fullSlots, 0, 0);   // Start with 0 full slots
+
+    // Create threads
+    pthread_create(&prodThread, nullptr, producer, nullptr);
+    pthread_create(&consThread, nullptr, consumer, nullptr);
+
+    // Wait for threads to finish
+    pthread_join(prodThread, nullptr);
+    pthread_join(consThread, nullptr);
+
+    // Destroy semaphores
+    sem_destroy(&emptySlots);
+    sem_destroy(&fullSlots);
+
+    return 0;
+}
+
+```
+

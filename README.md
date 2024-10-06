@@ -199,6 +199,7 @@ LeetCode Solution
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word---data-structure-design/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/211.Add%20and%20Search%20Word%20-%20Data%20structure%20design.md)|
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/212.Word%20Search%20II.md)|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/213.House%20Robber%20II.md)|
+|214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/214.Shortest%20Palindrome.md)|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/215.Kth%20Largest%20Element%20in%20an%20Array.md)|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/217.Contains%20Duplicate.md)|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description/)|[C++](https://github.com/starFalll/LeetCode/blob/master/algorithms/218.The%20Skyline%20Problem.md)|
