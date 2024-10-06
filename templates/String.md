@@ -43,6 +43,8 @@ https://www.zhihu.com/question/21923021/answer/281346746
 
 ![img](https://picx.zhimg.com/80/v2-40b4885aace7b31499da9b90b7c46ed3_720w.webp?source=1def8aca)
 
+![img](https://picx.zhimg.com/80/v2-03a0d005badd0b8e7116d8d07947681c_720w.webp?source=1def8aca)
+
 Time complexity: O(n+m) length of s+length of p
 
 Space complexity: O(m)
