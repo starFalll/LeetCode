@@ -38,6 +38,8 @@ Similar:[394. Decode String](https://leetcode.com/problems/decode-string/)
 
 ## KMP
 
+[28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+
 如何更好地理解和掌握 KMP 算法? - 海纳的回答 - 知乎
 https://www.zhihu.com/question/21923021/answer/281346746
 
@@ -52,10 +54,11 @@ Space complexity: O(m)
 ```c++
 void getNext(string& s, vector<int>& next)
 {
-    next.resize(s.size(), 0);
+    next.assign(s.size(), 0);
     next[0] = -1;
     int i = 0, j = -1;
-    while (i < s.size()) {
+    // because we first ++i, then assign value to next, so i < s.size()-1
+    while (i < s.size()-1) {
         if (j == -1 || s[i] == s[j]) {
             i++;
             j++;
@@ -72,7 +75,8 @@ int KMP(string& s, string& p)
     vector<int> next;
     getNext(p, next);
     int i = 0, j = 0;
-    while (i < s.size() && j < p.size()) {
+    // note: the p.size is unsigned interger, but j can be -1 which would be wrong, so using type convert
+    while (i < s.size() && j < (int) p.size()) {
         if (j == -1 || s[i] == p[j]) {
             i++;
             j++;
@@ -97,7 +101,7 @@ Calculate the pmt table, which can be used to calculate the **longest common pre
 ```c++
 void getPMT(string& s, vector<int>& pmt)
 {
-    pmt.resize(s.size(), 0);
+    pmt.assign(s.size(), 0);
     pmt[0] = 0;
     int i = 1, j = 0;
     while (i < s.size()) {
