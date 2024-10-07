@@ -254,11 +254,13 @@ BFS/DFS, when there are many status, we just need to add dimensions to memory th
 
 DFS Iterator version: similar with BFS, but using `Stack` rather than `Queue`
 
-DFS+memory: One way to reduce time complexity from exponential level to linear of grid is using memory.
+**DFS+memoization (Top-Down DP)**: One way to reduce time complexity from exponential level to linear of grid is using memory. **DP vector records the max/min possible when begin from current status to the last. **
 
-[1463. Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/) (three dimensions)
+**When a problem looks like DP but has many actions rather than simple moving, we can consider using this way. The dp array is always defined as what the problem requires, and this way can  simplify the solution.**
 
-[329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/): (two dimensions)
+[1463. Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/) (three dimensions): `dp[row][r1][r2]` the maximum number of cherries collection using robot1 and robot2 begin at row **to the last**
+
+[329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/): (two dimensions): `dp[row][col] ` means the *length of the longest increasing path* begin at (row, col).
 
 ```c++
 class Solution {
