@@ -50,6 +50,8 @@ Time complexity: *O*(*n*).
 
 ## Greatest Common Divisor (GCD)
 
+Time complexity: O(log(min(a, b)))
+
 ```c++
 int gcd(int a, int b) {
       return b == 0 ? a : gcd(b, a % b);
@@ -159,8 +161,9 @@ double precisionSqrt(int n,int p){
 		long long int mid=(s+e)/2;
 		if(mid*mid==n){
 			ans=mid;
+      break;
 		}
-		else if(mid*mid<=n){
+		else if(mid*mid<n){
 			ans=mid;
 			s=mid+1;
 		}

@@ -254,7 +254,7 @@ BFS/DFS, when there are many status, we just need to add dimensions to memory th
 
 DFS Iterator version: similar with BFS, but using `Stack` rather than `Queue`
 
-**DFS+memoization (Top-Down DP)**: One way to reduce time complexity from exponential level to linear of grid is using memory. **DP vector records the max/min possible when begin from current status to the last. **
+**DFS+memorization (Top-Down DP)**: One way to reduce time complexity from exponential level to linear of grid is using memory. **DP vector records the max/min possible when begin from current status to the last. **
 
 **When a problem looks like DP but has many actions rather than simple moving, we can consider using this way. The dp array is always defined as what the problem requires, and this way can  simplify the solution.**
 
