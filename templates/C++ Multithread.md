@@ -53,84 +53,41 @@ std::lock(lock1, lock2);
 
 condition variable must use unique_lock
 
-[1195. Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)
+[1115. Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/)
 
 ```c++
-#include <condition_variable>
-#include <mutex>
-class FizzBuzz {
+class FooBar {
 private:
     int n;
     int count;
-    mutex m;
     condition_variable cv;
+    mutex g_mutex;
 public:
-    FizzBuzz(int n) {
+    FooBar(int n) {
         this->n = n;
-        this->count = 1;
+        count = 0;
     }
 
-    // printFizz() outputs "fizz".
-    void fizz(function<void()> printFizz) {
-        while(1) {
-            unique_lock<mutex> lock(m);
-            while (count <= n && !(this->count % 3 == 0 && this->count % 5 != 0)) {
-                cv.wait(lock);
-            }
-            if (count > n) return;
-            printFizz();
-            this->count++;
+    void foo(function<void()> printFoo) {
+        for (int i = 0; i < n; i++) {
+            unique_lock<mutex> lock(g_mutex);
+            cv.wait(lock, [this]{return count%2 == 0;});
+        	// printFoo() outputs "foo". Do not change or remove this line.
+        	printFoo();
+            count++;
             cv.notify_all();
         }
-        
     }
 
-    // printBuzz() outputs "buzz".
-    void buzz(function<void()> printBuzz) {
-        while (1) {
-            unique_lock<mutex> lock(m);
-            while (count <= n && !(this->count % 5 == 0 && this->count % 3 != 0)) {
-                cv.wait(lock);
-            }
-            if (count > n) return;
-            printBuzz();
-            this->count++;
+    void bar(function<void()> printBar) {
+        for (int i = 0; i < n; i++) {
+            unique_lock<mutex> lock(g_mutex);
+            cv.wait(lock, [this]{return count%2 != 0;});
+        	// printBar() outputs "bar". Do not change or remove this line.
+        	printBar();
+            count++;
             cv.notify_all();
         }
-        
-        
-    }
-
-    // printFizzBuzz() outputs "fizzbuzz".
-	void fizzbuzz(function<void()> printFizzBuzz) {
-        while (1) {
-            unique_lock<mutex> lock(m);
-            while (count <= n && (this->count % 5 != 0 || this->count % 3 != 0)) {
-                cv.wait(lock);
-            }
-            if (count > n) return;
-            printFizzBuzz();
-            this->count++;
-            cv.notify_all();
-        }
-        
-        
-    }
-
-    // printNumber(x) outputs "x", where x is an integer.
-    void number(function<void(int)> printNumber) {
-        while (1) {
-            unique_lock<mutex> lock(m);
-            while (count <= n && (this->count % 5 == 0 || this->count % 3 == 0)) {
-                cv.wait(lock);
-            }
-            if (count > n) return;
-            printNumber(this->count);
-            this->count++;
-            cv.notify_all();
-        }
-        
-        
     }
 };
 ```
@@ -309,5 +266,39 @@ int main() {
     return 0;
 }
 
+```
+
+[1114. Print in Order](https://leetcode.com/problems/print-in-order/):
+
+```c++
+class Foo {
+    sem_t firstJob;
+    sem_t secondJob;
+public:
+    Foo() {
+        sem_init(&firstJob, 0, 0);
+        sem_init(&secondJob, 0, 0);
+    }
+
+    void first(function<void()> printFirst) {
+        
+        // printFirst() outputs "first". Do not change or remove this line.
+        printFirst();
+        sem_post(&firstJob);
+    }
+
+    void second(function<void()> printSecond) {
+        sem_wait(&firstJob);
+        // printSecond() outputs "second". Do not change or remove this line.
+        printSecond();
+        sem_post(&secondJob);
+    }
+
+    void third(function<void()> printThird) {
+        sem_wait(&secondJob);
+        // printThird() outputs "third". Do not change or remove this line.
+        printThird();
+    }
+};
 ```
 

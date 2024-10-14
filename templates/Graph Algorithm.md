@@ -242,13 +242,23 @@ int Bellman_Ford()
 
 If a question is about how to find sortest path, we can always use BFS to solve this problem.
 
-Note: Using BFS, we need record the shortest path among all the possible. But recording visited matrix of all the path is cost of space. One of the common way is just record the shortest path at the (row, col). For Example, [505. The Maze II](https://leetcode.com/problems/the-maze-ii/)
+Note: Using BFS, we need record the shortest path among all the possible. But recording visited matrix of all the path is cost of space. One of the common way is just record the shortest path at the (row, col). For Example, [505. The Maze II](https://leetcode.com/problems/the-maze-ii/) (Because each time, the object can **move different length rather than 1**, so we should use a matrix to record the shortest path in (row, col), because we could revisit same place with shorter path, we cannot use visited matrix to avoid revisit)
 
-If can or cannot arrive at one place defined by mutiply factors, for two factors (path len  + other), we can add a new matrix to record the other factor, only if it can update or equal to current min/max val in the position of the matrix, then can continue. Moreover, we use queue to store vector(row, col, pathlen, other).  [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
+If can or cannot arrive at one place defined by mutiply factors, for two factors (path len  + other), we can add a new matrix to record the other factor, only if it can update or equal to current min/max val in the position of the matrix, then can continue. Moreover, we use queue to store vector(row, col, pathlen, other).  [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) (Because each time, we move 1 step, so we can record the path_len in queue, and **because the k changes, we may revisit the same place with larger k, so we should use a matrix to record the k in (row, col)** )
 
 If there are many status in one position, only different status can revisit position, we can use a 3D vector to store. The third dimension is the list of different status (maybe as bit vector) [864. Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
 
 BFS/DFS, when there are many status, we just need to add dimensions to memory them.
+
+**Important: When some status M change will cause we revisit the same place in BFS, we should use a extra matrix to record these statuses M.**
+
+505: M: shortest path, using a matrix to record it in (row, col)
+
+1293: M: *obstacles* we can eliminate, using a matrix to record it in (row, col)
+
+864: M: key that we get, using a matrix to record it in (row, col), because key has mutiple bit values, we add a dimension in matrix, so it's a 3D matrix.
+
+
 
 ## DFS
 
@@ -256,7 +266,7 @@ DFS Iterator version: similar with BFS, but using `Stack` rather than `Queue`
 
 **DFS+memorization (Top-Down DP)**: One way to reduce time complexity from exponential level to linear of grid is using memory. **DP vector records the max/min possible when begin from current status to the last. **
 
-**When a problem looks like DP but has many actions rather than simple moving, we can consider using this way. The dp array is always defined as what the problem requires, and this way can  simplify the solution.**
+**When a problem looks like DP but has many actions rather than simple moving, we can consider using this way. The dp array is always defined as what the problem requires, and this way can simplify the solution.**
 
 [1463. Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/) (three dimensions): `dp[row][r1][r2]` the maximum number of cherries collection using robot1 and robot2 begin at row **to the last**
 
