@@ -56,6 +56,8 @@ condition variable must use unique_lock
 [1115. Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/)
 
 ```c++
+#include <condition_variable>
+#include <mutex>
 class FooBar {
 private:
     int n;

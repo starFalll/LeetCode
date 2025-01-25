@@ -250,7 +250,7 @@ If there are many status in one position, only different status can revisit posi
 
 BFS/DFS, when there are many status, we just need to add dimensions to memory them.
 
-**Important: When some status M change will cause we revisit the same place in BFS, we should use a extra matrix to record these statuses M.**
+**Important: When some status M change will cause we revisit the same place in BFS, we should use an extra matrix to record these statuses M.**
 
 505: M: shortest path, using a matrix to record it in (row, col)
 

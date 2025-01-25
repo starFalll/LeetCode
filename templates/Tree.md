@@ -124,6 +124,8 @@ public:
 
 All the following implementations are based on the update operations of finding "sum of intervals" and "addition and subtraction" of intervals. (区间和)
 
+**When only have single point modification, we do not need pushDown, when need interval modification, we must need pushDown operation.**
+
 https://www.acwing.com/blog/content/24440/
 
 https://leetcode.cn/problems/longest-increasing-subsequence-ii/solutions/1/by-lfool-f6vs/
